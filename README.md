@@ -1,2 +1,2 @@
 # natural-experiments
-This repo contains the data and code behind a review of natural experiments in economics, management, 
+This repo contains data, code, and miscellaneous materials on the application of natural experiments to the social sciences (e.g., economics, organization theory, political science, and sociology). 
