@@ -29,6 +29,9 @@ to the topic model.
 │   ├── ne_in_ldr.csv
 │   ├── ne_instances.csv
 │   └── transformed_corpus.csv
+├── manuscript
+|   ├── *.pdf
+|   ├── wp.*
 ├── README.md
 └── transformedData
     ├── mds_positions.csv
