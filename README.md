@@ -1,16 +1,21 @@
 # natural-experiments
 
+# Overview
+
 This repo contains data, code, and miscellaneous materials on the application
 of natural experiments to the social sciences (e.g., economics, organization
 theory, political science, and sociology).
 
-
-# Status of the project
-
-This project has two arms:
+This project is organized along two arms:
 
 + `nExpy` is a Python library containing a comprehensive collection of
   statistical tools to conduct natural experiments in the social sciences.
-  The source code will be released early 2020'
 + `background` offers some reviews on the application of natural
    experiments to the social sciences. 
+
+
+# Status of the project
+
+The source code of `nExpy` will be released early 2020'. The individual
+ reviews on natural experiments are released on a rolling-based windows as
+  new working or published papers are available.
