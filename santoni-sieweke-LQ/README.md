@@ -98,3 +98,7 @@ The `transformedData` folder contains the following data tables:
 + `mds_positions.csv`: outcome of the MDS model underlying Figure 3, Figure 5,
     and Figure 7.
 
+
+# Project status
+
+Closed - no updates expected.
