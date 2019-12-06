@@ -9,7 +9,8 @@ Dates: created Fri Apr 30 2019 08:03:12 BST;
 # Contents ― Overview
 
 This folder contains the data and Python code to reproduce the set of
-exhibits included in the manuscript.
+exhibits included in the published research paper "Natural Experiments in
+ Leadership Research: An Introduction, Review, and Guidelines."
 
 In order to ensure the full reproducibility of the natural language processing
 analyses (see Appendix B), we include the transformed text corpora associated 
