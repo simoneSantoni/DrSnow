@@ -20,6 +20,7 @@ to the topic model.
 ```
 ├── _0.py
 ├── _1.html
+├── _1.ipynb
 ├── data
 │   ├── gardner_et_al_cat.csv
 │   ├── lq_instances.csv
