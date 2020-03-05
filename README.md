@@ -16,6 +16,6 @@ This project is organized along two arms:
 
 # Status of the project
 
-The source code of `DrSnow` will be released early 2020'. The individual
+The source code of `DrSnow` will be released late Summer 2020. The individual
  reviews on natural experiments are released on a rolling-based windows as
   new working or published papers are available.
