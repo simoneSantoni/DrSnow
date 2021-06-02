@@ -1,22 +1,27 @@
-# README
+# Sieweke & Santoni 2020 － README
 
-Author: Simone Santoni, simone.santoni.1@city.ac.uk
+- [Sieweke & Santoni 2020 － README](#sieweke--santoni-2020--readme)
+  - [Contents ― Overview](#contents--overview)
+    - [File Tree](#file-tree)
+  - [Python/Jupyter Files](#pythonjupyter-files)
+    - [Python Script `_0.py`](#python-script-_0py)
+    - [Jupyter Notebook `_1`](#jupyter-notebook-_1)
+  - [Folders](#folders)
+    - [`data`](#data)
+    - [`transformedData`](#transformeddata)
+  - [Project status](#project-status)
 
-Dates: created Fri Apr 30 2019 08:03:12 BST;
-       last change Sat 14 Sep 2019 22:19:33 BST
+## Contents ― Overview
 
-
-# Contents ― Overview
-
-This folder contains the data and Python code to reproduce the set of
-exhibits included in the published research paper "Natural Experiments in
- Leadership Research: An Introduction, Review, and Guidelines."
+This folder include the code, data, and $\LaTeX$ project for the published
+research paper  ["Natural experiments in leadership 
+  research: An introduction, review, and guidelines"](https://www.sciencedirect.com/science/article/pii/S1048984318308476?casa_token=-3OC5QMgU6cAAAAA:qlBDw-17VkrxRsYA5HtXyiYOuQHNepujSU0x44abPMrBEer5gEmX5GcNrywvaJjwJFB14J5_BSs).
 
 In order to ensure the full reproducibility of the natural language processing
-analyses (see Appendix B), we include the transformed text corpora associated 
-to the topic model.
+analyses (see Appendix B), we include the transformed text corpora associated to
+the topic model.
 
-## File Tree
+### File Tree
 
 ```
 ├── _0.py
@@ -69,7 +74,7 @@ This Jupyter notebook `_1` creates the below displayed list of exhibits:
 
 ## Folders
 
-## `data` 
+### `data` 
 
 The `data` folder contains the following data tables:
 
@@ -103,6 +108,6 @@ The `transformedData` folder contains the following data tables:
     and Figure 7.
 
 
-# Project status
+## Project status
 
 Closed - no updates expected.
