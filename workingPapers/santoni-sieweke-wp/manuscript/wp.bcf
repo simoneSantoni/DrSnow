@@ -1995,23 +1995,24 @@
     <bcf:citekey order="10">Splawa1990</bcf:citekey>
     <bcf:citekey order="11">Belloc2016</bcf:citekey>
     <bcf:citekey order="12">Dunning2012</bcf:citekey>
-    <bcf:citekey order="13">Haans2015</bcf:citekey>
-    <bcf:citekey order="14">Semadeni2014</bcf:citekey>
-    <bcf:citekey order="15">Gallus2016</bcf:citekey>
-    <bcf:citekey order="15">Chakrabarti2015</bcf:citekey>
-    <bcf:citekey order="16">Karim2012</bcf:citekey>
-    <bcf:citekey order="17">Dunning2012</bcf:citekey>
-    <bcf:citekey order="17">Sieweke2019</bcf:citekey>
-    <bcf:citekey order="18">Grigoriou2017</bcf:citekey>
+    <bcf:citekey order="13">gonzalez2018</bcf:citekey>
+    <bcf:citekey order="13">rindova2018</bcf:citekey>
+    <bcf:citekey order="14">makadok2011</bcf:citekey>
+    <bcf:citekey order="15">shaver2020</bcf:citekey>
+    <bcf:citekey order="16">hsu2006</bcf:citekey>
+    <bcf:citekey order="17">zoloty2018</bcf:citekey>
+    <bcf:citekey order="18">flammer2015</bcf:citekey>
+    <bcf:citekey order="19">powell2017</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
   </bcf:section>
   <!-- SECTION 2 -->
   <bcf:bibdata section="2">
-    <bcf:datasource type="file" datatype="bibtex">references/appendix_biblio.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">references/sample_of_studies.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="2">
+    <bcf:citekey order="0">*</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

@@ -1,50 +1,27 @@
 #!/usr/bin/env python3
 # coding: utf-8
-
 """
 -------------------------------------------------------------------------------
-                    DESCRIPTIVE STATS AND CHARTS
+    charts.py    |     definitions to reproduce the paper's scharts
 -------------------------------------------------------------------------------
 
-Author: Simone Santoni, simone.santoni.1@city.ac.uk
+Author   : Simone Santoni, simone.santoni.1@city.ac.uk
 
-Dates:
-     - created
-     - revised
+Synopsis :  
 
-Notes:
+Notes    :
     -
 """
 
-
-#  libraries
-# ----------
-
-import os
+# %% libraries
 import bibtexparser
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from matplotlib import rc
 
-
-#  matplotlib viz setup
-# -----------------------
-
-rc('font',**{'family':'serif','serif':['Computer Modern Roman']})
-rc('text', usetex=True)
-
-
-#  load data
-# ------------
-
-#srv = '/run/media/simon/storage'
-srv = '/Users/simone'
-path = 'Dropbox/pipeline/theStreams/methodStudies'
-folder = 'ss_1/data'
-
+# %% load data
 # all retrieved articles
-in_file = os.path.join(srv, path, folder, 'retrieved.bib')
+in_file = '../review/'
 with open(in_file) as bibtex_file:
     retrieved = bibtexparser.load(bibtex_file)
 

@@ -124,16 +124,16 @@ Evaluation Guidelines\vspace{2em}}
 
 \maketitle
 
-\begin{abstract}
-  \noindent
-  .
-
-  \bigskip
-
-  \noindent \textit{Keywords}: natural experiments; causal inference; research 
-  design validity.
-
-\end{abstract}
+%\begin{abstract}
+%  \noindent
+%  .
+%
+%  \bigskip
+%
+%  \noindent \textit{Keywords}: natural experiments; causal inference; research 
+%  design validity.
+%
+%\end{abstract}
 
 \clearpage
 
@@ -146,21 +146,21 @@ Evaluation Guidelines\vspace{2em}}
 % to improve causal inference, and connect these efforts with the popularity
 % of natural experiments
 
-\noindent The quest for empirical identification in strategic management
-research has created substantial attention around `natural experiments,' a form
-of causal inquiry that has been traditionally popular in economics
+The quest for empirical identification in management research has created
+substantial attention around `natural experiments,' a form of causal inquiry
+that has been traditionally popular in economics
 \parencite[][]{Meyer1995,Rosenzweig2000} and political science
-\parencite[][]{Dunning2008}.  The case for natural experiments is the presence
-of `naturally' occurring events---such as new regulations and laws, natural
-disasters, or economic and political crises---that heterogeneously influence
-the units of a population \parencite[][]{Dunning2012,Robinson2009}. Insofar as
-these events generate random or as-if random variations in the environment,
-natural experiments mimic the experimental ideal in which units are split into a
-treatment and a control group, or, alternatively, receive different levels of
-the treatment. Ultimately, this opens up the possibility to infer causal effects
-when the substantive relationship at hand is difficult to investigate in a
-laboratory setting and/or would require operating costly, impractical, or
-unethical field experiments.
+\parencite[][]{Dunning2008}.  The premise to conduct a natural experiments is
+the presence of a `naturally' occurring event --- such as new regulations and
+laws, natural disasters, or economic and political crises --- that
+heterogeneously influences the units of a population
+\parencite[][]{Dunning2012,Robinson2009}. Insofar as such event generates random
+or as-if random variations in the environment, scholars have can mimic the
+experimental ideal in which units are split into a treatment and a control
+group, or, alternatively, receive different levels of the treatment. Ultimately,
+this opens up the possibility to infer causal effects when the substantive
+relationship at hand is difficult to investigate in a laboratory setting and/or
+would require operating costly, impractical, or unethical field experiments.
 
 % motivation for the article - NEs are not rooted in the field of strategic
 % mangagement; rather, they are emerging as one of the most popular ways to
@@ -169,21 +169,22 @@ unethical field experiments.
 % variations in order to test causal relationships. 
 
 Despite naturally occurring events can turn into opportunities to conduct causal
-research, there are limited guidelines that help strategic management
-scholars to prepare and review papers that implement the natural
-experiment research design. In order to fill this gap, we highlight the 
-strengths and weaknesses of natural experiments as operated in the strategic 
-management community and propose actionable suggestions to assess and communicate
-the validity of natural experiments.
+research, there are limited guidelines that help management scholars to prepare
+and review papers that implement the natural experiment research design. In
+order to fill this gap, we highlight the strengths and weaknesses of natural
+experiments as operated in the field of management studies and propose
+actionable suggestions to assess and communicate the validity of natural
+experiments.
 
-To do so, we critically review the population of 50 natural experiments
-published in the Strategic Management Journal. Particularly, our analysis is
-motivated by the following research questions: \emph{R1 --- How do strategy
-    scholars claim the random or as-if random nature of environmental variation
-    at the core of a natural experiment? R2 --- How do they claim the empirical
-    and substantive relevance of a natural experiment? R3 --- How do they claim
-    the credibility of the statistical model encapsulated in a natural
-experiment design?}
+To do so, we critically review the population of 147 natural experiments
+published across seventeen top-tier management journals.\footnote{\todo{We're
+updating the literature search at May 31, 2021.}} Particularly, our reviews aims
+to address the following research questions: \emph{R1 --- How do management
+scholars claim the random or as-if random nature of environmental variation at
+the core of a natural experiment? R2 --- How do they claim the empirical and
+substantive relevance of a natural experiment? R3 --- How do they claim the
+credibility of the statistical model encapsulated in a natural experiment
+design?}
 
 % what we do - we survey papers adopting a NE research design and take stock of
 % the emerging practices. Then, we analyze these practices through a validity
@@ -199,24 +200,7 @@ experiment design?}
 
 % organization of the article
 This work is organized as follows. The next two sections briefly introduce the key
-features of the `standard natural experiment' (i.e., the specific form of
-natural experiment considered in this review), along with the evaluative
-framework we use to analyze the individual natural experiments. The following
-section describes the selection of the reviewed studies. Then, we present the
-key insights that stem from our analysis and conclude with a suggested
-check-list that facilitates strategy scholars to exploit the opportunities of
-causal inference offered by naturally occurring events. The online appendix
-contains companion software code to operate natural experiments in Python, R,
-and Stata.
-
-\section{Natural Experiments and Causal Empirical Research}
-\label{sec:standard_ne}
-
-\subsection{Foundations and Examples from Strategic Management}
-\label{sub:foundations_examples}
-
-% we introduce the reader to Dunning's framework 
-\noindent The 'standard' natural experiment\footnote{In his comprehensive,
+features of the `standard natural experiment,' \footnote{In his comprehensive,
     cross-disciplinary analysis of the literature, Dunning
     \citeyear[][]{Dunning2012} identifies
     three forms of natural experiments: Standard natural experiments;
@@ -226,7 +210,22 @@ and Stata.
     origin goes back to the highly acclaimed and impactful research Dr John Snow
     (Snow, 1855) conducted on the diffusion of cholera in the mid
 19\textsuperscript{th} century London. In this paper we use the term `natural
-experiment' to exclusively refer to standard natural experiments.} resembles the
+experiment' to exclusively refer to standard natural experiments.} along with the evaluative
+framework we use to analyze the individual natural experiments. The following
+section describes the selection of the reviewed studies. Then, we present the
+key insights that emerge from our analysis and conclude with a suggested
+check-list that help management scholars to exploit the opportunities of
+causal inference offered by naturally occurring events. The online appendix
+contains companion Python code to operate and assess natural experiments.
+
+\section{Natural Experiments and Causal Empirical Research}
+\label{sec:standard_ne}
+
+%\subsection{Foundations and Examples from Strategic Management}
+%\label{sub:foundations_examples}
+
+% we introduce the reader to Dunning's framework 
+The standard natural experiment resembles the
 design of a randomized experiment. In fact, the naturally occurring event (such
 as an earthquake, see for example \cite[][]{Belloc2016}) is supposed
 to determine the treatment status of the statistical units (treated Vs control),
@@ -238,7 +237,7 @@ the control group ($\gamma$) and the treatment group
 
 \begin{figure}[]
     \centering
-    \includegraphics[width=0.62\textwidth]{images/ne_logic_viz.pdf}
+    \includegraphics[width=0.75\textwidth]{exhibits/ne_logic_viz.pdf}
     \caption{Visual representation of the standard natural experiment. Notes.---
         The underlying population regression function is $y = \gamma t +
         \lambda D + \delta t D$, where $\gamma$, $\lambda$, and $\delta$ represent 
@@ -249,23 +248,20 @@ the control group ($\gamma$) and the treatment group
     \label{fig:ne_logic_viz}
 \end{figure}
 
-\noindent \textbf{!! Comment: One or two examples of natural experiments
-published in SMJ to be succinctly summarized here!!}
-
 \subsection{Assessing the Validity of Natural Experiment Designs}
 \label{sub:validity_framework}
 
-\noindent\emph{How do we evaluate a standard natural experiment research
+\emph{How do scholars evaluate a standard natural experiment research
 design?} According to Dunning (\cite*[][page 27]{Dunning2012}), the validity of
 a natural experiment should be assessed against three criteria (see Figure
-\ref{fig:validity_framework}).  First, the authors should prove the random
+\ref{fig:validity_framework}).  First, scholars should prove the random
 nature of the treatment, or, at least, defend the plausibility of as-if random.
 In the case of the \emph{randomized standard natural experiment}, it is
 important that the assignment process is truly random. Although this may seem
 obvious, this condition is sometimes violated, even in the context of lotteries
 \parencite[e.g.][]{Starr1997}. In the case of an \emph{as-if randomization}, it
 is vital the assignment process, although not truly random, is independent of
-factors that are related to the outcome and it not affected by unit's
+factors that are related to the outcome and it is not affected by unit's
 self-selection into treatment or control conditions. As Dunning points out, the
 researcher has to make a very compelling case for this assertion (or to drop the
 claim to a natural experiment). In depth knowledge of the context (e.g.,
@@ -303,49 +299,109 @@ proximity of any pair of units.
 
 \begin{figure}[]
     \centering
-    \includegraphics[width=0.78\textwidth]{images/validity_framework.pdf}
+    \includegraphics[width=0.85\textwidth]{exhibits/validity_framework.pdf}
     \caption{Visual representation of Dunning's validity framework (Source:
-    \cite[][page 31]{Dunning2012})}
+    \parencite[][page 31]{Dunning2012})}
     \label{fig:validity_framework}
 \end{figure}
 
-
-\section{Articles Selection}
+\section{Data \& Methods}
 \label{sec:article_selection}
+
+\subsection{Sample of Studies}
+\label{subsec:sample_of_studies}
 
 % data gathering procedure
 
-\noindent  Consistently with previous review of the literature in the field of
-strategic management \parencite[e.g.][]{Haans2015}, we decided to survey only
-studies published in the Strategic Management Journal.  Using the search engine
-available in the journal's web-page, we searched for any article reporting the
-quote ``natural experiment*'' in the title, abstract, keywords, \emph{or} full
-text of any document published since the very first volume of the journal or
-released as pre-print as of December 31, 2019.
+%>> SMJ version << 
+%
+%\noindent  Consistently with previous review of the literature in the field of
+%strategic management \parencite[e.g.][]{Haans2015}, we decided to survey only
+%studies published in the Strategic Management Journal.  Using the search engine
+%available in the journal's web-page, we searched for any article reporting the
+%quote ``natural experiment*'' in the title, abstract, keywords, \emph{or} full
+%text of any document published since the very first volume of the journal or
+%released as pre-print as of December 31, 2019.
+%
+%We retrieved 73 studies; 50 were eventually included in the review. We excluded
+%one methodological article \parencite[][]{Semadeni2014}, two articles that
+%recall the empirical evidence produced in previous natural experiments
+%\parencite[][]{Gallus2016,Chakrabarti2015}, seven articles that indicate natural
+%experiments as a possible way to overcome the limitations or expand on the study
+%at hand \parencite[e.g.][]{Karim2012}, and 13 observational studies
+%\footnote{Consistently with prior works \parencite[][]{Dunning2012,Sieweke2019},
+%we use the expression 'observation study' to denote a study oeprating a
+%correlational research design.} that use the natural experiment label in a
+%figurative sense to emphasize some appealing properties of the empirical setting
+%\parencite[][]{Grigoriou2017}. Figure \ref{fig:studies_over_time} illustrates
+%the distribution of the retrieved studies over time.
 
-We retrieved 73 studies; 50 were eventually included in the review. We excluded
-one methodological article \parencite[][]{Semadeni2014}, two articles that
-recall the empirical evidence produced in previous natural experiments
-\parencite[][]{Gallus2016,Chakrabarti2015}, seven articles that indicate natural
-experiments as a possible way to overcome the limitations or expand on the study
-at hand \parencite[e.g.][]{Karim2012}, and 13 observational studies
-\footnote{Consistently with prior works \parencite[][]{Dunning2012,Sieweke2019},
-we use the expression 'observation study' to denote a study oeprating a
-correlational research design.} that use the natural experiment label in a
-figurative sense to emphasize some appealing properties of the empirical setting
-\parencite[][]{Grigoriou2017}. Figure \ref{fig:studies_over_time} illustrates
-the distribution of the retrieved studies over time.
+Consistently with review articles recently published in the Journal of
+Management \parencite{gonzalez2018,rindova2018}, we surveyed selected, prominent
+journals such as Academy of Management Journal, Administrative Science
+Quarterly, Journal of Applied Psychology, Entrepreneurship Theory and Practice,
+Journal of Business Ethics, Journal of Business Venturing, Journal of
+Management, Journal of Management Studies, Leadership Quarterly, Management
+Science, Organization Science, Organizational Behavior and Human Decision
+Processes, Organization Studies, Personnel Psychology, Research Policy,
+Strategic Management Journal, Strategic Organization. Using the search engine
+embedded in each individual journal’s web-page, we searched for any article
+reporting the quote ``natural experiment'' in the title, abstract, keywords, or
+full text of any document that was published after January 2000 or released as
+pre-print as of June 25, 2019.
+
+We retrieved 366 publications; 147 were eventually included in the review. 
+We excluded 33 non empirical publications, such as theoretical
+articles \parencite[e.g.,][]{makadok2011} or review articles \parencite[e.g.,][]{shaver2020},
+articles that recall the empirical evidence produced by previous natural
+experiments, articles that indicate natural experiments as a possible way to
+overcome the limitations or expand on the study at hand \parencite[e.g.,][]{hsu2006},
+articles using the instrumental variable design \parencite[e.g.,][]{zoloty2018}, 2 articles based on the regression discontinuity
+design \parencite[e.g.,][]{flammer2015}, and 12 qualitative studies adopting the logic of
+natural experiment \parencite[e.g.,][]{powell2017}.
+
+Furthermore, we filtered out articles whose authors claim to adopt a natural
+experiment research design whereas, in fact, they operate: (i) correlational
+designs2 on observational data (N = 53), data produced in the context of
+business simulations (N = 1), or game shows (N = 2); (ii) field experiments (N =
+1); (iii) quasi-experiment/matching designs (N = 3); (iv) twin studies (N = 4).
+Figure 3 reports the inter-temporal distribution of the retained studies.
 
 \begin{figure}[]
     \centering
-    \includegraphics{images/studies_over_time.pdf}
-    \caption{Natural experiment studies published in the Strategic Management
-        Journal over time. The 2019 bucket, marked with an asterisk, contains 
-        both published and accepted, online articles.}
+    \input{exhibits/articles_over_time.tex}
+    \caption{Inter-temporal distribution of natural experiment studies.
+    The 2019 bucket, marked with an asterisk, contains both published and 
+    accepted, online articles.}
     \label{fig:studies_over_time}
 \end{figure}
 
-\section{Assessing the As-If Random Plausibility of the Treatment}
+\subsection{Coding Schema}
+\label{sub:coding_schema}
+
+Table \ref{tab:journal_search} reports the variables against which we coded 
+the studies included in the sample.\footnote{\todo{The studies published after June 2019 
+have to be coded.}}
+
+\begin{table*}
+    \large
+    \sffamily
+    \begin{small}
+        \caption{}
+        \label{tab:coding_schema}
+        \begin{center}
+            \input{exhibits/coding_schema.tex}
+        \end{center}
+    \end{small}
+    \caption{Coding schema.}
+\end{table*}
+
+
+\section{Results}
+\label{sec:resuts}
+
+\subsection{Assessing the As-If Random Nature of the Treatment}
+\label{sub:random_nature}
 
 \noindent This section focuses on the diagnostics that can be used to assess and
 argument the (as-if) random nature of the environmental variation at the center
@@ -388,7 +444,8 @@ following:
 %.
 %
 
-\section{Assessing the Relevance of the Treatment}
+\subsection{Assessing the Relevance of the Treatment}
+\label{sub:relevance}
 
 \noindent This section focuses on the empirical and substantive relevance of the
 environmental variation at the center of a natural experiment.  Particularly,
@@ -430,7 +487,8 @@ this section reviews and discusses the following:
 %.
 %
 
-\section{Assessing the Credibility of the Statistical Model}
+\subsection{Assessing the Credibility of the Statistical Model}
+\label{sub:credibility}
 
 \noindent This section focuses on the credibility of the statistical model
 encapsulated in the natural experiment design. Specifically, this section surveys and articulates the following:
@@ -476,10 +534,10 @@ encapsulated in the natural experiment design. Specifically, this section survey
 provides actionable guidelines in order to better leverage the natural
 experiment design.
 
-\noindent \textbf{!! Comment: We have already coded the 50 studies. Although
-    further analyses are needed to reveal clear patterns, some interesting
-    elements seem to emerge. Specifically, future studies using a natural
-    experiment design could:}
+%\noindent \textbf{!! Comment: We have already coded the 50 studies. Although
+%    further analyses are needed to reveal clear patterns, some interesting
+%    elements seem to emerge. Specifically, future studies using a natural
+%    experiment design could:}
 
 \begin{itemize}
     \item better integrate qualitative evidence and institutional knowledge in
@@ -511,23 +569,35 @@ experiment design.
 \end{itemize}
 
 %% --------------------------- Bibliography ---------------------------------
-\clearpage
 %\bibliographystyle{plainnat}
 \section{References}
 \printbibliography[heading=none]
 \end{refsection}
-\clearpage
 
 % -------------------------- Appendix --------------------------------------
 \begin{appendices}
 
-\begin{refsection}[references/appendix_biblio.bib]
+\begin{refsection}[references/sample_of_studies.bib]
 
 \section{Appendix A --- Sampling}
+\label{sec:sampling}
+
+\subsection{Study Retrieval}
+\begin{table*}
+  \centering
+  \sffamily
+  \begin{small}
+    \input{exhibits/journal_search.tex}
+  \end{small}
+  \label{tab:journal_search}
+  \caption{Sample of target journals along with search page addresses.}
+\end{table*}
+
+\section{Appendix B --- Sample of Studies}
 \label{sec:sample_of_studies}
+%\parencite{*}
 
-
-\subsection{REFERENCES CITED IN THE APPENDIX}
+\nocite{*}
 
 \printbibliography[heading=none]
 
