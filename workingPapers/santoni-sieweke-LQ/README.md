@@ -3,10 +3,10 @@
 - [Sieweke & Santoni 2020 － README](#sieweke--santoni-2020--readme)
   - [Contents ― Overview](#contents--overview)
     - [File Tree](#file-tree)
-  - [Python/Jupyter Files](#pythonjupyter-files)
-    - [Python Script `_0.py`](#python-script-_0py)
-    - [Jupyter Notebook `_1`](#jupyter-notebook-_1)
-  - [Folders](#folders)
+  - [Folders' content](#folders-content)
+    - [`companionCode`](#companioncode)
+      - [Python Script `_0.py`](#python-script-_0py)
+      - [Jupyter Notebook `_1`](#jupyter-notebook-_1)
     - [`data`](#data)
     - [`transformedData`](#transformeddata)
   - [Project status](#project-status)
@@ -24,9 +24,10 @@ the topic model.
 ### File Tree
 
 ```
-├── _0.py
-├── _1.html
-├── _1.ipynb
+├── companionCode
+│   ├── _0.py
+│   ├── _1.html
+│   ├── _1.ipynb
 ├── data
 │   ├── gardner_et_al_cat.csv
 │   ├── lq_instances.csv
@@ -43,10 +44,11 @@ the topic model.
     ├── transformed_corpus.csv
     └── transformed_newdocs.csv
 ```
+## Folders' content
 
-## Python/Jupyter Files
+### `companionCode`
 
-### Python Script `_0.py`
+#### Python Script `_0.py`
 
 This script creates the following exhibits:
 
@@ -59,7 +61,7 @@ This script creates the following exhibits:
 Note running `_0.py` will create and populate the `exhibits` sub-folder.
 
 
-### Jupyter Notebook `_1`
+#### Jupyter Notebook `_1`
 
 This Jupyter notebook `_1` creates the below displayed list of exhibits:
 
@@ -71,8 +73,6 @@ This Jupyter notebook `_1` creates the below displayed list of exhibits:
 + Figure 5: Instrumental Variable Designs—Topic Characterization
 + Figure 7: Regression Discontinuity Designs—Topic Characterization
 
-
-## Folders
 
 ### `data` 
 
