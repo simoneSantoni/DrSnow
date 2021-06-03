@@ -20,3 +20,11 @@
 [417] Biber.pm:3976> INFO - Processing section 2
 [418] Biber.pm:4136> INFO - Looking for bibtex format file 'references/sample_of_studies.bib' for section 2
 [424] bibtex.pm:1500> INFO - LaTeX decoding ...
+[685] bibtex.pm:1316> INFO - Found BibTeX data source 'references/sample_of_studies.bib'
+[1654] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1655] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1655] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[1655] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[1819] bbl.pm:617> INFO - Writing 'wp.bbl' with encoding 'UTF-8'
+[1941] bbl.pm:720> INFO - Output to wp.bbl
+[1942] Biber.pm:110> INFO - WARNINGS: 2
