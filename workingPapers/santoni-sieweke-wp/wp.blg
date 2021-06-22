@@ -1,5 +1,0 @@
-[0] Config.pm:302> INFO - This is Biber 2.11
-[0] Config.pm:305> INFO - Logfile is 'wp.blg'
-[37] biber-darwin:313> INFO - === Wed Jun  2, 2021, 21:34:48
-[174] Utils.pm:209> ERROR - Cannot find control file 'wp.bcf'! - Did latex run successfully on your .tex file before you ran biber?
-[174] Biber.pm:114> INFO - ERRORS: 1

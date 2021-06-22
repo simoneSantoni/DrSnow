@@ -1,0 +1,31 @@
+\begin{tikzpicture}
+    \begin{axis}[
+      width=5.5cm, height=8cm,
+      mark size=2pt,
+      xlabel={Counts of excluded studies},
+      %ylabel={Counts of studies},
+      ytick={1,2,3,4,5,6,7,8,9,10,11,12,13},
+      yticklabels={Case studies mirroring the natural experiment logic,
+                   Conceptual studies,
+                   Correlational studies,
+		               Field experiment studies,
+                   Interreptuted time series studies,
+		               Instrumental variable studies,
+                   Laboratory experiment studies,
+		               Regression discontinuity design studies,
+		               %Studies assimilating the empirical setting to a `natural experiment',
+                   Studies highliting the lack of a NE as a limitation,
+		               Studies highlighting NEs as a future research avenue,
+                   Studies referring to prior natural experiments,
+		               Quasi-experimental studies, 
+                   Twin research design studies
+		               },
+      axis y line*=left,
+      axis x line*=bottom,
+      axis line style={draw=none},
+    ]
+    \addplot + [xcomb] [
+        black, mark options={black}
+    ] table {exhibits/exclusion_categories.dat};
+  \end{axis}
+\end{tikzpicture}       

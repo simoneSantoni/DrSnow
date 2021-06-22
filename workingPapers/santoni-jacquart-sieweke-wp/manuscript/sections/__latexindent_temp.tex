@@ -1,0 +1,89 @@
+\setcounter{table}{0}
+\renewcommand{\thetable}{A\arabic{table}}
+\renewcommand{\thefigure}{A\arabic{figure}}
+
+\subsection{Reproducibility of the literature search}
+
+On June 19, 2021, we retrieved the candidate studies for the review using the
+search tool available in each journal's website. This allowed us to look for
+the instances in which the 'natural experiment*' token 
+Table \ref{tab:journal_search}
+reports the set of urls we visited. For the journals published by 'John Wiley \&
+Sons' we were not allowed to compose our search query using the wild-car symbol '*.'
+Therefore, to ensure the commensurability of results across journals, we
+run two separate queries, namely, `natural experiment' and `natural
+experiment\textbf{s}.'
+
+\begin{table*}
+  \centering
+  \sffamily
+  \begin{small}
+    \input{exhibits/journal_search.tex}
+  \end{small}
+  \label{tab:journal_search}
+  \caption{Sample of target journals along with search page addresses.}
+\end{table*}
+
+\subsection{Sampling}
+
+To consistently sample the studies for the review, two co-authors independently 
+went through a random sample of twenty items and created a tentative set of
+exclusion categories. Then, the whole team of co-authors collectively evaluated
+the codes included in each set of exclusion categories, normalized the codes,
+and created the sampling worflow portrayed in Figure \ref{fig:sampling_workflow}.
+
+\begin{figure*}
+	\begin{small}
+		\begin{center}
+			\includegraphics[width=0.95\textwidth]{exhibits/sampling_workflow.pdf}
+		\end{center}
+		\caption{Sampling workflow}
+		\label{fig:sampling_workflow}
+	\end{small}
+\end{figure*}
+
+
+First, we removed non-empirical works, such as conceptual studies 
+\parencite[e.g.,][]{eden2021}, literature reviews
+\parencite[e.g.,][]{shaver2020}, meta-analysis
+\parencite[e.g.,][]{geyskens2006}, calls for papers
+\parencite[e.g.,][]{jacquart2020}, or editorial notes
+\parencite[e.g.,][]{breschi2020}. With few exceptions
+\parencite[e.g.,][]{sieweke2020}, the NE design plays a peripheral role in this
+category's studies. Second, we discarded qualitative empirical works that mirror
+the logic of a natural experiments \parencite[e.g.,][]{powell2017}, a case study
+design that Eisenhardt recently labeled ``racing design'' since \textit{``cases
+(often ventures) begin at the same time with similar initial conditions like
+founders, location, and funding, and then `race' to some natural endpoint like
+IPO, unicorn valuation, or other temporal marker.''} \parencite[page
+150,][]{eisenhardt2021}.  Third, we removed empirical works that limit to refer
+to previous natural experiment studies \parencite[e.g.,][]{stevens2021}, discuss
+a project's limitations in regard to the lack of a natural experiment
+\parencite[e.g.,][]{chen2020}, or indicate natural experiments as a future
+research avenues \parencite[e.g.,][]{xie0000}.  Fourth, we removed empirical
+works that claim to use a natural experiment whereas they do not exploit any
+naturally occurring, sudden variations in the data. Such a category includes
+studies that --- in fact --- use field experiments, quasi-experiments,
+laboratory/online experiments, or data from popular television game shows. Fifth, we removed
+empirical works that exploit a naturally occurring variation to operate an
+instrumental variable or regression discontinuity research design Finally, we
+removed empirical works that exploit a sudden, naturally-occurring  variation
+but lack either a comparison group --- that is, studies implementing an
+interrupted-time-series research design \parencite[e.g.][]{corbo2016}
+
+\ref{fig:exclusion_causes}. 
+
+\begin{figure}
+    \centering
+    \sffamily
+    \begin{small}
+        \begin{center}
+            \input{exhibits/exclusion_categories.tex}
+        \end{center}
+        \caption{Exclusion categories. The reported codes are note mutually exclusive
+        --- for example, a study can both refer to a previous natural experiment
+        and mention the lack of a natural experiment as a project's limitation.}
+        \label{fig:exclusion_causes}
+    \end{small}
+\end{figure}
+

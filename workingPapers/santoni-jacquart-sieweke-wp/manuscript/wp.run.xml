@@ -82,6 +82,7 @@
     <requires type="editable">
       <file>references/main_biblio.bib</file>
       <file>references/appendix_biblio.bib</file>
+      <file>references/search_biblio.bib</file>
       <file>references/sample_of_studies.bib</file>
     </requires>
   </external>

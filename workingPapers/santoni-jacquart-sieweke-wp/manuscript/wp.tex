@@ -1,0 +1,298 @@
+%% ------------------------- Declare document class --------------------------
+\documentclass[nobib]{tufte-handout}
+
+%% ------------------------------- Layout ------------------------------------
+\usepackage{geometry}
+\renewcommand{\baselinestretch}{0.85}
+\usepackage{graphicx}    % allow embedded images
+  \setkeys{Gin}{width=\linewidth, totalheight=\textheight, keepaspectratio}
+  \graphicspath{{graphics/}}
+
+%% ------------------------------ Tables -------------------------------------
+\usepackage{blkarray}    % convenient matrices
+\usepackage{rotating}    % rotate objects
+\usepackage{booktabs}    % book-quality tables
+\usepackage{units}       % non-stacked fractions and better unit spacing
+\usepackage{multicol}    % multiple column layout facilities
+\usepackage{lipsum}      % filler text
+\usepackage{fancyvrb}    % extended verbatim environments
+  \fvset{fontsize=\normalsize} % font size for fancy-verbatim environments
+\usepackage{tabularx,ragged2e} % table formatting
+\usepackage{array}       % table formatting
+\usepackage{siunitx}     % alignment
+  \sisetup{detect-all}
+  \sisetup{input-symbols = ()}
+\usepackage{adjustbox}   % scaling
+\usepackage[T1]{fontenc} % text
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\usepackage{xcolor}  % Coloured text etc.% 
+
+%% --------- Standardize command font styles and environments ----------------
+\newcommand{\doccmd}[1]{\texttt{\textbackslash#1}}% adds backslash
+\newcommand{\docopt}[1]{\ensuremath{\langle}\textrm{\textit{#1}}\ensuremath{\rangle}}% optional command argument
+\newcommand{\docarg}[1]{\textrm{\textit{#1}}}% (required) command argument
+\newcommand{\docenv}[1]{\textsf{#1}}% environment name
+\newcommand{\docpkg}[1]{\texttt{#1}}% package name
+\newcommand{\doccls}[1]{\texttt{#1}}% document class name
+\newcommand{\docclsopt}[1]{\texttt{#1}}% document class option name
+\newenvironment{docspec}{\begin{quote}\noindent}{\end{quote}}% command specification environment
+
+%% ----------------------------- Links ---------------------------------------
+\hypersetup{
+    colorlinks=true,
+    linkcolor=MidnightBlue,
+    filecolor=MidnightBlue,      
+    urlcolor=MidnightBlue,
+    citecolor=BrickRed,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+%% -------------------------- Drawing and plots ------------------------------
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}          % pgf plots
+\usepackage{pgf}
+\usepackage[utf8]{inputenc}\DeclareUnicodeCharacter{2212}{-}
+\usepackage{tikz}              % tikz plots
+\usetikzlibrary{positioning}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{calc}
+\usetikzlibrary{matrix}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{fit}
+\def\firstcircle{(0,0) circle (1.5cm)} % custom shapes
+\def\secondcircle{(0:2cm) circle (1.5cm)}
+\colorlet{circle edge}{black!50}
+\colorlet{circle area}{black!20}
+\tikzset{filled/.style={fill=circle area, draw=circle edge, thick},
+  outline/.style={draw=circle edge, thick}}
+\usepackage{tikz-network}
+
+%% --------------------------------- Fonts -----------------------------------
+\usepackage{amsmath}             % extended mathematics
+\usepackage[scaled=0.9]{helvet}  % sans-serif font to use
+\usepackage[defaultmathsize, symbolgreek]{mathastext}
+%\renewcommand\familydefault\sfdefault
+\Mathastext[helvet]
+\usepackage{sansmath}            % maths with sans-serif
+\AtBeginEnvironment{tikzpicture}{\sansmath}
+\AtEndEnvironment{tikzpicture}{\unsansmath}
+
+%% -------------------------- Tufte Handout Options --------------------------
+\setsidenotefont{\sffamily\small}
+\setcaptionfont{\sffamily\small}
+\setmarginnotefont{\sffamily\small}
+\setcitationfont{\sffamily\small}
+
+%% ----------------------------- Quotations ----------------------------------
+\usepackage{dirtytalk}
+
+%% ------------------------------- Authors -----------------------------------
+\usepackage{authblk}
+
+%% ----------------------------- References ----------------------------------
+%\usepackage[colorlinks, citecolor=DarkOrange]{hyperref}
+\usepackage[
+  style=verbose,
+  autocite=footnote,
+  backend=biber,
+  citestyle=authoryear
+]{biblatex}
+\addbibresource{references/main_biblio.bib}
+\addbibresource{references/appendix_biblio.bib}
+%\bibliography{sample-handout}
+
+%% ----------------------------- Document info -------------------------------
+%% Title
+\title[Natural Experiments in Management Research]
+{Natural Experiments in Management Research:\\Emerging Practices and 
+Evaluation Guidelines\vspace{2em}}
+
+%% Author
+\author[$\bullet\circ$]{Simone Santoni}
+\author[$\star$]{Jost Sieweke}
+\affil[$\bullet$]{Bayes Business School (formerly Cass)}
+\affil[$\circ$]{Soundcloud}
+\affil[$\star$]{Vrije Universiteit Amsterdam}
+
+\renewcommand\Authands{ and }
+\renewcommand\Authfont{\sffamily}
+\renewcommand\Affilfont{\normalsize \sffamily}
+
+%% Date
+\date{\vspace{1em} \normalsize \today \vspace{1em} \\ 
+      \textcolor{red}{(Structured draft --- do not circulate)}}
+
+%% ------------------------------- Appendix ----------------------------------
+\usepackage{appendix}
+
+%% ------------------------------- To do -------------------------------------
+\newcommand{\todo}[1]{}
+\renewcommand{\todo}[1]{{\color{red} TODO: {#1}}}
+
+%% ------------------------------- Document ----------------------------------
+\begin{document}
+
+\maketitle
+
+%\begin{abstract}
+%  \noindent
+%  .
+%
+%  \bigskip
+%
+%  \noindent \textit{Keywords}: natural experiments; causal inference; research 
+%  design validity.
+%
+%\end{abstract}
+
+\clearpage
+
+\begin{refsection}[references/main_biblio.bib]
+
+\section{Introduction}
+\label{introduction}
+
+\input{sections/introduction.tex}
+
+\section{Natural Experiments and Causal Empirical Research}
+\label{sec:standard_ne}
+
+\input{sections/ne_and_causality.tex}
+
+\begin{figure}[]
+    \centering
+    \includegraphics[width=0.75\textwidth]{exhibits/ne_logic_viz.pdf}
+    \caption{Visual representation of the standard natural experiment. 
+        The underlying population regression function is $y = \gamma t +
+        \lambda D + \delta t D$, where $\gamma$, $\lambda$, and $\delta$ represent 
+        the systematic difference in the outcome across the treated and control 
+        cases, the trend effect, and the difference in the outcome that is due to
+        the treatment. For the sake of clarity, we represent the case in which
+        $\delta > 0$.}
+    \label{fig:ne_logic_viz}
+\end{figure}
+
+\subsection{Assessing the Validity of Natural Experiment Designs}
+\label{sub:validity_framework}
+
+\input{sections/ne_validity.tex}
+
+\begin{figure}[]
+    \centering
+    \includegraphics[width=0.85\textwidth]{exhibits/validity_framework.pdf}
+    \caption{Visual representation of Dunning's validity framework (Source:
+    \parencite[][page 31]{Dunning2012})}
+    \label{fig:validity_framework}
+\end{figure}
+
+\section{Data \& Methods}
+\label{sec:article_selection}
+
+\subsection{Sample of Studies}
+\label{subsec:sample_of_studies}
+
+\input{sections/dm:sample_of_studies.tex}
+
+\begin{figure}[]
+    \centering
+    \input{exhibits/articles_over_time.tex}
+    \caption{Inter-temporal distribution of natural experiment studies.
+    The 2019 bucket, marked with an asterisk, contains both published and 
+    accepted, online articles.}
+    \label{fig:studies_over_time}
+\end{figure}
+
+\subsection{Coding Schema}
+\label{sub:coding_schema}
+
+\input{sections/dm:coding_schema.tex}
+
+\begin{table*}
+    \large
+    \sffamily
+    \begin{small}
+        \caption{}
+        \label{tab:coding_schema}
+        \begin{center}
+            \input{exhibits/coding_schema.tex}
+        \end{center}
+    \end{small}
+    \caption{Coding schema.}
+\end{table*}
+
+\section{Results}
+\label{sec:resuts}
+
+\subsection{Assessing the As-If Random Nature of the Treatment}
+\label{sub:random_nature}
+
+\input{sections/res:as_if_random.tex}
+
+\begin{itemize}
+    \item diffusion/role of qualitative diagnostics to appreciate:
+        \begin{itemize}
+            \item units' information about the treatment
+            \item units' incentives to self-select into the treatment (control)
+                group
+            \item unit's capacity to self-select into the treatment (control)
+                group
+        \end{itemize}
+    \item diffusion/role of quantitative diagnostics (e.g., balance test) to 
+        compare and contrast treated and control units along relevant dimensions
+\end{itemize}
+
+\subsection{Assessing the Relevance of the Treatment}
+\label{sub:relevance}
+
+\input{sections/res:treatment_relevance.tex}
+
+\subsection{Assessing the Credibility of the Statistical Model}
+\label{sub:credibility}
+
+\input{sections/res:credibility_of_the_model.tex}
+
+\section{Guidelines}
+
+\input{sections/guidelines.tex}
+
+\section{Coda}
+
+\input{sections/coda.tex}
+
+%% --------------------------- Bibliography ---------------------------------
+%\bibliographystyle{plainnat}
+\section{References}
+\printbibliography[heading=none]
+\end{refsection}
+
+% -------------------------- Appendix --------------------------------------
+\begin{refsection}[references/search_biblio.bib]
+
+\section{Appendix A --- Literature Search}
+\label{sec:sampling}
+
+\input{sections/app:a.tex}
+
+\subsection{References}
+
+\printbibliography[heading=none]
+
+\end{refsection}
+
+\begin{refsection}[references/sample_of_studies.bib]
+
+\section{Appendix B --- Sample of Studies}
+\label{sec:sample_of_studies}
+
+\input{sections/app:b.tex}
+
+\subsection{References}
+
+\printbibliography[heading=none]
+
+\end{refsection}
+
+%% ----------------------------- Closing ------------------------------------
+\end{document}
