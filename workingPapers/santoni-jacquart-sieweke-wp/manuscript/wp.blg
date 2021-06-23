@@ -1,41 +1,40 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'wp.blg'
-[43] biber-darwin:313> INFO - === Tue Jun 22, 2021, 23:10:02
-[68] Biber.pm:371> INFO - Reading 'wp.bcf'
-[164] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[164] Biber.pm:857> INFO - Found 17 citekeys in bib section 1
-[164] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[164] Biber.pm:857> INFO - Found 20 citekeys in bib section 2
-[165] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[165] Biber.pm:854> INFO - Using all citekeys in bib section 3
-[165] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[195] Biber.pm:3976> INFO - Processing section 1
-[205] Biber.pm:4136> INFO - Looking for bibtex format file 'references/main_biblio.bib' for section 1
-[209] bibtex.pm:1500> INFO - LaTeX decoding ...
-[287] bibtex.pm:1316> INFO - Found BibTeX data source 'references/main_biblio.bib'
-[363] Utils.pm:193> WARN - month field 'sep' in entry 'makadok2011' is not an integer - this will probably not sort properly.
-[379] Utils.pm:193> WARN - I didn't find a database entry for 'zoloty2018' (section 1)
-[408] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[408] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[408] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[408] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[430] Biber.pm:3976> INFO - Processing section 2
-[430] Biber.pm:4136> INFO - Looking for bibtex format file 'references/search_biblio.bib' for section 2
-[434] bibtex.pm:1500> INFO - LaTeX decoding ...
-[497] bibtex.pm:1316> INFO - Found BibTeX data source 'references/search_biblio.bib'
-[609] Utils.pm:193> WARN - I didn't find a database entry for 'nicolau2008' (section 2)
-[643] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[643] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[643] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[643] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[664] Biber.pm:3976> INFO - Processing section 3
-[665] Biber.pm:4136> INFO - Looking for bibtex format file 'references/sample_of_studies.bib' for section 3
-[670] bibtex.pm:1500> INFO - LaTeX decoding ...
-[926] bibtex.pm:1316> INFO - Found BibTeX data source 'references/sample_of_studies.bib'
-[1895] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1896] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1896] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[1896] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[2063] bbl.pm:617> INFO - Writing 'wp.bbl' with encoding 'UTF-8'
-[2200] bbl.pm:720> INFO - Output to wp.bbl
-[2200] Biber.pm:110> INFO - WARNINGS: 3
+[43] biber-darwin:313> INFO - === Wed Jun 23, 2021, 10:23:52
+[69] Biber.pm:371> INFO - Reading 'wp.bcf'
+[167] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[167] Biber.pm:857> INFO - Found 17 citekeys in bib section 1
+[167] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[168] Biber.pm:857> INFO - Found 20 citekeys in bib section 2
+[168] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[168] Biber.pm:854> INFO - Using all citekeys in bib section 3
+[168] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[200] Biber.pm:3976> INFO - Processing section 1
+[218] Biber.pm:4136> INFO - Looking for bibtex format file 'references/main_biblio.bib' for section 1
+[222] bibtex.pm:1500> INFO - LaTeX decoding ...
+[293] bibtex.pm:1316> INFO - Found BibTeX data source 'references/main_biblio.bib'
+[380] Utils.pm:193> WARN - month field 'sep' in entry 'makadok2011' is not an integer - this will probably not sort properly.
+[393] Utils.pm:193> WARN - I didn't find a database entry for 'zoloty2018' (section 1)
+[422] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[422] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[422] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[422] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[465] Biber.pm:3976> INFO - Processing section 2
+[466] Biber.pm:4136> INFO - Looking for bibtex format file 'references/search_biblio.bib' for section 2
+[471] bibtex.pm:1500> INFO - LaTeX decoding ...
+[533] bibtex.pm:1316> INFO - Found BibTeX data source 'references/search_biblio.bib'
+[729] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[730] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[730] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[730] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[763] Biber.pm:3976> INFO - Processing section 3
+[763] Biber.pm:4136> INFO - Looking for bibtex format file 'references/sample_of_studies.bib' for section 3
+[770] bibtex.pm:1500> INFO - LaTeX decoding ...
+[1068] bibtex.pm:1316> INFO - Found BibTeX data source 'references/sample_of_studies.bib'
+[2085] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2085] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2085] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[2085] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[2248] bbl.pm:617> INFO - Writing 'wp.bbl' with encoding 'UTF-8'
+[2392] bbl.pm:720> INFO - Output to wp.bbl
+[2392] Biber.pm:110> INFO - WARNINGS: 2

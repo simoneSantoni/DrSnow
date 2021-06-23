@@ -33,4 +33,4 @@ We consider a set of 17 journals:
 
 ### Timespan
 
-The reference timespan is 2000.01.01 - 2021.05.31 
+The reference timespan is 2000.01.01 - 2021.06.19 

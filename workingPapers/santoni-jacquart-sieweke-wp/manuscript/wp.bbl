@@ -1192,6 +1192,64 @@
       \field{pages}{983\bibrangedash 996}
       \range{pages}{14}
     \endentry
+    \entry{nicolaou2008}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=091ac953e85fabfa648ce95d64f7f903}{%
+           family={Nicolaou},
+           familyi={N\bibinitperiod},
+           given={Nicos},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a9101c05a50121f6d4c5f452bfce5b90}{%
+           family={Shane},
+           familyi={S\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ca0b4bc526a6983205d7d00505aceca3}{%
+           family={Cherkas},
+           familyi={C\bibinitperiod},
+           given={Lynn},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e01c568ea98f3c5c887c9782d218f0d7}{%
+           family={Hunkin},
+           familyi={H\bibinitperiod},
+           given={Janice},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ed9a501c59d3b053472340afcca7d986}{%
+           family={Spector},
+           familyi={S\bibinitperiod},
+           given={Tim\bibnamedelima D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Institute for Operations Research}%
+        {the Management Sciences (INFORMS)}%
+      }
+      \strng{namehash}{d71660b5d3a725f6c1c032bfa4c240dc}
+      \strng{fullhash}{5730a39e205c25a1c787f955f69f6a84}
+      \strng{bibnamehash}{d71660b5d3a725f6c1c032bfa4c240dc}
+      \strng{authorbibnamehash}{d71660b5d3a725f6c1c032bfa4c240dc}
+      \strng{authornamehash}{d71660b5d3a725f6c1c032bfa4c240dc}
+      \strng{authorfullhash}{5730a39e205c25a1c787f955f69f6a84}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We used quantitative genetics techniques to compare the entrepreneurial activity of 870 pairs of monozygotic (MZ) and 857 pairs of same-sex dizygotic (DZ) twins from the United Kingdom. We ran model-fitting analyses to estimate the genetic, shared environmental and nonshared environmental effects on the propensity of people to become entrepreneurs. We found relatively high heritabilities for entrepreneurship across different operationalizations of the phenomenon, with little effect of family environment and upbringing. Our findings suggest the importance of considering genetic factors in explanations for why people engage in entrepreneurial activity. {©} 2008 INFORMS.}
+      \field{journaltitle}{Management Science}
+      \field{number}{1}
+      \field{title}{{Is the tendency to engage in entrepreneurship genetic?}}
+      \field{volume}{54}
+      \field{year}{2008}
+      \field{pages}{167\bibrangedash 179}
+      \range{pages}{13}
+    \endentry
     \entry{powell2017}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=1f3a06cb8e4ed359f3dc0ec93005136a}{%
@@ -1423,7 +1481,6 @@
       \keyw{affect,agency theory,executive compensation,strategic decision making}
     \endentry
   \enddatalist
-  \missing{nicolau2008}
 \endrefsection
 
 \refsection{3}
