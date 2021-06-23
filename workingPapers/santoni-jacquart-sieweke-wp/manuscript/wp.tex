@@ -40,10 +40,10 @@
 %% ----------------------------- Links ---------------------------------------
 \hypersetup{
     colorlinks=true,
-    linkcolor=MidnightBlue,
-    filecolor=MidnightBlue,      
-    urlcolor=MidnightBlue,
-    citecolor=BrickRed,
+    linkcolor=RoyalBlue,
+    filecolor=RoyalBlue,      
+    urlcolor=RoyalBlue,
+    citecolor=RedOrange,
     pdftitle={Overleaf Example},
     pdfpagemode=FullScreen,
     }
@@ -122,14 +122,14 @@ Evaluation Guidelines\vspace{2em}}
 
 %% Date
 \date{\vspace{1em} \normalsize \today \vspace{1em} \\ 
-      \textcolor{red}{(Structured draft --- do not circulate)}}
+      \textcolor{RedOrange}{(Structured draft --- do not circulate)}}
 
 %% ------------------------------- Appendix ----------------------------------
 \usepackage{appendix}
 
 %% ------------------------------- To do -------------------------------------
 \newcommand{\todo}[1]{}
-\renewcommand{\todo}[1]{{\color{red} TODO: {#1}}}
+\renewcommand{\todo}[1]{{\color{RedOrange} TODO: {#1}}}
 
 %% ------------------------------- Document ----------------------------------
 \begin{document}
@@ -161,31 +161,10 @@ Evaluation Guidelines\vspace{2em}}
 
 \input{sections/ne_and_causality.tex}
 
-\begin{figure}[]
-    \centering
-    \includegraphics[width=0.75\textwidth]{exhibits/ne_logic_viz.pdf}
-    \caption{Visual representation of the standard natural experiment. 
-        The underlying population regression function is $y = \gamma t +
-        \lambda D + \delta t D$, where $\gamma$, $\lambda$, and $\delta$ represent 
-        the systematic difference in the outcome across the treated and control 
-        cases, the trend effect, and the difference in the outcome that is due to
-        the treatment. For the sake of clarity, we represent the case in which
-        $\delta > 0$.}
-    \label{fig:ne_logic_viz}
-\end{figure}
-
 \subsection{Assessing the Validity of Natural Experiment Designs}
 \label{sub:validity_framework}
 
 \input{sections/ne_validity.tex}
-
-\begin{figure}[]
-    \centering
-    \includegraphics[width=0.85\textwidth]{exhibits/validity_framework.pdf}
-    \caption{Visual representation of Dunning's validity framework (Source:
-    \parencite[][page 31]{Dunning2012})}
-    \label{fig:validity_framework}
-\end{figure}
 
 \section{Data \& Methods}
 \label{sec:article_selection}
@@ -195,32 +174,10 @@ Evaluation Guidelines\vspace{2em}}
 
 \input{sections/dm:sample_of_studies.tex}
 
-\begin{figure}[]
-    \centering
-    \input{exhibits/articles_over_time.tex}
-    \caption{Inter-temporal distribution of natural experiment studies.
-    The 2019 bucket, marked with an asterisk, contains both published and 
-    accepted, online articles.}
-    \label{fig:studies_over_time}
-\end{figure}
-
 \subsection{Coding Schema}
 \label{sub:coding_schema}
 
 \input{sections/dm:coding_schema.tex}
-
-\begin{table*}
-    \large
-    \sffamily
-    \begin{small}
-        \caption{}
-        \label{tab:coding_schema}
-        \begin{center}
-            \input{exhibits/coding_schema.tex}
-        \end{center}
-    \end{small}
-    \caption{Coding schema.}
-\end{table*}
 
 \section{Results}
 \label{sec:resuts}
@@ -229,19 +186,6 @@ Evaluation Guidelines\vspace{2em}}
 \label{sub:random_nature}
 
 \input{sections/res:as_if_random.tex}
-
-\begin{itemize}
-    \item diffusion/role of qualitative diagnostics to appreciate:
-        \begin{itemize}
-            \item units' information about the treatment
-            \item units' incentives to self-select into the treatment (control)
-                group
-            \item unit's capacity to self-select into the treatment (control)
-                group
-        \end{itemize}
-    \item diffusion/role of quantitative diagnostics (e.g., balance test) to 
-        compare and contrast treated and control units along relevant dimensions
-\end{itemize}
 
 \subsection{Assessing the Relevance of the Treatment}
 \label{sub:relevance}
@@ -273,6 +217,10 @@ Evaluation Guidelines\vspace{2em}}
 \section{Appendix A --- Literature Search}
 \label{sec:sampling}
 
+\setcounter{table}{0}
+\renewcommand{\thetable}{A\arabic{table}}
+\renewcommand{\thefigure}{A\arabic{figure}}
+
 \input{sections/app:a.tex}
 
 \subsection{References}
@@ -286,6 +234,10 @@ Evaluation Guidelines\vspace{2em}}
 \section{Appendix B --- Sample of Studies}
 \label{sec:sample_of_studies}
 
+\setcounter{table}{0}
+\renewcommand{\thetable}{B\arabic{table}}
+\renewcommand{\thefigure}{B\arabic{figure}}
+
 \input{sections/app:b.tex}
 
 \subsection{References}
@@ -294,5 +246,5 @@ Evaluation Guidelines\vspace{2em}}
 
 \end{refsection}
 
-%% ----------------------------- Closing ------------------------------------
+% ----------------------------- Closing ------------------------------------
 \end{document}
