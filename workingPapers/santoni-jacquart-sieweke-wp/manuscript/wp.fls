@@ -688,7 +688,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/bera/fvmr8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/bera/fvmr8r.tfm
 INPUT /home/simone/githubRepos/natural-experiments/workingPapers/santoni-jacquart-sieweke-wp/manuscript/exhibits/exclusion_categories.tex
 INPUT /home/simone/githubRepos/natural-experiments/workingPapers/santoni-jacquart-sieweke-wp/manuscript/exhibits/exclusion_categories.tex
-INPUT /home/simone/githubRepos/natural-experiments/workingPapers/santoni-jacquart-sieweke-wp/manuscript/exhibits/exclusion_categories.dat
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
@@ -700,6 +699,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvro7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvro7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvro7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvro7t.tfm
+INPUT /home/simone/githubRepos/natural-experiments/workingPapers/santoni-jacquart-sieweke-wp/manuscript/exhibits/exclusion_variables.dat
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/helvetic/phvr7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplrc9d.tfm

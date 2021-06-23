@@ -1,6 +1,8 @@
 \begin{tikzpicture}
-    \begin{axis}[
-      width=6cm, height=8cm,
+  \node[] (phantom) {};
+  \node[align=left] (lollipop) [below right=7cm and 3.5cm of phantom] {
+  \begin{axis}[
+      width=4cm, height=8cm,
       mark size=2pt,
       xlabel={Counts of excluded studies},
       %ylabel={Counts of studies},
@@ -25,8 +27,55 @@
       every node near coord/.append style={inner sep=4pt},
       point meta=rawx
     ]
-    \addplot + [xcomb] [
-        black, mark options={black}
-    ] table {exhibits/exclusion_categories.dat};
-  \end{axis}
-\end{tikzpicture}       
+    %\addplot + [xcomb] [
+    %    black, mark options={black}
+    %] table {exhibits/exclusion_categories.dat};
+    \addplot+ [
+      xcomb,
+      mark=*, mark size=2pt,
+      SeaGreen, mark options={SeaGreen},
+    ] coordinates {
+        (54,1) (1,2) (2,3) (5,4) (3,5)
+    };
+    \addplot+ [
+      xcomb,
+      mark=*, mark size=2pt,
+      RoyalBlue, mark options={RoyalBlue},
+    ] coordinates {
+        (1,6) (1,7)
+    };
+    \addplot+ [
+      xcomb,
+      mark=*, mark size=2pt,
+      DarkOrange, mark options={DarkOrange},
+    ] coordinates {
+        (5,8) (3,9) 
+    };
+  \end{axis}};
+  \node[align=left] (factors) [below right=7cm and 7.5cm of phantom] {
+  \begin{axis}[
+    width=5cm, height=8cm,
+    axis line style={draw=none},
+    tick style={draw=none},
+    xtick={1,2,3},
+    xticklabels={A7, A9, A11},
+    xticklabel pos=upper,
+    yticklabels=empty,
+    %ytick={1, 2, 3, 4, 5, 6, 7, 8, 9},
+    %yticklabels={{Eye-balling}, {Statistical}, {Heuristics}, {Semantics},
+    %             {Task performance}, {External}},
+    ]
+  \addplot [
+      scatter,
+      only marks,
+      mark size=2pt,
+      point meta=explicit symbolic,
+      scatter/classes={
+          0={mark=*, draw=Black, fill=Black},
+          2={mark=*, draw=White, fill=White},
+          1={mark=*, Black, fill=White}% <-- don’t add comma
+      },
+  ] table [x=x, y=y, meta=cluster] {exhibits/exclusion_variables.dat};
+  \end{axis}};
+  \node[align=center] (discarded) [below right=-0.5cm and 9.1cm of phantom] {Discarded in activity:};
+\end{tikzpicture}

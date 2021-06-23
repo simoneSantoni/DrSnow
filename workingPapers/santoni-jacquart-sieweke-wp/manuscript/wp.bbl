@@ -1342,12 +1342,14 @@
       \strng{authorfullhash}{15e608826e27fc615e11748a1674cd40}
       \field{sortinit}{X}
       \field{sortinithash}{e90038f30fa4b9ce59606fc8347e3cc7}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{While institutional theorists have long viewed governmental mandates as a prototypical coercive pressure generating homogeneous organizational compliance, we suggest that such mandates are often subject to enforcement uncertainty, resulting in a pressure more aptly characterized as “semicoercive” and a compliance result more aptly characterized as heterogeneous. We advance and test a theoretical framework to predict the specific form of heterogeneous compliance in semicoercive contexts, with particular attention to the differential sensitivity of firms to pressures to comply, based on differences in their specific legal, political, and social context. We use the setting of a mandated corporate governance reform in China requiring listed Chinese firms to add independent directors and find general evidence of noncompliance and more specific evidence consistent with the predictions from our sociopolitical framework. We discuss the implications of our theoretical approach and findings for future research on institutional environments, governmental regulations, organizational compliance, and corporate governance.}
       \field{journaltitle}{Journal of Management}
       \field{title}{{When Is a Governmental Mandate not a Mandate? Predicting Organizational Compliance Under Semicoercive Conditions}}
+      \field{year}{In press}
       \verb{doi}
       \verb 10.1177/0149206320948579
       \endverb
