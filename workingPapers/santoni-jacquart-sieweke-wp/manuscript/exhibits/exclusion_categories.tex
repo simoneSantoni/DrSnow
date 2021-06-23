@@ -1,25 +1,29 @@
 \begin{tikzpicture}
     \begin{axis}[
-      width=5.5cm, height=8cm,
+      width=6cm, height=8cm,
       mark size=2pt,
       xlabel={Counts of excluded studies},
       %ylabel={Counts of studies},
-      ytick={1,2,3,4,5,6,7,8,9, 10},
+      ytick={1,2,3,4,5,6,7,8,9},
       yticklabels={
         Correlational studies,
         Field experiment studies,
         Laboratory experiment studies,
 		    Quasi-experimental studies, 
         Twin research design studies,
-        Interrupted-time series studies,
-        Post-mortem studies,
         Instrumental variable studies,
 		    Regression discontinuity design studies,
-        Standard NE studies,
+        One-group pretest-posttest studies (interrupted time series),
+        Posttest-only studies with (nonequivalent) control groups,
+        %Standard NE studies,
         },
       axis y line*=left,
       axis x line*=bottom,
       axis line style={draw=none},
+      nodes near coords,
+      nodes near coords align={horizontal},
+      every node near coord/.append style={inner sep=4pt},
+      point meta=rawx
     ]
     \addplot + [xcomb] [
         black, mark options={black}
