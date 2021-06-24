@@ -1,5 +1,7 @@
 # Harnessing natural experiments for the social sciences
 
+![](https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2013/3/14/1363295337709/johnsnowillustration.png?width=620&quality=85&auto=format&fit=max&s=04dba2660dc94505dc5ff3e2d7f84f61)
+
 ## Overview
 
 This repo contains data, code, and miscellaneous materials on the application

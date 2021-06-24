@@ -2252,6 +2252,15 @@
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
   </bcf:section>
+  <!-- SECTION 4 -->
+  <bcf:bibdata section="4">
+    <bcf:datasource type="file" datatype="bibtex">references/nlp_biblio.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="4">
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
     <bcf:sort order="1">
@@ -2301,6 +2310,15 @@
                 labelalphanametemplatename="global">
   </bcf:datalist>
   <bcf:datalist section="3"
+                name="nty/global//global/global"
+                type="entry"
+                sortingtemplatename="nty"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="4"
                 name="nty/global//global/global"
                 type="entry"
                 sortingtemplatename="nty"

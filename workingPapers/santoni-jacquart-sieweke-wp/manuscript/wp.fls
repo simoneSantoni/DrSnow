@@ -434,6 +434,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/latex/sparklines/sparklines.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/sparklines/sparklines.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/mathastext/mathastext.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/mathastext/mathastext.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/sansmath/sansmath.sty
@@ -711,6 +713,8 @@ INPUT /home/simone/githubRepos/natural-experiments/workingPapers/santoni-jacquar
 INPUT /home/simone/githubRepos/natural-experiments/workingPapers/santoni-jacquart-sieweke-wp/manuscript/sections/app:b.tex
 INPUT /home/simone/githubRepos/natural-experiments/workingPapers/santoni-jacquart-sieweke-wp/manuscript/exhibits/articles_over_time_and_journal.tex
 INPUT /home/simone/githubRepos/natural-experiments/workingPapers/santoni-jacquart-sieweke-wp/manuscript/exhibits/articles_over_time_and_journal.tex
+INPUT /home/simone/githubRepos/natural-experiments/workingPapers/santoni-jacquart-sieweke-wp/manuscript/sections/app:c.tex
+INPUT /home/simone/githubRepos/natural-experiments/workingPapers/santoni-jacquart-sieweke-wp/manuscript/sections/app:c.tex
 INPUT /home/simone/githubRepos/natural-experiments/workingPapers/santoni-jacquart-sieweke-wp/manuscript/wp.aux
 INPUT /home/simone/githubRepos/natural-experiments/workingPapers/santoni-jacquart-sieweke-wp/manuscript/wp.out
 INPUT /home/simone/githubRepos/natural-experiments/workingPapers/santoni-jacquart-sieweke-wp/manuscript/wp.out

@@ -25,7 +25,7 @@
 \usepackage{adjustbox}   % scaling
 \usepackage[T1]{fontenc} % text
 \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
-\usepackage{xcolor}  % Coloured text etc.% 
+\usepackage{xcolor}      % coloured text etc.% 
 
 %% --------- Standardize command font styles and environments ----------------
 \newcommand{\doccmd}[1]{\texttt{\textbackslash#1}}% adds backslash
@@ -68,6 +68,7 @@
 \tikzset{filled/.style={fill=circle area, draw=circle edge, thick},
   outline/.style={draw=circle edge, thick}}
 \usepackage{tikz-network}
+\usepackage{sparklines}
 
 %% --------------------------------- Fonts -----------------------------------
 \usepackage{amsmath}             % extended mathematics
@@ -228,12 +229,12 @@
 
 \end{refsection}
 
-\begin{refsection}[references/sample_of_studies.bib]
-
 \section{Appendix B --- Sample of Studies}
 \label{sec:sample_of_studies}
 
-\setcounter{table}{0}
+\begin{refsection}[references/sample_of_studies.bib]
+
+  \setcounter{table}{0}
 \renewcommand{\thetable}{B\arabic{table}}
 \renewcommand{\thefigure}{B\arabic{figure}}
 
@@ -244,6 +245,24 @@
 \printbibliography[heading=none]
 
 \end{refsection}
+
+\section{Appendix C --- Natural Language Processing}
+\label{sec:nlp}
+
+\begin{refsection}[references/nlp_biblio.bib]
+
+\setcounter{table}{0}
+\renewcommand{\thetable}{c\arabic{table}}
+\renewcommand{\thefigure}{C\arabic{figure}}
+
+\input{sections/app:c.tex}
+
+\subsection{References}
+
+\printbibliography[heading=none]
+
+\end{refsection}
+
 
 % ----------------------------- Closing ------------------------------------
 \end{document}

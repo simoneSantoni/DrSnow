@@ -84,6 +84,7 @@
       <file>references/appendix_biblio.bib</file>
       <file>references/search_biblio.bib</file>
       <file>references/sample_of_studies.bib</file>
+      <file>references/nlp_biblio.bib</file>
     </requires>
   </external>
 </requests>
