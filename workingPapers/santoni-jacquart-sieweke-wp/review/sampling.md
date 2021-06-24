@@ -16,7 +16,6 @@ We consider a set of 17 journals:
 - Academy of Management Journal
 - Administrative Science Quarterly
 - Entrepreneurship Theory & Practice
-- Industrial and Corporate Change
 - Journal of Business Ethics
 - Journal of Business Venturing
 - Journal of Management

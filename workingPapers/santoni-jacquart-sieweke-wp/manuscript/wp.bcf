@@ -2244,7 +2244,7 @@
   </bcf:section>
   <!-- SECTION 3 -->
   <bcf:bibdata section="3">
-    <bcf:datasource type="file" datatype="bibtex">references/sample_of_studies.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">references/sampled_studies.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="3">
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
