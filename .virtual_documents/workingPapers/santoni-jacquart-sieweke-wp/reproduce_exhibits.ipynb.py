@@ -19,7 +19,7 @@ for key in data.keys():
     if key < 2021:
         plt.scatter(key, data[key], color='k')
     else:
-        plt.scatter(key, data[key], facecolor='w', edgecolor='k')
+        plt.scatter(key, data[key], facecolor='grey', edgecolor='grey')
 # labels
 ax.set_xlabel('Publication Year')
 ax.set_ylabel('Count of articles')

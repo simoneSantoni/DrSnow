@@ -34,11 +34,13 @@ def clean_bib(in_f, out_f, common_words):
                 pass
             elif "mendeley-group" in line:
                 pass
-            elif "month = " in line:
+            elif "month " in line:
                 pass
-            elif "abstract" in line:
+            elif "abstract " in line:
                 pass
             elif "issn = " in line:
+                pass
+            elif "isbn = " in line:
                 pass
             elif "doi = " in line:
                 pass
@@ -50,18 +52,25 @@ def clean_bib(in_f, out_f, common_words):
                 pass
             else:
                 refs.append(line)
-    # cleaning
+    # apply correct BiBLaTeX item type
     for i, item in enumerate(refs):
-        # apply correct BiBLaTeX item type
         if "@misc" in item:
             refs[i] = item.replace("@misc", "@article")
-        elif "booktitle" in item:
+        else:
+            pass
+    # apply correct BiBLaTeX item type
+    for i, item in enumerate(refs):
+        if "booktitle" in item:
             refs[i] = item.replace("booktitle", "journal")
-        # item labels are all lower case
-        elif "@article" in item:
+        else:
+            pass
+    # item labels are all lower case
+    for i, item in enumerate(refs):
+        if "@article" in item:
             refs[i] = item.lower()
-        # item titles have 'title' case
-        elif "title = " in item:
+    # item titles have 'title' case
+    for i, item in enumerate(refs):
+        if "title = " in item:
             refs[i] = item.title()
             for word in common_words:
                 refs[i] = refs[i].replace(word, word.lower())

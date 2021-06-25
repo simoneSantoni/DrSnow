@@ -4,7 +4,7 @@ from companionCode.handleBibs import clean_bib
 # file with BibLaTeX items to source
 in_f = 'review/sampled_studies.bib'
 # destnation file
-out_f = 'manuscript/references/sampled_studie.bib'
+out_f = 'manuscript/references/sampled_studies.bib'
 # common words
 common_words = [' A ', ' An ', ' And ', ' Of ', ' The ', ' In ', 
                 ' On ', ' From ', ' Over ', ' To ',  ' That ',
