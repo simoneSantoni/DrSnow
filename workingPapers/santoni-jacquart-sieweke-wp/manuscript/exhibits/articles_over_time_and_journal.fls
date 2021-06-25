@@ -1,7 +1,0 @@
-PWD /home/simone/githubRepos/natural-experiments/workingPapers/santoni-jacquart-sieweke-wp/manuscript/exhibits
-INPUT /etc/texmf/web2c/texmf.cnf
-INPUT /usr/share/texmf/web2c/texmf.cnf
-INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
-INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/simone/githubRepos/natural-experiments/workingPapers/santoni-jacquart-sieweke-wp/manuscript/exhibits/articles_over_time_and_journal.tex
-OUTPUT /home/simone/githubRepos/natural-experiments/workingPapers/santoni-jacquart-sieweke-wp/manuscript/exhibits/articles_over_time_and_journal.log
