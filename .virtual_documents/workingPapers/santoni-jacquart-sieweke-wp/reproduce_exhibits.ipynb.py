@@ -1,81 +1,35 @@
+# utilities
+from pprint import pprint
+# standard stuff
+import pandas as pd
+# a user defined lollipop chart
+from companionCode.charts import lollipop
 # to parse BibTeX stuff
-from companionCode.handleBibs import df_from_bib 
+from companionCode.handleBibs import df_from_bib
 
 
-#TODO: export separate BibTeX files from the individual folders 
+# TODO: export separate BibTeX files from the individual folders
 
 
 # load data
-in_f = 'manuscript/references/sampled_studie.bib'
+in_f = "manuscript/references/sampled_studies.bib"
 df = df_from_bib(in_f)
 
 
-import numpy as np
-import matplotlib.pyplot as plt
-data =  df.groupby('year').size()
-fig, ax = plt.subplots(1, figsize=(6,4))
-for key in data.keys():
-    plt.plot([key, key], [-1, data[key]], color='k', marker='', lw=1)
-    if key < 2021:
-        plt.scatter(key, data[key], color='k')
-    else:
-        plt.scatter(key, data[key], facecolor='grey', edgecolor='grey')
-# labels
-ax.set_xlabel('Publication Year')
-ax.set_ylabel('Count of articles')
-# ticks
-min_x, max_x = np.min(data.keys()), np.max(data.keys())
-xticks = np.arange(min_x, max_x + 1, 1)
-xtick_labels = []
-for i in xticks:
-    if (i % 2 == 0) & (i < max_x):
-        xtick_labels.append('{}'.format(i))
-    elif i == max_x:
-        xtick_labels.append('In press')
-    else:
-        xtick_labels.append('')
-ax.set_xticks(xticks)
-ax.set_xticklabels(xtick_labels, rotation='vertical')
-# hide the right and top spines
-ax.spines['right'].set_visible(False)
-ax.spines['top'].set_visible(False)
-ax.spines['bottom'].set_visible(False)
-ax.spines['left'].set_visible(False)
-ax.yaxis.set_ticks_position('left')
-ax.xaxis.set_ticks_position('bottom')
-# save plot
-plt.savefig(out_f,
-            transparent=True,
-            bbox_inches='tight',
-            pad_inches=0)
-# show plot
-plt.show()
+lollipop(
+    df_=df, x_label="Publication year", y_label="Counts of studies", grouping_var="year"
+)
 
 
-xtick_labels = []
-for i in xticks:
-    if i % 2 == 0:
-        xtick_labels.append(str(i))
-    else:
-        xtick_labels.append('')
+df.groupby('year').size()
 
 
-xtick_labels
+tw = pd.crosstab(df['journal'], df['year'])
+pprint(tw)
 
 
-np.max(data.keys())
-
-
-
-
-
-df.head()
-
-
-df.info()
-
-
-df.loc[df['journal'].isnull()]
+out_f = 'manuscript/exhibits/articles_over_time_and_journals.txt'
+tw.to_latex(out_f)
 
 
 

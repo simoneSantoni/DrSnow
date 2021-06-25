@@ -26,8 +26,9 @@ def clean_bib(in_f, out_f, common_words):
         out_f ([type]): [description]
         common_words ([type]): [description]
     """
-    # read data
+    # empty container
     refs = []
+    # read data
     with open(in_f, "r") as pipe:
         for line in pipe.readlines():
             if "file =" in line:
@@ -80,7 +81,47 @@ def clean_bib(in_f, out_f, common_words):
                 refs[i] = refs[i].replace(old, new)
         else:
             pass
+    # &
+    for i, item in enumerate(refs):
+        refs[i] = refs[i].replace('&', '\&')
     # write file
     with open(out_f, "w") as pipe:
         for item in refs:
             pipe.write(item)
+
+
+# %%
+def normalize_bib(in_f, out_f, common_words):
+    # empty container
+    refs = []
+    # read data
+    with open(in_f, "r") as pipe:
+        for line in pipe.readlines():
+                refs.append(line)
+    # item labels are all lower case
+    for i, item in enumerate(refs):
+        if "@article" in item:
+            refs[i] = item.lower()
+    for i, item in enumerate(refs):
+        if "@article" in item:
+            refs[i] = item.lower()
+    # escape '&'
+    for i, item in enumerate(refs):
+        refs[i] = refs[i].replace('&', '\&')
+    # item titles have 'title' case
+    for i, item in enumerate(refs):
+        if "title = " in item:
+            refs[i] = item.title()
+            for word in common_words:
+                refs[i] = refs[i].replace(word, word.lower())
+            for word in common_words:
+                old = ":{}".format(word.lower())
+                new = ":{}".format(word)
+                refs[i] = refs[i].replace(old, new)
+        else:
+            pass
+    # write file
+    with open(out_f, "w") as pipe:
+        for item in refs:
+            pipe.write(item)
+

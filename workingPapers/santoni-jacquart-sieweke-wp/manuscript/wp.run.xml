@@ -41,7 +41,7 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
       <file>wp.bcf</file>
@@ -61,7 +61,7 @@
       <file>english.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
+  <external package="biblatex" priority="5" active="0">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
@@ -82,6 +82,9 @@
     <requires type="editable">
       <file>references/main_biblio.bib</file>
       <file>references/appendix_biblio.bib</file>
+      <file>references/search_biblio.bib</file>
+      <file>references/sampled_studies.bib</file>
+      <file>references/nlp_biblio.bib</file>
     </requires>
   </external>
 </requests>

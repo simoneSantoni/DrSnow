@@ -3,18 +3,28 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # %% lollipop chart
-def lollipop(data_, out_f, x_label, y_label, grouping_var):
+def lollipop(df_, x_label, y_label, grouping_var):
+    """[summary]
+
+    Args:
+        data_ ([type]): [description]
+        out_f ([type]): [description]
+        x_label ([type]): [description]
+        y_label ([type]): [description]
+        grouping_var ([type]): [description]
+    """    
     # aggregate data
-    data =  df.groupby(grouping_var).size()
+    data =  df_.groupby(grouping_var).size()
     # create figure
     fig, ax = plt.subplots(1, figsize=(6,4))
     # iterate over groups
     for key in data.keys():
-        plt.plot([key, key], [-1, data[key]], color='k', marker='', lw=1)
         if key < 2021:
+            plt.plot([key, key], [-1, data[key]], color='k', marker='', lw=1)
             plt.scatter(key, data[key], color='k')
         else:
-            plt.scatter(key, data[key], facecolor='w', edgecolor='k')
+            plt.plot([key, key], [-1, data[key]], color='grey', marker='', lw=1)
+            plt.scatter(key, data[key], facecolor='grey', edgecolor='grey')
     # labels
     ax.set_xlabel(x_label)
     ax.set_ylabel(y_label)
@@ -38,10 +48,5 @@ def lollipop(data_, out_f, x_label, y_label, grouping_var):
     ax.spines['left'].set_visible(False)
     ax.yaxis.set_ticks_position('left')
     ax.xaxis.set_ticks_position('bottom')
-    # save plot
-    plt.savefig(out_f,
-                transparent=True,
-                bbox_inches='tight',
-                pad_inches=0)
     # show plot
     plt.show()
