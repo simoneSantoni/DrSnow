@@ -42,9 +42,9 @@ def search_k(min_, max_, delta_, corpus_):
         # train model
         lda_fit.train(0)
         for i in range(0, 1000, 20):
-            print('Iteration: {:04}, LL per word: {:.4}'.format(i, mdl.ll_per_word))
+            print("Iteration: {:04}, LL per word: {:.4}".format(i, lda_fit.ll_per_word))
             lda_fit.train(20)
-        print('Iteration: {:04}, LL per word: {:.4}'.format(1000, mdl.ll_per_word))
+        print("Iteration: {:04}, LL per word: {:.4}".format(1000, lda_fit.ll_per_word))
         # get coherences scores
         score = tp.coherence.Coherence(lda_fit, coherence="c_v")
         cs[k] = score.get_score()

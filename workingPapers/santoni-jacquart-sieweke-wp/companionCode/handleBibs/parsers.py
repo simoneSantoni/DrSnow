@@ -34,14 +34,17 @@ def df_from_bib(in_f):
     for i, key in enumerate(keys):
         to_append = pd.DataFrame.from_dict(data.entries_dict[keys[i]], orient="index")
         df = pd.concat([df, to_append.T])
-    # columns to filter out
-    cols = ["ID", "journal", "year", "author", "title"]
-    df = df.loc[:, cols]
+    # columns to filter in
+    cols = ["ID", "journal", "year", "author", "title","abstract"]
+    if "abstract" in df.columns:
+        df = df.loc[:, cols]
+    else:
+        df = df.loc[:, cols[:-1]]
     # rename column
     df.rename({"ID": "key"}, axis=1, inplace=True)
     # year as number
     df.loc[:, "year"] = df["year"].astype(int)
     # annotate forthcoming articles
-    df.loc[df["year"] == 9999, "year"] = np.max(df.loc[df['year'] < 9999, 'year']) + 1
+    df.loc[df["year"] == 9999, "year"] = np.max(df.loc[df["year"] < 9999, "year"]) + 1
     # return df
     return df
