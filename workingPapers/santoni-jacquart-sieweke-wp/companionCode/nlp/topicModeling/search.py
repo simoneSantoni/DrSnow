@@ -40,22 +40,11 @@ def search_k(min_, max_, delta_, corpus_):
     for k in ks:
         lda_fit = tp.LDAModel(corpus=corpus_, k=k, rm_top=20, seed=000)
         # train model
-        for i in range(0, 100, 10):
-            lda_fit.train(10)
-            # print(
-            #    """
-            #      ==================================
-            #      Retained number of topics: {}
-            #      ----------------------------------
-            #      Iteration:                 {:0.2f}
-            #
-            #      Log-likelihood:            {:0.2f}
-            #      ----------------------------------
-            #
-            #      """.format(
-            #        k, i, lda_fit.ll_per_word
-            #    )
-            # )
+        lda_fit.train(0)
+        for i in range(0, 1000, 20):
+            print('Iteration: {:04}, LL per word: {:.4}'.format(i, mdl.ll_per_word))
+            lda_fit.train(20)
+        print('Iteration: {:04}, LL per word: {:.4}'.format(1000, mdl.ll_per_word))
         # get coherences scores
         score = tp.coherence.Coherence(lda_fit, coherence="c_v")
         cs[k] = score.get_score()
