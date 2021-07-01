@@ -15,11 +15,9 @@ Status   : on going
 """
 
 # %% import libraries
-import numpy as np
 import tomotopy as tp
-import pyLDAvis
 
 # %% function to estimate and inspect a topic modeling
-def tm_estimatation(corpus_, k_):
+def tm_estimation(corpus_, k_):
     # estimatation
     return tp.LDAModel(corpus=corpus_, k=k_, rm_top=20, seed=000)
