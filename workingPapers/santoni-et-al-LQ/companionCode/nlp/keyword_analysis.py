@@ -1,4 +1,4 @@
-.sort()# %%
+# %%
 # load libraries
 import nltk
 import numpy as np
