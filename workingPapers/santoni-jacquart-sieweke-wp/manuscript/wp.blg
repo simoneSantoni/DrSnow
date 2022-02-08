@@ -1,60 +1,54 @@
-[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
-[1] Config.pm:307> INFO - Logfile is 'wp.blg'
-[83] biber:322> INFO - === Sat Jun 26, 2021, 00:20:39
-[97] Biber.pm:415> INFO - Reading 'wp.bcf'
-[167] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[168] Biber.pm:943> INFO - Found 12 citekeys in bib section 1
-[168] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[168] Biber.pm:943> INFO - Found 20 citekeys in bib section 2
-[168] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[168] Biber.pm:940> INFO - Using all citekeys in bib section 3
-[168] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[168] Biber.pm:943> INFO - Found 0 citekeys in bib section 4
-[169] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[211] Biber.pm:4256> INFO - Processing section 1
-[212] Utils.pm:75> INFO - Globbing data source 'references/main_biblio.bib'
-[212] Utils.pm:91> INFO - Globbed data source 'references/main_biblio.bib' to references/main_biblio.bib
-[222] Biber.pm:4455> INFO - Looking for bibtex format file 'references/main_biblio.bib' for section 1
-[224] bibtex.pm:1653> INFO - LaTeX decoding ...
-[251] bibtex.pm:1471> INFO - Found BibTeX data source 'references/main_biblio.bib'
-[289] Utils.pm:293> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Belloc2016' and 'belloc2016' in file 'references/main_biblio.bib'
-[289] Utils.pm:293> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Starr1997' and 'starr1997' in file 'references/main_biblio.bib'
-[289] Utils.pm:293> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Dunning2012' and 'dunning2012' in file 'references/main_biblio.bib'
-[289] Utils.pm:293> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Azoulay2010' and 'azoulay2010' in file 'references/main_biblio.bib'
-[289] Utils.pm:293> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Splawa1990' and 'splawa1990' in file 'references/main_biblio.bib'
-[302] Utils.pm:293> WARN - I didn't find a database entry for 'Belloc2016' (section 1)
-[302] Utils.pm:293> WARN - I didn't find a database entry for 'Starr1997' (section 1)
-[302] Utils.pm:293> WARN - I didn't find a database entry for 'Dunning2012' (section 1)
-[302] Utils.pm:293> WARN - I didn't find a database entry for 'Azoulay2010' (section 1)
-[302] Utils.pm:293> WARN - I didn't find a database entry for 'Splawa1990' (section 1)
-[321] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[321] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[321] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[321] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[330] Biber.pm:4256> INFO - Processing section 2
-[330] Utils.pm:75> INFO - Globbing data source 'references/search_biblio.bib'
-[330] Utils.pm:91> INFO - Globbed data source 'references/search_biblio.bib' to references/search_biblio.bib
-[330] Biber.pm:4455> INFO - Looking for bibtex format file 'references/search_biblio.bib' for section 2
-[333] bibtex.pm:1653> INFO - LaTeX decoding ...
-[381] bibtex.pm:1471> INFO - Found BibTeX data source 'references/search_biblio.bib'
-[445] Utils.pm:293> WARN - year field 'In press' in entry 'xie0000' is not an integer - this will probably not sort properly.
-[535] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[535] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[535] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[535] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[558] Biber.pm:4256> INFO - Processing section 3
-[558] Utils.pm:75> INFO - Globbing data source 'references/sampled_studies.bib'
-[558] Utils.pm:91> INFO - Globbed data source 'references/sampled_studies.bib' to references/sampled_studies.bib
-[559] Biber.pm:4455> INFO - Looking for bibtex format file 'references/sampled_studies.bib' for section 3
-[565] bibtex.pm:1653> INFO - LaTeX decoding ...
-[850] bibtex.pm:1471> INFO - Found BibTeX data source 'references/sampled_studies.bib'
-[860] Utils.pm:293> WARN - Duplicate entry key: 'wang2016' in file 'references/sampled_studies.bib', skipping ...
-[861] Utils.pm:293> WARN - Duplicate entry key: 'shi2018' in file 'references/sampled_studies.bib', skipping ...
-[864] Utils.pm:293> WARN - Duplicate entry key: 'jia2019' in file 'references/sampled_studies.bib', skipping ...
-[2545] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2545] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2545] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[2545] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[2830] bbl.pm:652> INFO - Writing 'wp.bbl' with encoding 'UTF-8'
-[3012] bbl.pm:755> INFO - Output to wp.bbl
-[3012] Biber.pm:128> INFO - WARNINGS: 14
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'wp.blg'
+[49] biber-darwin:340> INFO - === Sat Feb  5, 2022, 21:05:27
+[60] Biber.pm:415> INFO - Reading 'wp.bcf'
+[130] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[130] Biber.pm:952> INFO - Found 12 citekeys in bib section 1
+[130] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[130] Biber.pm:952> INFO - Found 20 citekeys in bib section 2
+[130] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[130] Biber.pm:949> INFO - Using all citekeys in bib section 3
+[131] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[131] Biber.pm:952> INFO - Found 0 citekeys in bib section 4
+[131] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[160] Biber.pm:4340> INFO - Processing section 1
+[168] Biber.pm:4531> INFO - Looking for bibtex format file 'references/main_biblio.bib' for section 1
+[170] bibtex.pm:1689> INFO - LaTeX decoding ...
+[189] bibtex.pm:1494> INFO - Found BibTeX data source 'references/main_biblio.bib'
+[219] Utils.pm:395> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Belloc2016' and 'belloc2016' in file 'references/main_biblio.bib'
+[220] Utils.pm:395> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Starr1997' and 'starr1997' in file 'references/main_biblio.bib'
+[220] Utils.pm:395> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Dunning2012' and 'dunning2012' in file 'references/main_biblio.bib'
+[220] Utils.pm:395> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Azoulay2010' and 'azoulay2010' in file 'references/main_biblio.bib'
+[220] Utils.pm:395> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Splawa1990' and 'splawa1990' in file 'references/main_biblio.bib'
+[226] Utils.pm:395> WARN - I didn't find a database entry for 'Belloc2016' (section 1)
+[226] Utils.pm:395> WARN - I didn't find a database entry for 'Starr1997' (section 1)
+[226] Utils.pm:395> WARN - I didn't find a database entry for 'Dunning2012' (section 1)
+[226] Utils.pm:395> WARN - I didn't find a database entry for 'Azoulay2010' (section 1)
+[226] Utils.pm:395> WARN - I didn't find a database entry for 'Splawa1990' (section 1)
+[238] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[238] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[238] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[238] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[244] Biber.pm:4340> INFO - Processing section 2
+[244] Biber.pm:4531> INFO - Looking for bibtex format file 'references/search_biblio.bib' for section 2
+[247] bibtex.pm:1689> INFO - LaTeX decoding ...
+[268] bibtex.pm:1494> INFO - Found BibTeX data source 'references/search_biblio.bib'
+[303] Utils.pm:395> WARN - legacy year field 'In press' in entry 'xie0000' is not an integer - this will probably not sort properly.
+[355] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[355] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[355] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[355] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[371] Biber.pm:4340> INFO - Processing section 3
+[371] Biber.pm:4531> INFO - Looking for bibtex format file 'references/sampled_studies.bib' for section 3
+[377] bibtex.pm:1689> INFO - LaTeX decoding ...
+[561] bibtex.pm:1494> INFO - Found BibTeX data source 'references/sampled_studies.bib'
+[569] Utils.pm:395> WARN - Duplicate entry key: 'wang2016' in file 'references/sampled_studies.bib', skipping ...
+[570] Utils.pm:395> WARN - Duplicate entry key: 'shi2018' in file 'references/sampled_studies.bib', skipping ...
+[572] Utils.pm:395> WARN - Duplicate entry key: 'jia2019' in file 'references/sampled_studies.bib', skipping ...
+[1528] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1528] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1528] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[1528] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[1730] bbl.pm:654> INFO - Writing 'wp.bbl' with encoding 'UTF-8'
+[1858] bbl.pm:757> INFO - Output to wp.bbl
+[1858] Biber.pm:128> INFO - WARNINGS: 14

@@ -1,0 +1,185 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{nty/global//global/global}
+    \entry{cai2019159}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bf602901e0f57363742a43cdffb8ab42}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f55ffac236e1731bab8d48ada542218e}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6277742a5e8378ae4ff86b6f72b14ced}
+      \strng{fullhash}{6277742a5e8378ae4ff86b6f72b14ced}
+      \strng{bibnamehash}{6277742a5e8378ae4ff86b6f72b14ced}
+      \strng{authorbibnamehash}{6277742a5e8378ae4ff86b6f72b14ced}
+      \strng{authornamehash}{6277742a5e8378ae4ff86b6f72b14ced}
+      \strng{authorfullhash}{6277742a5e8378ae4ff86b6f72b14ced}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Business Ethics}
+      \field{number}{1}
+      \field{title}{Do Religious Norms Influence Corporate Debt Financing?}
+      \field{volume}{157}
+      \field{year}{2019}
+      \field{pages}{159\bibrangedash 182}
+      \range{pages}{24}
+    \endentry
+    \entry{gupta2020802}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=5641bea586a2e5ad69778bf313f2d845}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={V.K.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7559aa306fad856918ca3035a27efec}{%
+           family={Mortal},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7c110b3266c6c70fb48535bae75ae35}{%
+           family={Chakrabarty},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1cf3b5875e193af09fb48f09d5f8c55}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2fc3e37c1982170dfdae762c2119e5d}{%
+           family={Turban},
+           familyi={T\bibinitperiod},
+           given={D.B.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{b30a5bb50ffb5275cd2667fb3d9d4b2c}
+      \strng{fullhash}{cba63afa39fb88b40985364ef7b3d70b}
+      \strng{bibnamehash}{b30a5bb50ffb5275cd2667fb3d9d4b2c}
+      \strng{authorbibnamehash}{b30a5bb50ffb5275cd2667fb3d9d4b2c}
+      \strng{authornamehash}{b30a5bb50ffb5275cd2667fb3d9d4b2c}
+      \strng{authorfullhash}{cba63afa39fb88b40985364ef7b3d70b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Academy of Management Journal}
+      \field{number}{3}
+      \field{title}{Cfo Gender and Financial Statement Irregularities}
+      \field{volume}{63}
+      \field{year}{2020}
+      \field{pages}{802\bibrangedash 831}
+      \range{pages}{30}
+    \endentry
+    \entry{seebeck2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1618385e584a89dd76be8f6ab153661b}{%
+           family={Seebeck},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=232e60f6b9ba08c20b8d719aa3005869}{%
+           family={Vetter},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{5d0a8c6a0624b5864563cf386ae5bd27}
+      \strng{fullhash}{5d0a8c6a0624b5864563cf386ae5bd27}
+      \strng{bibnamehash}{5d0a8c6a0624b5864563cf386ae5bd27}
+      \strng{authorbibnamehash}{5d0a8c6a0624b5864563cf386ae5bd27}
+      \strng{authornamehash}{5d0a8c6a0624b5864563cf386ae5bd27}
+      \strng{authorfullhash}{5d0a8c6a0624b5864563cf386ae5bd27}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Business Ethics}
+      \field{title}{Not Just a Gender Numbers Game: How Board Gender Diversity Affects Corporate Risk Disclosure}
+      \field{year}{2021}
+    \endentry
+    \entry{vergne20121027}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=713b2fee948f11062618173ddf53fae0}{%
+           family={Vergne},
+           familyi={V\bibinitperiod},
+           given={J.-P.},
+           giveni={J\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{713b2fee948f11062618173ddf53fae0}
+      \strng{fullhash}{713b2fee948f11062618173ddf53fae0}
+      \strng{bibnamehash}{713b2fee948f11062618173ddf53fae0}
+      \strng{authorbibnamehash}{713b2fee948f11062618173ddf53fae0}
+      \strng{authornamehash}{713b2fee948f11062618173ddf53fae0}
+      \strng{authorfullhash}{713b2fee948f11062618173ddf53fae0}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Academy of Management Journal}
+      \field{number}{5}
+      \field{title}{Stigmatized Categories and Public Disapproval of Organizations: A Mixed-Methods Study of the Global Arms Industry, 1996-2007}
+      \field{volume}{55}
+      \field{year}{2012}
+      \field{pages}{1027\bibrangedash 1052}
+      \range{pages}{26}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

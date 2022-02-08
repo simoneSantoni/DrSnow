@@ -1,0 +1,25 @@
+\begin{tikzpicture}
+    \begin{axis}[
+      width=12cm, height=4cm,
+      mark size=2pt,
+      %ylabel={Counts of studies},
+      ytick={0,1,2,3,4,5,6,7},
+      yticklabel style={rotate=0},
+      yticklabels={'Academy of Management Journal',
+      'Journal of Business Ethics',
+      'Management Science',
+      'Organization Science',
+      'Organization Studies',
+      'Strategic Entrepreneurship Journal',
+      'Strategic Management Journal',
+      'Strategic Organization'},
+      axis y line*=left,
+      axis x line*=bottom,
+      axis line style={draw=none},
+    ]
+    \addplot + [ycomb] [
+        black, mark=*, mark options={black}
+    ] table [x=count, y=journal]{exhibits/articles_over_time_1.dat};
+  \end{axis}
+\end{tikzpicture}            
+
