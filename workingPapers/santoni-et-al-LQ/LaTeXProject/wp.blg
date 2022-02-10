@@ -1,17 +1,17 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'wp.blg'
-[49] biber-darwin:340> INFO - === Mon Feb  7, 2022, 11:11:56
-[60] Biber.pm:415> INFO - Reading 'wp.bcf'
-[125] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[125] Biber.pm:952> INFO - Found 4 citekeys in bib section 1
-[125] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[141] Biber.pm:4340> INFO - Processing section 1
-[149] Biber.pm:4531> INFO - Looking for bibtex format file 'references/main_biblio.bib' for section 1
-[150] bibtex.pm:1689> INFO - LaTeX decoding ...
-[156] bibtex.pm:1494> INFO - Found BibTeX data source 'references/main_biblio.bib'
-[195] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[195] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[195] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[195] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[199] bbl.pm:654> INFO - Writing 'wp.bbl' with encoding 'UTF-8'
-[201] bbl.pm:757> INFO - Output to wp.bbl
+[53] biber-darwin:340> INFO - === Thu Feb 10, 2022, 21:42:28
+[64] Biber.pm:415> INFO - Reading 'wp.bcf'
+[131] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[131] Biber.pm:952> INFO - Found 29 citekeys in bib section 1
+[131] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[148] Biber.pm:4340> INFO - Processing section 1
+[156] Biber.pm:4531> INFO - Looking for bibtex format file 'references/main_biblio.bib' for section 1
+[158] bibtex.pm:1689> INFO - LaTeX decoding ...
+[198] bibtex.pm:1494> INFO - Found BibTeX data source 'references/main_biblio.bib'
+[331] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[331] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[331] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[331] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[353] bbl.pm:654> INFO - Writing 'wp.bbl' with encoding 'UTF-8'
+[366] bbl.pm:757> INFO - Output to wp.bbl

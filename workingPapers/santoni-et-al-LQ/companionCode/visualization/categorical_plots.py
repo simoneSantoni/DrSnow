@@ -50,7 +50,14 @@ class BarChart:
         self.counts = counts["count"]
 
     def plot(
-        self, use_tex, axis_label, color_="black", horizontal_=False, fig_size=(6, 4)
+        self,
+        use_tex,
+        axis_label,
+        tick_min,
+        tick_step,
+        color_="black",
+        horizontal_=False,
+        fig_size=(6, 4),
     ):
         """[summary]
 
@@ -60,7 +67,7 @@ class BarChart:
             color_ (str, optional): [description]. Defaults to "black".
             horizontal_ (bool, optional): [description]. Defaults to False.
             fig_size (tuple, optional): [description]. Defaults to (6, 4).
-        """        
+        """
         # backend
         if use_tex == True:
             matplotlib.use("pgf")
@@ -73,25 +80,31 @@ class BarChart:
         # --+ plot data
         if horizontal_ == False:
             # plot
-            plt.bar(x=self.pos, height=self.counts, color=color_)
+            plt.bar(x=self.pos, height=self.counts, color=color_, width=0.5)
             # label
             ax.set_ylabel(axis_label)
             # ticks and tick labels
             ax.set_xticks(self.pos)
             ax.set_xticklabels(self.labels)
+            ax.set_yticks(
+                np.arange(tick_min, np.max(self.counts), tick_step)
+            )
             # grid
             ax.grid(axis="y", color="white", linestyle="--")
         else:
             # plot
-            plt.barh(y=self.pos, width=self.counts, color=color_)
+            plt.barh(y=self.pos, width=self.counts, color=color_, height=0.5)
             # label
             ax.set_xlabel(axis_label)
             # ticks and tick labels
+            ax.set_xticks(
+                np.arange(tick_min, np.max(self.counts), tick_step)
+            )
             ax.set_yticks(self.pos)
             ax.set_yticklabels(self.labels)
             # grid
-            ax.grid(axis="x", color="white", linestyle="--")
-        # --+ axis options 
+            ax.grid(axis="x", color="white")
+        # --+ axis options
         # ----+ hide the right and top spines
         ax.spines["right"].set_visible(False)
         ax.spines["top"].set_visible(False)
@@ -99,6 +112,14 @@ class BarChart:
         ax.spines["left"].set_visible(False)
         ax.yaxis.set_ticks_position("left")
         ax.xaxis.set_ticks_position("bottom")
+        # --+ tick label assignements
+        plt.setp(
+            ax.get_yticklabels(),
+            rotation=0,
+            ha="right",
+            va="center",
+            rotation_mode="anchor",
+        )
         # save plot to file or show
         if use_tex == True:
             plt.savefig(

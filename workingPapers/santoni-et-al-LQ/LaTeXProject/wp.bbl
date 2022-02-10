@@ -19,6 +19,88 @@
 
 \refsection{1}
   \datalist[entry]{nty/global//global/global}
+    \entry{byun20191368}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=02daca5442bace2d1c31e5fe2133dfb8}{%
+           family={Byun},
+           familyi={B\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fd8e62cb3686aadaed714a6b382ef45}{%
+           family={Raffiee},
+           familyi={R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77dd932230df52c328a420f4ef783a6f}{%
+           family={Ganco},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4a643f936f7b6048fdc2453e6bb42eb6}
+      \strng{fullhash}{4a643f936f7b6048fdc2453e6bb42eb6}
+      \strng{bibnamehash}{4a643f936f7b6048fdc2453e6bb42eb6}
+      \strng{authorbibnamehash}{4a643f936f7b6048fdc2453e6bb42eb6}
+      \strng{authornamehash}{4a643f936f7b6048fdc2453e6bb42eb6}
+      \strng{authorfullhash}{4a643f936f7b6048fdc2453e6bb42eb6}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Organization Science}
+      \field{number}{6}
+      \field{title}{Discontinuities in the Value of Relational Capital: The Effects on Employee Entrepreneurship and Mobility}
+      \field{volume}{30}
+      \field{year}{2019}
+      \field{pages}{1368\bibrangedash 1393}
+      \range{pages}{26}
+    \endentry
+    \entry{cabral202128}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b63fcf9ec0144b8ed57860d1dc0b14ec}{%
+           family={Cabral},
+           familyi={C\bibinitperiod},
+           given={J.J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1bdf234e58af82ed784aaa1b86231935}{%
+           family={Francis},
+           familyi={F\bibinitperiod},
+           given={B.B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a30548d717c024e606412a9238982328}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={M.V.S.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{71bb72769d6000f3b8430f037d03335e}
+      \strng{fullhash}{71bb72769d6000f3b8430f037d03335e}
+      \strng{bibnamehash}{71bb72769d6000f3b8430f037d03335e}
+      \strng{authorbibnamehash}{71bb72769d6000f3b8430f037d03335e}
+      \strng{authornamehash}{71bb72769d6000f3b8430f037d03335e}
+      \strng{authorfullhash}{71bb72769d6000f3b8430f037d03335e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Entrepreneurship Journal}
+      \field{number}{1}
+      \field{title}{The Impact of Managerial Job Security on Corporate Entrepreneurship: Evidence from Corporate Venture Capital Programs}
+      \field{volume}{15}
+      \field{year}{2021}
+      \field{pages}{28\bibrangedash 48}
+      \range{pages}{21}
+    \endentry
     \entry{cai2019159}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=bf602901e0f57363742a43cdffb8ab42}{%
@@ -33,9 +115,6 @@
            given={G.},
            giveni={G\bibinitperiod},
            givenun=0}}%
-      }
-      \list{language}{1}{%
-        {English}%
       }
       \strng{namehash}{6277742a5e8378ae4ff86b6f72b14ced}
       \strng{fullhash}{6277742a5e8378ae4ff86b6f72b14ced}
@@ -56,6 +135,291 @@
       \field{year}{2019}
       \field{pages}{159\bibrangedash 182}
       \range{pages}{24}
+    \endentry
+    \entry{chatterji2016447}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cb35f99ff7d33f4a639f511d76844d55}{%
+           family={Chatterji},
+           familyi={C\bibinitperiod},
+           given={A.K.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e041c855ab7a3f48669cd273c7a54723}{%
+           family={Fabrizio},
+           familyi={F\bibinitperiod},
+           given={K.R.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{0e7de78f0c564b82ef63d3f82f75f41e}
+      \strng{fullhash}{0e7de78f0c564b82ef63d3f82f75f41e}
+      \strng{bibnamehash}{0e7de78f0c564b82ef63d3f82f75f41e}
+      \strng{authorbibnamehash}{0e7de78f0c564b82ef63d3f82f75f41e}
+      \strng{authornamehash}{0e7de78f0c564b82ef63d3f82f75f41e}
+      \strng{authorfullhash}{0e7de78f0c564b82ef63d3f82f75f41e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Management Journal}
+      \field{number}{3}
+      \field{title}{Does the Market for Ideas Influence the Rate and Direction of Innovative Activity? Evidence from the Medical Device Industry}
+      \field{volume}{37}
+      \field{year}{2016}
+      \field{pages}{447\bibrangedash 465}
+      \range{pages}{19}
+    \endentry
+    \entry{chatterji2010917}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cb35f99ff7d33f4a639f511d76844d55}{%
+           family={Chatterji},
+           familyi={C\bibinitperiod},
+           given={A.K.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6bb4a13a464bde7df87e27b0cc59d79}{%
+           family={Toffel},
+           familyi={T\bibinitperiod},
+           given={M.W.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1d72d64849abf8c70be0e9c48c17cb98}
+      \strng{fullhash}{1d72d64849abf8c70be0e9c48c17cb98}
+      \strng{bibnamehash}{1d72d64849abf8c70be0e9c48c17cb98}
+      \strng{authorbibnamehash}{1d72d64849abf8c70be0e9c48c17cb98}
+      \strng{authornamehash}{1d72d64849abf8c70be0e9c48c17cb98}
+      \strng{authorfullhash}{1d72d64849abf8c70be0e9c48c17cb98}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Management Journal}
+      \field{number}{9}
+      \field{title}{How Firms Respond to Being Rated}
+      \field{volume}{31}
+      \field{year}{2010}
+      \field{pages}{917\bibrangedash 945}
+      \range{pages}{29}
+    \endentry
+    \entry{chen20181239}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=83bb4b7193ee6ea945a3ed04d3342907}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={J.S.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=51f11dabb9b9a4e00813471f83c453ef}{%
+           family={Garg},
+           familyi={G\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ea244d268067dd82f6596c3e98b2952e}
+      \strng{fullhash}{ea244d268067dd82f6596c3e98b2952e}
+      \strng{bibnamehash}{ea244d268067dd82f6596c3e98b2952e}
+      \strng{authorbibnamehash}{ea244d268067dd82f6596c3e98b2952e}
+      \strng{authornamehash}{ea244d268067dd82f6596c3e98b2952e}
+      \strng{authorfullhash}{ea244d268067dd82f6596c3e98b2952e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Management Journal}
+      \field{number}{5}
+      \field{title}{Dancing with the Stars: Benefits of a Star Employee’S Temporary Absence for Organizational Performance}
+      \field{volume}{39}
+      \field{year}{2018}
+      \field{pages}{1239\bibrangedash 1267}
+      \range{pages}{29}
+    \endentry
+    \entry{choudhury2019203}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e96d349c5b727a6ab9eae2cccb2819d2}{%
+           family={Choudhury},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=10831d5d5eed2908df148a392dcb643f}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={D.Y.},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{ae99bf3f6f350c4e8f4ce5e57e89cfcc}
+      \strng{fullhash}{ae99bf3f6f350c4e8f4ce5e57e89cfcc}
+      \strng{bibnamehash}{ae99bf3f6f350c4e8f4ce5e57e89cfcc}
+      \strng{authorbibnamehash}{ae99bf3f6f350c4e8f4ce5e57e89cfcc}
+      \strng{authornamehash}{ae99bf3f6f350c4e8f4ce5e57e89cfcc}
+      \strng{authorfullhash}{ae99bf3f6f350c4e8f4ce5e57e89cfcc}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Management Journal}
+      \field{number}{2}
+      \field{title}{The Ethnic Migrant Inventor Effect: Codification and Recombination of Knowledge Across Borders}
+      \field{volume}{40}
+      \field{year}{2019}
+      \field{pages}{203\bibrangedash 229}
+      \range{pages}{27}
+    \endentry
+    \entry{chown2015177}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6c11a254dfdaa6913feb57708df89017}{%
+           family={Chown},
+           familyi={C\bibinitperiod},
+           given={J.D.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c490fc59530bc5b3f70740973f4b1fe}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={C.C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{76058303dd6e79abfd6f853614924bea}
+      \strng{fullhash}{76058303dd6e79abfd6f853614924bea}
+      \strng{bibnamehash}{76058303dd6e79abfd6f853614924bea}
+      \strng{authorbibnamehash}{76058303dd6e79abfd6f853614924bea}
+      \strng{authornamehash}{76058303dd6e79abfd6f853614924bea}
+      \strng{authorfullhash}{76058303dd6e79abfd6f853614924bea}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Management Journal}
+      \field{number}{2}
+      \field{title}{Geography and Power in an Organizational Forum: Evidence from the U.S. Senate Chamber}
+      \field{volume}{36}
+      \field{year}{2015}
+      \field{pages}{177\bibrangedash 196}
+      \range{pages}{20}
+    \endentry
+    \entry{corbo2016323}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c5e78542329eaba8b732f4ac3cfaa35a}{%
+           family={Corbo},
+           familyi={C\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e111fe994c124a48f58e51e77d293d61}{%
+           family={Corrado},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=236a87090d07326d4d54f674b536bd7c}{%
+           family={Ferriani},
+           familyi={F\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8824cca5d143418425a8e852311100f9}
+      \strng{fullhash}{8824cca5d143418425a8e852311100f9}
+      \strng{bibnamehash}{8824cca5d143418425a8e852311100f9}
+      \strng{authorbibnamehash}{8824cca5d143418425a8e852311100f9}
+      \strng{authornamehash}{8824cca5d143418425a8e852311100f9}
+      \strng{authorfullhash}{8824cca5d143418425a8e852311100f9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Organization Studies}
+      \field{number}{3}
+      \field{title}{A New Order of Things: Network Mechanisms of Field Evolution in the Aftermath of an Exogenous Shock}
+      \field{volume}{37}
+      \field{year}{2016}
+      \field{pages}{323\bibrangedash 348}
+      \range{pages}{26}
+    \endentry
+    \entry{drexler20142722}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=56e9f1b601dde31f48dd74dffcbf2cee}{%
+           family={Drexler},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17d2e03108c0b3be5f65bde440f20d6b}{%
+           family={Schoar},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7fb7acb89a129a571a700f2f6f6446da}
+      \strng{fullhash}{7fb7acb89a129a571a700f2f6f6446da}
+      \strng{bibnamehash}{7fb7acb89a129a571a700f2f6f6446da}
+      \strng{authorbibnamehash}{7fb7acb89a129a571a700f2f6f6446da}
+      \strng{authornamehash}{7fb7acb89a129a571a700f2f6f6446da}
+      \strng{authorfullhash}{7fb7acb89a129a571a700f2f6f6446da}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Management Science}
+      \field{number}{11}
+      \field{title}{Do Relationships Matter? Evidence from Loan Officer Turnover}
+      \field{volume}{60}
+      \field{year}{2014}
+      \field{pages}{2722\bibrangedash 2736}
+      \range{pages}{15}
+    \endentry
+    \entry{gedefawbirhanu2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e75f21d6f7f65d1331f7095b4e8164ad}{%
+           family={Gedefaw\bibnamedelima Birhanu},
+           familyi={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7de4fb91e19487bbf8e89de8fdf6272}{%
+           family={Wezel},
+           familyi={W\bibinitperiod},
+           given={F.C.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{527bae8d91690566e23c48319d0cd22f}
+      \strng{fullhash}{527bae8d91690566e23c48319d0cd22f}
+      \strng{bibnamehash}{527bae8d91690566e23c48319d0cd22f}
+      \strng{authorbibnamehash}{527bae8d91690566e23c48319d0cd22f}
+      \strng{authornamehash}{527bae8d91690566e23c48319d0cd22f}
+      \strng{authorfullhash}{527bae8d91690566e23c48319d0cd22f}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Organization}
+      \field{title}{The Competitive Advantage of Affiliation with Business Groups in the Political Environment: Evidence from the Arab Spring}
+      \field{year}{2020}
     \endentry
     \entry{gupta2020802}{article}{}
       \name{author}{5}{}{%
@@ -90,9 +454,6 @@
            giveni={D\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {English}%
-      }
       \strng{namehash}{b30a5bb50ffb5275cd2667fb3d9d4b2c}
       \strng{fullhash}{cba63afa39fb88b40985364ef7b3d70b}
       \strng{bibnamehash}{b30a5bb50ffb5275cd2667fb3d9d4b2c}
@@ -107,10 +468,419 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Academy of Management Journal}
       \field{number}{3}
-      \field{title}{Cfo Gender and Financial Statement Irregularities}
+      \field{title}{CFO Gender and Financial Statement Irregularities}
       \field{volume}{63}
       \field{year}{2020}
       \field{pages}{802\bibrangedash 831}
+      \range{pages}{30}
+    \endentry
+    \entry{hilary2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b2f40e6690c39956ba6602c8f350e3dd}{%
+           family={Hilary},
+           familyi={H\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d4d76d3dacb90eb76d32a306c6c87fd}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b438ca6e7cce659041fe84c4e339325b}
+      \strng{fullhash}{b438ca6e7cce659041fe84c4e339325b}
+      \strng{bibnamehash}{b438ca6e7cce659041fe84c4e339325b}
+      \strng{authorbibnamehash}{b438ca6e7cce659041fe84c4e339325b}
+      \strng{authornamehash}{b438ca6e7cce659041fe84c4e339325b}
+      \strng{authorfullhash}{b438ca6e7cce659041fe84c4e339325b}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Business Ethics}
+      \field{title}{Trust and Contracting: Evidence from Church Sex Scandals}
+      \field{year}{2021}
+    \endentry
+    \entry{jia2020290}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0f98d24928baeb4dcd760770761b00a5}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a33ddb8a494fa054e57432655de9e8ec}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b222e7c87b6592aa5f6b7f003261bd68}{%
+           family={Julian},
+           familyi={J\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8c64ca88f189518f7b8be33624cb2086}
+      \strng{fullhash}{8c64ca88f189518f7b8be33624cb2086}
+      \strng{bibnamehash}{8c64ca88f189518f7b8be33624cb2086}
+      \strng{authorbibnamehash}{8c64ca88f189518f7b8be33624cb2086}
+      \strng{authornamehash}{8c64ca88f189518f7b8be33624cb2086}
+      \strng{authorfullhash}{8c64ca88f189518f7b8be33624cb2086}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Management Journal}
+      \field{number}{2}
+      \field{title}{Do Firms Use Corporate Social Responsibility to Insure Against Stock Price Risk? Evidence from a Natural Experiment}
+      \field{volume}{41}
+      \field{year}{2020}
+      \field{pages}{290\bibrangedash 307}
+      \range{pages}{18}
+    \endentry
+    \entry{kang20201300}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8b30a90c52fc39c783fa21f8e30bd766}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={J.-K.},
+           giveni={J\bibinithyphendelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=b2236af712a294693dcea632d195b1fb}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{51b6ab10f2ec56fc34e50c8e4608c97c}
+      \strng{fullhash}{51b6ab10f2ec56fc34e50c8e4608c97c}
+      \strng{bibnamehash}{51b6ab10f2ec56fc34e50c8e4608c97c}
+      \strng{authorbibnamehash}{51b6ab10f2ec56fc34e50c8e4608c97c}
+      \strng{authornamehash}{51b6ab10f2ec56fc34e50c8e4608c97c}
+      \strng{authorfullhash}{51b6ab10f2ec56fc34e50c8e4608c97c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Management Science}
+      \field{number}{3}
+      \field{title}{Do Family Firms Invest More Than Nonfamily Firms in Employee-Friendly Policies?}
+      \field{volume}{66}
+      \field{year}{2020}
+      \field{pages}{1300\bibrangedash 1324}
+      \range{pages}{25}
+    \endentry
+    \entry{koh20185725}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8839bcb4c1dc91dd3534a3df2a2dcb23}{%
+           family={Koh},
+           familyi={K\bibinitperiod},
+           given={P.-S.},
+           giveni={P\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=738a4ff4ab7ff9947da16f111ce0b574}{%
+           family={Reeb},
+           familyi={R\bibinitperiod},
+           given={D.M.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=2386e489f61f61ba612b4e137e1eefd7}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{b0f3506101793c86fa8ba9704c436bff}
+      \strng{fullhash}{b0f3506101793c86fa8ba9704c436bff}
+      \strng{bibnamehash}{b0f3506101793c86fa8ba9704c436bff}
+      \strng{authorbibnamehash}{b0f3506101793c86fa8ba9704c436bff}
+      \strng{authornamehash}{b0f3506101793c86fa8ba9704c436bff}
+      \strng{authorfullhash}{b0f3506101793c86fa8ba9704c436bff}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Management Science}
+      \field{title}{CEO Confidence and Unreported R\&D}
+      \field{year}{2018}
+      \field{pages}{5725\bibrangedash 5747}
+      \range{pages}{23}
+    \endentry
+    \entry{krishnan20194522}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6295eabf21a7c971f724ae32e9e53230}{%
+           family={Krishnan},
+           familyi={K\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=f94399510b1be6d7fab7d889d00b68d8}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{d90490f755a4620b68110fb90f82b5b7}
+      \strng{fullhash}{d90490f755a4620b68110fb90f82b5b7}
+      \strng{bibnamehash}{d90490f755a4620b68110fb90f82b5b7}
+      \strng{authorbibnamehash}{d90490f755a4620b68110fb90f82b5b7}
+      \strng{authornamehash}{d90490f755a4620b68110fb90f82b5b7}
+      \strng{authorfullhash}{d90490f755a4620b68110fb90f82b5b7}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Management Science}
+      \field{number}{10}
+      \field{title}{The Cost of Financing Education: Can Student Debt Hinder Entrepreneurship?}
+      \field{volume}{65}
+      \field{year}{2019}
+      \field{pages}{4522\bibrangedash 4554}
+      \range{pages}{33}
+    \endentry
+    \entry{li20111119}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=0ee6724aae227dcac2949962d898b300}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=be003a6b4488bb20e4f8a535fe9b5285}{%
+           family={Tallman},
+           familyi={T\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{36ca188ed44000ab7343e5f3a5728bd3}
+      \strng{fullhash}{36ca188ed44000ab7343e5f3a5728bd3}
+      \strng{bibnamehash}{36ca188ed44000ab7343e5f3a5728bd3}
+      \strng{authorbibnamehash}{36ca188ed44000ab7343e5f3a5728bd3}
+      \strng{authornamehash}{36ca188ed44000ab7343e5f3a5728bd3}
+      \strng{authorfullhash}{36ca188ed44000ab7343e5f3a5728bd3}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Management Journal}
+      \field{number}{10}
+      \field{title}{Mnc Strategies, Exogenous Shocks, and Performance Outcomes}
+      \field{volume}{32}
+      \field{year}{2011}
+      \field{pages}{1119\bibrangedash 1127}
+      \range{pages}{9}
+    \endentry
+    \entry{li20194011}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=0ee6724aae227dcac2949962d898b300}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=98dfc709e241306f2ecf548265532b63}{%
+           family={Zhan},
+           familyi={Z\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{26a6071fb8b70c05ee70bb6d6c414ced}
+      \strng{fullhash}{26a6071fb8b70c05ee70bb6d6c414ced}
+      \strng{bibnamehash}{26a6071fb8b70c05ee70bb6d6c414ced}
+      \strng{authorbibnamehash}{26a6071fb8b70c05ee70bb6d6c414ced}
+      \strng{authornamehash}{26a6071fb8b70c05ee70bb6d6c414ced}
+      \strng{authorfullhash}{26a6071fb8b70c05ee70bb6d6c414ced}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Management Science}
+      \field{number}{9}
+      \field{title}{Product Market Threats and Stock Crash Risk}
+      \field{volume}{65}
+      \field{year}{2019}
+      \field{pages}{4011\bibrangedash 4031}
+      \range{pages}{21}
+    \endentry
+    \entry{mahmood20171082}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=bc7414bf2db07d5d5ef31877a386b31b}{%
+           family={Mahmood},
+           familyi={M\bibinitperiod},
+           given={I.P.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98a75f0b76716a8f4124a02e436bc65a}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=662b02d191d30371e265219b59f939ab}{%
+           family={Zaheer},
+           familyi={Z\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c03e7b25909f30fc85bfd01008b5c808}
+      \strng{fullhash}{c03e7b25909f30fc85bfd01008b5c808}
+      \strng{bibnamehash}{c03e7b25909f30fc85bfd01008b5c808}
+      \strng{authorbibnamehash}{c03e7b25909f30fc85bfd01008b5c808}
+      \strng{authornamehash}{c03e7b25909f30fc85bfd01008b5c808}
+      \strng{authorfullhash}{c03e7b25909f30fc85bfd01008b5c808}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Management Journal}
+      \field{number}{5}
+      \field{title}{Centralization of Intragroup Equity Ties and Performance of Business Group Affiliates}
+      \field{volume}{38}
+      \field{year}{2017}
+      \field{pages}{1082\bibrangedash 1100}
+      \range{pages}{19}
+    \endentry
+    \entry{natarajan20191070}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f83eb9721a390a85e6f3924786c8d2bc}{%
+           family={Natarajan},
+           familyi={N\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc7414bf2db07d5d5ef31877a386b31b}{%
+           family={Mahmood},
+           familyi={M\bibinitperiod},
+           given={I.P.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87d4982ab6baad1729c77dd43305f48d}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4d7b102a078439f95e17b1f6406d5765}
+      \strng{fullhash}{4d7b102a078439f95e17b1f6406d5765}
+      \strng{bibnamehash}{4d7b102a078439f95e17b1f6406d5765}
+      \strng{authorbibnamehash}{4d7b102a078439f95e17b1f6406d5765}
+      \strng{authornamehash}{4d7b102a078439f95e17b1f6406d5765}
+      \strng{authorfullhash}{4d7b102a078439f95e17b1f6406d5765}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Management Journal}
+      \field{number}{7}
+      \field{title}{Middle Management Involvement in Resource Allocation: The Evolution of Automated Teller Machines and Bank Branches in India}
+      \field{volume}{40}
+      \field{year}{2019}
+      \field{pages}{1070\bibrangedash 1096}
+      \range{pages}{27}
+    \endentry
+    \entry{qian20192271}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c288d1e48edeee841173fd3568680109}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33bc84b07ae9b8b972d33d51a6f2f721}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={L.Y.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33b0a54684216e4c6a12a64546991169}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{79f2b4774b5e57591fb7df886ff9ef1a}
+      \strng{fullhash}{79f2b4774b5e57591fb7df886ff9ef1a}
+      \strng{bibnamehash}{79f2b4774b5e57591fb7df886ff9ef1a}
+      \strng{authorbibnamehash}{79f2b4774b5e57591fb7df886ff9ef1a}
+      \strng{authornamehash}{79f2b4774b5e57591fb7df886ff9ef1a}
+      \strng{authorfullhash}{79f2b4774b5e57591fb7df886ff9ef1a}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Management Journal}
+      \field{number}{13}
+      \field{title}{Financial Analyst Coverage and Corporate Social Performance: Evidence from Natural Experiments}
+      \field{volume}{40}
+      \field{year}{2019}
+      \field{pages}{2271\bibrangedash 2286}
+      \range{pages}{16}
+    \endentry
+    \entry{ramírez20181496}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=80fc2ffca0038c7649d9bbc71bdba216}{%
+           family={Ramírez},
+           familyi={R\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb32aee74f588afb44b1192ce41cdbc8}{%
+           family={Tarziján},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6c16f1781b87c38133e5d5bf42f7b952}
+      \strng{fullhash}{6c16f1781b87c38133e5d5bf42f7b952}
+      \strng{bibnamehash}{6c16f1781b87c38133e5d5bf42f7b952}
+      \strng{authorbibnamehash}{6c16f1781b87c38133e5d5bf42f7b952}
+      \strng{authornamehash}{6c16f1781b87c38133e5d5bf42f7b952}
+      \strng{authorfullhash}{6c16f1781b87c38133e5d5bf42f7b952}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Management Journal}
+      \field{number}{5}
+      \field{title}{Stakeholder Value Appropriation: The Case of Labor in the Worldwide Mining Industry}
+      \field{volume}{39}
+      \field{year}{2018}
+      \field{pages}{1496\bibrangedash 1525}
       \range{pages}{30}
     \endentry
     \entry{seebeck2021}{article}{}
@@ -128,9 +898,6 @@
            giveni={J\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {English}%
-      }
       \strng{namehash}{5d0a8c6a0624b5864563cf386ae5bd27}
       \strng{fullhash}{5d0a8c6a0624b5864563cf386ae5bd27}
       \strng{bibnamehash}{5d0a8c6a0624b5864563cf386ae5bd27}
@@ -147,6 +914,41 @@
       \field{title}{Not Just a Gender Numbers Game: How Board Gender Diversity Affects Corporate Risk Disclosure}
       \field{year}{2021}
     \endentry
+    \entry{tan20141574}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5cb8e940c8426c16c75e6f4ed107014b}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={T.F.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03da7d62f6541bb3e4691794e6d53947}{%
+           family={Netessine},
+           familyi={N\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{066333c30fed38a99bc7e8605c924adc}
+      \strng{fullhash}{066333c30fed38a99bc7e8605c924adc}
+      \strng{bibnamehash}{066333c30fed38a99bc7e8605c924adc}
+      \strng{authorbibnamehash}{066333c30fed38a99bc7e8605c924adc}
+      \strng{authornamehash}{066333c30fed38a99bc7e8605c924adc}
+      \strng{authorfullhash}{066333c30fed38a99bc7e8605c924adc}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Management Science}
+      \field{number}{6}
+      \field{title}{When Does the Devil Make Work? an Empirical Study of the Impact of Workload on Worker Productivity}
+      \field{volume}{60}
+      \field{year}{2014}
+      \field{pages}{1574\bibrangedash 1593}
+      \range{pages}{20}
+    \endentry
     \entry{vergne20121027}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=713b2fee948f11062618173ddf53fae0}{%
@@ -155,9 +957,6 @@
            given={J.-P.},
            giveni={J\bibinithyphendelim P\bibinitperiod},
            givenun=0}}%
-      }
-      \list{language}{1}{%
-        {English}%
       }
       \strng{namehash}{713b2fee948f11062618173ddf53fae0}
       \strng{fullhash}{713b2fee948f11062618173ddf53fae0}
@@ -178,6 +977,119 @@
       \field{year}{2012}
       \field{pages}{1027\bibrangedash 1052}
       \range{pages}{26}
+    \endentry
+    \entry{wang20162393}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=39856f0439f35f79a8eed8b12d26166c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=2103a088c0216ee336ca8b820fbefc02}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=de7dfb977f55ee1345f2cf9ebb763193}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cfc9141f4828434187fb5d1c28b6d3ef}
+      \strng{fullhash}{cfc9141f4828434187fb5d1c28b6d3ef}
+      \strng{bibnamehash}{cfc9141f4828434187fb5d1c28b6d3ef}
+      \strng{authorbibnamehash}{cfc9141f4828434187fb5d1c28b6d3ef}
+      \strng{authornamehash}{cfc9141f4828434187fb5d1c28b6d3ef}
+      \strng{authorfullhash}{cfc9141f4828434187fb5d1c28b6d3ef}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Management Journal}
+      \field{number}{12}
+      \field{title}{Increase in Takeover Protection and Firm Knowledge Accumulation Strategy}
+      \field{volume}{37}
+      \field{year}{2016}
+      \field{pages}{2393\bibrangedash 2412}
+      \range{pages}{20}
+    \endentry
+    \entry{zhang2020}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1f26f664835ac6c347db22001b657f1a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=ef065b28c31984323fd6d3483d29aafd}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=f5726aba7dc5ff1bb6c1bbae47d2420d}{%
+           family={Tong},
+           familyi={T\bibinitperiod},
+           given={T.W.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34b8235785d22fedd39544ae6763c003}
+      \strng{fullhash}{34b8235785d22fedd39544ae6763c003}
+      \strng{bibnamehash}{34b8235785d22fedd39544ae6763c003}
+      \strng{authorbibnamehash}{34b8235785d22fedd39544ae6763c003}
+      \strng{authornamehash}{34b8235785d22fedd39544ae6763c003}
+      \strng{authorfullhash}{34b8235785d22fedd39544ae6763c003}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Management Journal}
+      \field{title}{Platform Governance Matters: How Platform Gatekeeping Affects Knowledge Sharing among Complementors}
+      \field{year}{2020}
+    \endentry
+    \entry{zheng20202234}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ca5d8c01ece6364a02e9fe2849da33ed}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=415d15406f27ab6319fe3dc2d7408598}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{414a0f0aed2c2857cf0471e2e60eebfb}
+      \strng{fullhash}{414a0f0aed2c2857cf0471e2e60eebfb}
+      \strng{bibnamehash}{414a0f0aed2c2857cf0471e2e60eebfb}
+      \strng{authorbibnamehash}{414a0f0aed2c2857cf0471e2e60eebfb}
+      \strng{authornamehash}{414a0f0aed2c2857cf0471e2e60eebfb}
+      \strng{authorfullhash}{414a0f0aed2c2857cf0471e2e60eebfb}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Management Journal}
+      \field{number}{12}
+      \field{title}{Shadow of the Great Firewall: The Impact of Google Blockade on Innovation in China}
+      \field{volume}{41}
+      \field{year}{2020}
+      \field{pages}{2234\bibrangedash 2260}
+      \range{pages}{27}
     \endentry
   \enddatalist
 \endrefsection
