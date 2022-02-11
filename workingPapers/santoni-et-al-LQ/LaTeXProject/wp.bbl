@@ -355,6 +355,53 @@
       \field{pages}{323\bibrangedash 348}
       \range{pages}{26}
     \endentry
+    \entry{craig_et_al_2017}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5c9b252bfcfc0f2a0f737305f66eec1c}{%
+           family={Craig},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34e25ab94a7002f5f71fe5c57469cc5b}{%
+           family={Katikireddi},
+           familyi={K\bibinitperiod},
+           given={Srinivasa\bibnamedelima Vittal},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3762d2bbf396b37da9214689b6bcc29}{%
+           family={Leyland},
+           familyi={L\bibinitperiod},
+           given={Alastair},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3241d1539ff40eef01402e2f1e1ff574}{%
+           family={Popham},
+           familyi={P\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ed470847ea62c04df681c20d33e2b25e}
+      \strng{fullhash}{ed470847ea62c04df681c20d33e2b25e}
+      \strng{bibnamehash}{91f00eef9580f7f365449760c1193ef5}
+      \strng{authorbibnamehash}{91f00eef9580f7f365449760c1193ef5}
+      \strng{authornamehash}{ed470847ea62c04df681c20d33e2b25e}
+      \strng{authorfullhash}{ed470847ea62c04df681c20d33e2b25e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual review of public health}
+      \field{number}{1}
+      \field{title}{{Natural Experiments: An Overview of Methods, Approaches, and Contributions to Public Health Intervention Research}}
+      \field{volume}{38}
+      \field{year}{2017}
+      \field{pages}{39\bibrangedash 56}
+      \range{pages}{18}
+    \endentry
     \entry{drexler20142722}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=56e9f1b601dde31f48dd74dffcbf2cee}{%
@@ -389,6 +436,38 @@
       \field{year}{2014}
       \field{pages}{2722\bibrangedash 2736}
       \range{pages}{15}
+    \endentry
+    \entry{dunning_2012}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9e055e65cf7f69f7226e55a96709f0fd}{%
+           family={Dunning},
+           familyi={D\bibinitperiod},
+           given={Thad},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, United States of America}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{9e055e65cf7f69f7226e55a96709f0fd}
+      \strng{fullhash}{9e055e65cf7f69f7226e55a96709f0fd}
+      \strng{bibnamehash}{9e055e65cf7f69f7226e55a96709f0fd}
+      \strng{authorbibnamehash}{9e055e65cf7f69f7226e55a96709f0fd}
+      \strng{authornamehash}{9e055e65cf7f69f7226e55a96709f0fd}
+      \strng{authorfullhash}{9e055e65cf7f69f7226e55a96709f0fd}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781139084444}
+      \field{series}{Strategies for social inquiry}
+      \field{title}{{Natural Experiments in the Social Sciences}}
+      \field{year}{2012}
     \endentry
     \entry{gedefawbirhanu2020}{article}{}
       \name{author}{2}{}{%
@@ -580,6 +659,41 @@
       \field{year}{2020}
       \field{pages}{1300\bibrangedash 1324}
       \range{pages}{25}
+    \endentry
+    \entry{keele_et_al_2016}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6e3c81199764b364deb7d5fada503c91}{%
+           family={Keele},
+           familyi={K\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91e723da014c0226c229d581ea9ab290}{%
+           family={Titiunik},
+           familyi={T\bibinitperiod},
+           given={Rocio},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a3beed3723382ee728394246a0362366}
+      \strng{fullhash}{a3beed3723382ee728394246a0362366}
+      \strng{bibnamehash}{a3beed3723382ee728394246a0362366}
+      \strng{authorbibnamehash}{a3beed3723382ee728394246a0362366}
+      \strng{authornamehash}{a3beed3723382ee728394246a0362366}
+      \strng{authorfullhash}{a3beed3723382ee728394246a0362366}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Political Science Research and Methods}
+      \field{number}{1}
+      \field{title}{{Natural Experiments Based on Geography}}
+      \field{volume}{4}
+      \field{year}{2016}
+      \field{pages}{65\bibrangedash 95}
+      \range{pages}{31}
     \endentry
     \entry{koh20185725}{article}{}
       \name{author}{3}{}{%
@@ -883,6 +997,41 @@
       \field{pages}{1496\bibrangedash 1525}
       \range{pages}{30}
     \endentry
+    \entry{roseinzweig_et_al_2000}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f9c67fbc5c25783ec1a892d207f291ee}{%
+           family={Rosenzweig},
+           familyi={R\bibinitperiod},
+           given={Mark\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed8a002aed1dcc6a41867dec79ca5563}{%
+           family={Wolpin},
+           familyi={W\bibinitperiod},
+           given={Kenneth\bibnamedelima I},
+           giveni={K\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e53bb5cd29317c0d865daace66346ece}
+      \strng{fullhash}{e53bb5cd29317c0d865daace66346ece}
+      \strng{bibnamehash}{e53bb5cd29317c0d865daace66346ece}
+      \strng{authorbibnamehash}{e53bb5cd29317c0d865daace66346ece}
+      \strng{authornamehash}{e53bb5cd29317c0d865daace66346ece}
+      \strng{authorfullhash}{e53bb5cd29317c0d865daace66346ece}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Economic Literature}
+      \field{number}{4}
+      \field{title}{{Natural “Natural Experiments” in Economics}}
+      \field{volume}{38}
+      \field{year}{2000}
+      \field{pages}{827\bibrangedash 874}
+      \range{pages}{48}
+    \endentry
     \entry{seebeck2021}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=1618385e584a89dd76be8f6ab153661b}{%
@@ -913,6 +1062,78 @@
       \field{journaltitle}{Journal of Business Ethics}
       \field{title}{Not Just a Gender Numbers Game: How Board Gender Diversity Affects Corporate Risk Disclosure}
       \field{year}{2021}
+    \endentry
+    \entry{sekhon_titiunik_2012}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=408ec2b208cc2e38d1abcb3baf2b75b0}{%
+           family={Sekhon},
+           familyi={S\bibinitperiod},
+           given={Jasjeet},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91e723da014c0226c229d581ea9ab290}{%
+           family={Titiunik},
+           familyi={T\bibinitperiod},
+           given={Rocio},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3766b4d583afcfd375b5bf88d9e975a0}
+      \strng{fullhash}{3766b4d583afcfd375b5bf88d9e975a0}
+      \strng{bibnamehash}{3766b4d583afcfd375b5bf88d9e975a0}
+      \strng{authorbibnamehash}{3766b4d583afcfd375b5bf88d9e975a0}
+      \strng{authornamehash}{3766b4d583afcfd375b5bf88d9e975a0}
+      \strng{authorfullhash}{3766b4d583afcfd375b5bf88d9e975a0}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Political Science Review}
+      \field{number}{1}
+      \field{title}{{When Natural Experiments Are Neither Natural nor Experiments}}
+      \field{volume}{106}
+      \field{year}{2012}
+      \field{pages}{35\bibrangedash 57}
+      \range{pages}{23}
+    \endentry
+    \entry{sieweke_santoni_2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b42ce225a7a2cf68d80a7f9766d024c4}{%
+           family={Sieweke},
+           familyi={S\bibinitperiod},
+           given={Jost},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe01f2e6af963156c4dfad2d2558c5e0}{%
+           family={Santoni},
+           familyi={S\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b08a175f2958bc34850514fbd4afacf7}
+      \strng{fullhash}{b08a175f2958bc34850514fbd4afacf7}
+      \strng{bibnamehash}{b08a175f2958bc34850514fbd4afacf7}
+      \strng{authorbibnamehash}{b08a175f2958bc34850514fbd4afacf7}
+      \strng{authornamehash}{b08a175f2958bc34850514fbd4afacf7}
+      \strng{authorfullhash}{b08a175f2958bc34850514fbd4afacf7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{Endogeneity is a serious challenge for leadership research. To overcome the problem, researchers increasingly rely upon experimental designs, such as laboratory and field experiments. In this paper, we argue that natural experiments — in the form of standard natural experiments, instrumental variable, and regression discontinuity designs — offer additional opportunities to infer causal relationships. We conduct a systematic, cross-disciplinary review of 87 studies that leverage natural experimental designs to inquire into a leadership topic. We introduce the standard natural experiment, instrumental variable, and regression discontinuity design and use topic modeling to analyze which leadership topics have been investigated using natural experimental designs. Based on the review, we provide guidelines that we hope will assist scholars in discovering natural exogenous variations, selecting the most suitable form of natural experiment and by mobilizing appropriate statistical techniques and robustness checks. The paper is addressed to leadership and management scholars who aim to use natural experiments to infer causal relationships.}}
+      \field{issn}{1048-9843}
+      \field{journaltitle}{The Leadership Quarterly}
+      \field{number}{1}
+      \field{title}{{Natural Experiments in Leadership Research: An Introduction, Review, and Guidelines}}
+      \field{volume}{31}
+      \field{year}{2020}
+      \field{pages}{101338}
+      \range{pages}{1}
     \endentry
     \entry{tan20141574}{article}{}
       \name{author}{2}{}{%
@@ -1018,6 +1239,37 @@
       \field{year}{2016}
       \field{pages}{2393\bibrangedash 2412}
       \range{pages}{20}
+    \endentry
+    \entry{withers_li_2021}{incollection}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=15f23ce3f2d11a9eb52997126342534e}{%
+           family={Withers},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=06a9f335b3ea8be2aabf9a87a013e3b8}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={CH.},
+           giveni={C\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{fc0913a1688c7ff8b1c6204357ee4282}
+      \strng{fullhash}{fc0913a1688c7ff8b1c6204357ee4282}
+      \strng{bibnamehash}{fc0913a1688c7ff8b1c6204357ee4282}
+      \strng{authorbibnamehash}{fc0913a1688c7ff8b1c6204357ee4282}
+      \strng{authornamehash}{fc0913a1688c7ff8b1c6204357ee4282}
+      \strng{authorfullhash}{fc0913a1688c7ff8b1c6204357ee4282}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Oxford Research Encyclopedia of Business and Management}
+      \field{title}{{Natural Experiments in Business Research Methods}}
+      \field{year}{2021}
     \endentry
     \entry{zhang2020}{article}{}
       \name{author}{3}{}{%

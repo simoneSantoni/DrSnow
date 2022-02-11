@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber wp"] 1644529347 "wp.bcf" "wp.bbl" "wp" 1644536262
-  "references/main_biblio.bib" 1644495285 25605 bfbb0f593121a9595455aaf7cf0f8f00 ""
-  "wp.bcf" 1644536262 108856 37530f662fdff70c3dc64eae705dbef1 "pdflatex"
+["biber wp"] 1644599512 "wp.bcf" "wp.bbl" "wp" 1644600034
+  "references/main_biblio.bib" 1644599512 29116 24590f36bd83ec0a3dd185bed4d32074 ""
+  "wp.bcf" 1644600034 109273 378bc9ab079b359cdef68c3ecba22288 "pdflatex"
   (generated)
-  "wp.blg"
   "wp.bbl"
-["pdflatex"] 1644536260 "/Users/sbbk475/githubRepos/DrSnow/workingPapers/santoni-et-al-LQ/LaTeXProject/wp.tex" "/Users/sbbk475/githubRepos/DrSnow/workingPapers/santoni-et-al-LQ/LaTeXProject/wp.pdf" "wp" 1644536262
-  "/Users/sbbk475/githubRepos/DrSnow/workingPapers/santoni-et-al-LQ/LaTeXProject/wp.aux" 1644536262 15449 a3e859dd087e5f6b7206d4fe7967bc6f ""
-  "/Users/sbbk475/githubRepos/DrSnow/workingPapers/santoni-et-al-LQ/LaTeXProject/wp.tex" 1644536258 40452 a048de94c8f0e68bc753f36b2e1dcfd3 ""
+  "wp.blg"
+["pdflatex"] 1644600032 "/Users/sbbk475/githubRepos/DrSnow/workingPapers/santoni-et-al-LQ/LaTeXProject/wp.tex" "/Users/sbbk475/githubRepos/DrSnow/workingPapers/santoni-et-al-LQ/LaTeXProject/wp.pdf" "wp" 1644600034
+  "/Users/sbbk475/githubRepos/DrSnow/workingPapers/santoni-et-al-LQ/LaTeXProject/wp.aux" 1644600034 16857 bda96569810144c53c571de4edff7844 ""
+  "/Users/sbbk475/githubRepos/DrSnow/workingPapers/santoni-et-al-LQ/LaTeXProject/wp.tex" 1644600030 40987 4735bcfbedb2329f6fdc4fc9711fbb2b ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1202520719 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -268,17 +268,17 @@
   "exhibits/potential_outcome.pgf" 1644531590 15994 d448b747662a418296c9cd6af500fde2 ""
   "exhibits/studies_over_time.pgf" 1644531594 26242 c770561922f3e3036e5280a338cf16be ""
   "exhibits/typology.pdf" 1644536178 15819 6ae1d5b01249baa0dee6063d32a8f472 ""
-  "wp.aux" 1644536262 15449 a3e859dd087e5f6b7206d4fe7967bc6f "pdflatex"
-  "wp.bbl" 1644529348 44564 7bb26c5aa58e63c3a2279b1185bb1faa "biber wp"
-  "wp.out" 1644536262 1612 ef44108d2517ca7cbaed28ab124ae05d "pdflatex"
-  "wp.run.xml" 1644536262 2360 c16e9e6922db931a2abce3ac7e6b4302 "pdflatex"
-  "wp.tex" 1644536258 40452 a048de94c8f0e68bc753f36b2e1dcfd3 ""
+  "wp.aux" 1644600034 16857 bda96569810144c53c571de4edff7844 "pdflatex"
+  "wp.bbl" 1644599514 56174 40e1fe4e112f3304ea4cc90a6d7f52c4 "biber wp"
+  "wp.out" 1644600034 1612 ef44108d2517ca7cbaed28ab124ae05d "pdflatex"
+  "wp.run.xml" 1644600034 2360 c16e9e6922db931a2abce3ac7e6b4302 "pdflatex"
+  "wp.tex" 1644600030 40987 4735bcfbedb2329f6fdc4fc9711fbb2b ""
   (generated)
-  "wp.run.xml"
   "/Users/sbbk475/githubRepos/DrSnow/workingPapers/santoni-et-al-LQ/LaTeXProject/wp.log"
-  "wp.out"
   "wp.pdf"
   "wp.bcf"
+  "wp.run.xml"
   "wp.aux"
   "/Users/sbbk475/githubRepos/DrSnow/workingPapers/santoni-et-al-LQ/LaTeXProject/wp.pdf"
   "wp.log"
+  "wp.out"
