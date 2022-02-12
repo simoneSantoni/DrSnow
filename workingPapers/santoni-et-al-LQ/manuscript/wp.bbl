@@ -402,6 +402,34 @@
       \field{pages}{39\bibrangedash 56}
       \range{pages}{18}
     \endentry
+    \entry{deaton_2009}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=84a3fb0a415707452c63f887f259ab3a}{%
+           family={Deaton},
+           familyi={D\bibinitperiod},
+           given={Angus\bibnamedelima S},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{84a3fb0a415707452c63f887f259ab3a}
+      \strng{fullhash}{84a3fb0a415707452c63f887f259ab3a}
+      \strng{bibnamehash}{84a3fb0a415707452c63f887f259ab3a}
+      \strng{authorbibnamehash}{84a3fb0a415707452c63f887f259ab3a}
+      \strng{authornamehash}{84a3fb0a415707452c63f887f259ab3a}
+      \strng{authorfullhash}{84a3fb0a415707452c63f887f259ab3a}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Instruments of Development: Randomisation in the Tropics, and the Search for the Elusive Keys to Economic Development}
+      \field{type}{techreport}
+      \field{year}{2009}
+    \endentry
     \entry{drexler20142722}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=56e9f1b601dde31f48dd74dffcbf2cee}{%
@@ -468,6 +496,47 @@
       \field{series}{Strategies for social inquiry}
       \field{title}{{Natural Experiments in the Social Sciences}}
       \field{year}{2012}
+    \endentry
+    \entry{frijters_et_al_2004}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=10b09074263fecb3b1ef49757f3ebd88}{%
+           family={Frijters},
+           familyi={F\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=619e527fb09c397a0dc07f4b0c0abfe4}{%
+           family={Haisken-DeNew},
+           familyi={H\bibinithyphendelim D\bibinitperiod},
+           given={John\bibnamedelima P},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8453a9495275595f94785f725d0ca52}{%
+           family={Shields},
+           familyi={S\bibinitperiod},
+           given={Michael\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8f55ffa9ef55fa0388d8ebfd34c39146}
+      \strng{fullhash}{8f55ffa9ef55fa0388d8ebfd34c39146}
+      \strng{bibnamehash}{8f55ffa9ef55fa0388d8ebfd34c39146}
+      \strng{authorbibnamehash}{8f55ffa9ef55fa0388d8ebfd34c39146}
+      \strng{authornamehash}{8f55ffa9ef55fa0388d8ebfd34c39146}
+      \strng{authorfullhash}{8f55ffa9ef55fa0388d8ebfd34c39146}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{3}
+      \field{title}{Money Does Matter! Evidence from Increasing Real Income and Life Satisfaction in East Germany following Reunification}
+      \field{volume}{94}
+      \field{year}{2004}
+      \field{pages}{730\bibrangedash 740}
+      \range{pages}{11}
     \endentry
     \entry{gedefawbirhanu2020}{article}{}
       \name{author}{2}{}{%
@@ -552,6 +621,80 @@
       \field{year}{2020}
       \field{pages}{802\bibrangedash 831}
       \range{pages}{30}
+    \endentry
+    \entry{haack_sieweke_2018}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a87910ad460fece13dc12ad78d67dc32}{%
+           family={Haack},
+           familyi={H\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b42ce225a7a2cf68d80a7f9766d024c4}{%
+           family={Sieweke},
+           familyi={S\bibinitperiod},
+           given={Jost},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{99fe1efb725d700c508308a8926eb155}
+      \strng{fullhash}{99fe1efb725d700c508308a8926eb155}
+      \strng{bibnamehash}{99fe1efb725d700c508308a8926eb155}
+      \strng{authorbibnamehash}{99fe1efb725d700c508308a8926eb155}
+      \strng{authornamehash}{99fe1efb725d700c508308a8926eb155}
+      \strng{authorfullhash}{99fe1efb725d700c508308a8926eb155}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Management Studies}
+      \field{number}{3}
+      \field{title}{The Legitimacy of Inequality: Integrating the Perspectives of System Justification and Social Judgment}
+      \field{volume}{55}
+      \field{year}{2018}
+      \field{pages}{486\bibrangedash 516}
+      \range{pages}{31}
+    \endentry
+    \entry{heckman_urzua_2010}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b70b920520f54634a1f03f9312707db2}{%
+           family={Heckman},
+           familyi={H\bibinitperiod},
+           given={James\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3cfb57e5242fcdfa683cd016ffd09640}{%
+           family={Urzúa},
+           familyi={U\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e62166210e754f3c8a0d68a9e6a386d0}
+      \strng{fullhash}{e62166210e754f3c8a0d68a9e6a386d0}
+      \strng{bibnamehash}{e62166210e754f3c8a0d68a9e6a386d0}
+      \strng{authorbibnamehash}{e62166210e754f3c8a0d68a9e6a386d0}
+      \strng{authornamehash}{e62166210e754f3c8a0d68a9e6a386d0}
+      \strng{authorfullhash}{e62166210e754f3c8a0d68a9e6a386d0}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0304-4076}
+      \field{journaltitle}{Journal of Econometrics}
+      \field{number}{1}
+      \field{title}{{Comparing IV with structural models: What simple IV can and cannot identify}}
+      \field{volume}{156}
+      \field{year}{2010}
+      \field{pages}{27\bibrangedash 37}
+      \range{pages}{11}
     \endentry
     \entry{hilary2021}{article}{}
       \name{author}{2}{}{%
@@ -879,6 +1022,33 @@
       \field{year}{2017}
       \field{pages}{1082\bibrangedash 1100}
       \range{pages}{19}
+    \endentry
+    \entry{morgan_2012}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=019801a13b36a4ee5384789b729c7a36}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={Mary\bibnamedelima S},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{019801a13b36a4ee5384789b729c7a36}
+      \strng{fullhash}{019801a13b36a4ee5384789b729c7a36}
+      \strng{bibnamehash}{019801a13b36a4ee5384789b729c7a36}
+      \strng{authorbibnamehash}{019801a13b36a4ee5384789b729c7a36}
+      \strng{authornamehash}{019801a13b36a4ee5384789b729c7a36}
+      \strng{authorfullhash}{019801a13b36a4ee5384789b729c7a36}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The World in the Model: How Economists Work and Think}
+      \field{year}{2012}
     \endentry
     \entry{natarajan20191070}{article}{}
       \name{author}{3}{}{%
@@ -1270,6 +1440,38 @@
       \field{booktitle}{Oxford Research Encyclopedia of Business and Management}
       \field{title}{{Natural Experiments in Business Research Methods}}
       \field{year}{2021}
+    \endentry
+    \entry{wyrwich_2015}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3234817505f61b517a58ce9c9522600f}{%
+           family={Wyrwich},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{3234817505f61b517a58ce9c9522600f}
+      \strng{fullhash}{3234817505f61b517a58ce9c9522600f}
+      \strng{bibnamehash}{3234817505f61b517a58ce9c9522600f}
+      \strng{authorbibnamehash}{3234817505f61b517a58ce9c9522600f}
+      \strng{authornamehash}{3234817505f61b517a58ce9c9522600f}
+      \strng{authorfullhash}{3234817505f61b517a58ce9c9522600f}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Small Business Economics}
+      \field{number}{1}
+      \field{title}{Entrepreneurship and the Intergenerational Transmission of Values}
+      \field{volume}{45}
+      \field{year}{2015}
+      \field{pages}{191\bibrangedash 213}
+      \range{pages}{23}
     \endentry
     \entry{zhang2020}{article}{}
       \name{author}{3}{}{%

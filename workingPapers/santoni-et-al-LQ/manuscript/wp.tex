@@ -19,6 +19,7 @@
 % -- \usepackage[T1]{fontenc}       % text
 % -- \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
 % -- \usepackage{xcolor}            % coloured text etc.% 
+% -- \usepackage{rotating}
 % -- 
 % -- %% --------- Standardize command font styles and environments ----------------
 % -- \newcommand{\doccmd}[1]{\texttt{\textbackslash#1}}% adds backslash
@@ -98,9 +99,21 @@
 % -- ]{biblatex}
 % -- \addbibresource{references/main_biblio.bib}
 % -- \addbibresource{references/appendix_biblio.bib}
+% -- % -------------------------- Tikz charts -------------------------------------
+% -- \definecolor{base_c}{HTML}{6A94D5}
+% -- \definecolor{comp_c}{HTML}{D5AB6A}
+% -- \definecolor{tri_1_c}{HTML}{D56A94}
+% -- \definecolor{tri_2_c}{HTML}{94D56A}
+% -- \definecolor{tet_1_c}{HTML}{D56ACA}
+% -- \definecolor{tet_2_c}{HTML}{D5AB6A}
+% -- \definecolor{tet_3_c}{HTML}{6AD575}
 
 %% ============================ Classic wp ===================================
 \documentclass[11pt]{article}
+
+% ------------------------------- Font ---------------------------------------
+%\usepackage[T1]{fontenc}
+%\usepackage{newpxtext,newpxmath}
 
 % ------------------------- Page and paragraph layout ------------------------
 \usepackage[a4paper]{geometry}
@@ -108,7 +121,8 @@
 %\setcounter{secnumdepth}{-2}
 %\setcounter{tocdepth}{-2}
 \usepackage{setspace}
-\onehalfspacing%\doublespacing
+\onehalfspacing
+%\doublespacing
 \setlength{\parindent}{2.75em}
 \setlength{\parskip}{1em}
 %\renewcommand{\baselinestretch}{1.5}
@@ -179,7 +193,7 @@ bibstyle=authortitle
 %\usepackage{etoolbox}
 \usepackage{caption}
 \captionsetup[table]{labelfont=sc, labelsep=newline}
-\renewcommand{\figurename}{Fig.}
+\renewcommand{\figurename}{\itshape Fig.}
 %\usepackage{ctable}
 \renewcommand{\thetable}{\Roman{table}}
 \usepackage{csquotes}
@@ -261,8 +275,35 @@ Types, Challenges, and Opportunities\vspace{2em}}
 \subsection{Exogenous shocks in the literature on natural experiments}
 \label{subsec:exogenous_shocks_and_ne}
 
+\noindent The literature on natural experiments offers several elements to
+appreciate the conceptual category of `exogenous shocks' (\cite[for an overview
+of the natural experiment design, see for example][]{withers_li_2021,
+dunning_2012,craig_et_al_2017,keele_et_al_2016}; \cite[for a review of the
+application of this design, see][]{sekhon_titiunik_2012,sieweke_santoni_2020,
+roseinzweig_et_al_2000}). Particularly, the extant works draw a line between an
+exogenous shock and the interrelated but distinct concept of naturally-occurring
+event. While one can observe events such as diplomatic crises, institutional
+reforms, or terrorist attacks, exogenous shocks are situated in abstract models
+that illustrate how economic and social formations work in the real world
+\parencite{morgan_2012}. In other words, impactful naturally-occurring events,
+such as Covid-19 global pandemic, could be challenging to fit within a model of
+interest and, therefore, do not lead to any exogenous shock. At the same time, a
+certain event could provide multiple models with an exogenous shock.  For
+example, the reunification of Eastern Germany and Western Germany has been
+exploited to address diverse research questions, including the impact of income
+on health \parencite[e.g.][]{frijters_et_al_2004}, the transmission of
+preferences for entrepreneurship from parents to children
+\parencite[e.g.][]{wyrwich_2015}, or the legitimation of inequality
+\parencite[e.g.][]{haack_sieweke_2018}.
 
-
+Figure \ref{fig:event_rq_mapping} pictorially depicts the idea that exogenous 
+shocks emerge from purposive associations of naturally-occurring events, which
+create the `variance' that is necessary to test a model with observational data,
+and research questions. The nature of these associations can be substantive 
+--- when the environmental variation becomes an integral part of a study's 
+theorizing ---, empirical --- if an analyst exploits the variation to deal with
+endogeneity concerns --- or entail a combination of substantive and
+empirical elements.
 
 \begin{figure}[!htbp]
   %\sffamily
@@ -277,7 +318,50 @@ Types, Challenges, and Opportunities\vspace{2em}}
   \label{fig:event_rq_mapping}
 \end{figure}
 
+%% substantive relevance
+The lack of substantive relevance is one of the most common terrains in which
+naturally-occurring events are criticized. For instance, in his critical analysis of the 
+Instrumental Variable (IV) applications,\footnote{It is commonly accepted that 
+natural experiments' forms include the `Instrumental Variable' design
+along with the `Standard Natural Experiment' and `Regression Discontinuity
+Design,'  constitutes the three forms of natural experiments
+\parencite{sieweke_santoni_2020,dunning_2012}.} Deaton 
+\parencite*{deaton_2009} observes that:
 
+\begin{quote}
+  ``[omitted] randomized evaluations of projects are useful for obtaining a convincing
+  estimate of the average effect of a program or project. The price for this
+  success is a focus that is too narrow to tell us `what works' in development,
+  to design policy, or to advance scientific knowledge about development
+  processes.'' (page 3)
+\end{quote}
+
+Hence, he argues:
+
+\begin{quote}
+  ``[omitted] the analysis of programs or project needs to be refocused towards
+  the investigation of potentially generalizable mechanisms that explain why and
+  in what contexts projects can be expected to work. The best of the
+  experimental work in development economics already does so, because its
+  practitioners are too talented to be bound by their own methodological
+  prescriptions. Yet there would be much to be said for doing so more openly. I
+  concur with the general message in Pawson and Tilley (1997), who argue that
+  thirty years of project evaluation in sociology, education and criminology was
+  largely unsuccessful because it focused on whether projects work instead of on
+  why they work.'' (page 4)
+\end{quote}
+
+Heckaman and Urzua \parencite{heckman_urzua_2010} express a similar concern by emphasizing:
+
+\begin{quote}
+  ``the problem that plagues the IV approach is that the questions it answers are
+  usually defined as probability limits of estimators and not by well-formulated
+  economic problems. Unspecified `effects' replace clearly defined economic
+  parameters as the objects of empirical interest.'' (page 28)
+\end{quote}
+
+%% poterntial outcome framework
+Second, .
 
 \begin{figure}[!htbp]
   %\sffamily
@@ -294,20 +378,13 @@ Types, Challenges, and Opportunities\vspace{2em}}
   \label{fig:exogeneous_shocks_and_ne}
 \end{figure}
 
+
+%% random ond as-if random nature
+Finally, .
+
 \subsection{Exogenous shocks in leadership and management research}
 \label{subsec:exogenous_shocks_in_management}
 
-\noindent The literature on natural experiments offers meaningful elements to
-clarify the boundaries of exogenous shocks (\cite[for an 
-overview of the natural experiment design, see for example][]{withers_li_2021,
-dunning_2012,craig_et_al_2017,keele_et_al_2016}; \cite[for a review of this
-design, see][]{sekhon_titiunik_2012,sieweke_santoni_2020,
-roseinzweig_et_al_2000}). First, the extant literature draws a line between 
-naturally-occurring events and exogenous shocks. 
-
-Second, .
-
-Finally, .
 
 \begin{figure}[!htbp]
     \centering
@@ -1008,12 +1085,6 @@ Finally, .
 .
 
 \begin{figure}[!htbp]
-  \includegraphics[width=1\textwidth]{exhibits/place_holder.pdf}
-  \caption{A typology of exogenous shocks.}
-  \label{fig:exogeneous_shocks_types}
-\end{figure}
-
-\begin{figure}
     \begin{center}
       \includegraphics[width=1\textwidth]{exhibits/typology.pdf}
     \end{center}
