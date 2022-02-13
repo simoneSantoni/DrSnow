@@ -314,6 +314,47 @@
       \field{pages}{177\bibrangedash 196}
       \range{pages}{20}
     \endentry
+    \entry{cook_et_al_2002}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7c3b6570b33da06e2a70a230e8c9114c}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Thomas\bibnamedelima D},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78a3c94977c295c2c935efc77a292e7f}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={Donald\bibnamedelima Thomas},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ea3765897f5f9dfa9f6011699f7dfb7}{%
+           family={Shadish},
+           familyi={S\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Houghton Mifflin Boston, MA}%
+      }
+      \strng{namehash}{831a4ec10fdb40f2b14c788e02cd5f92}
+      \strng{fullhash}{831a4ec10fdb40f2b14c788e02cd5f92}
+      \strng{bibnamehash}{831a4ec10fdb40f2b14c788e02cd5f92}
+      \strng{authorbibnamehash}{831a4ec10fdb40f2b14c788e02cd5f92}
+      \strng{authornamehash}{831a4ec10fdb40f2b14c788e02cd5f92}
+      \strng{authorfullhash}{831a4ec10fdb40f2b14c788e02cd5f92}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Evaluation and Program Planning}
+      \field{title}{{Experimental and Quasi-Experimental Designs for Generalized Causal Inference}}
+      \field{volume}{27}
+      \field{year}{2004}
+    \endentry
     \entry{corbo2016323}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=c5e78542329eaba8b732f4ac3cfaa35a}{%
@@ -1022,6 +1063,50 @@
       \field{year}{2017}
       \field{pages}{1082\bibrangedash 1100}
       \range{pages}{19}
+    \endentry
+    \entry{miguel_et_al_2004}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=14378045148a3551d5999a9b70b40ffe}{%
+           family={Miguel},
+           familyi={M\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f6e1328b0ee2c857550bcfd59a393e4}{%
+           family={Satyanath},
+           familyi={S\bibinitperiod},
+           given={Shanker},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c5e38a83b15e9117e71d07b36a77f4d}{%
+           family={Sergenti},
+           familyi={S\bibinitperiod},
+           given={Ernest},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{64c7980cca2e28efa0a4e25b14d4a0b4}
+      \strng{fullhash}{64c7980cca2e28efa0a4e25b14d4a0b4}
+      \strng{bibnamehash}{64c7980cca2e28efa0a4e25b14d4a0b4}
+      \strng{authorbibnamehash}{64c7980cca2e28efa0a4e25b14d4a0b4}
+      \strng{authornamehash}{64c7980cca2e28efa0a4e25b14d4a0b4}
+      \strng{authorfullhash}{64c7980cca2e28efa0a4e25b14d4a0b4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Political Economy}
+      \field{number}{4}
+      \field{title}{Economic Shocks and Civil Conflict: An Instrumental Variables Approach}
+      \field{volume}{112}
+      \field{year}{2004}
+      \field{pages}{725\bibrangedash 753}
+      \range{pages}{29}
     \endentry
     \entry{morgan_2012}{book}{}
       \name{author}{1}{}{%

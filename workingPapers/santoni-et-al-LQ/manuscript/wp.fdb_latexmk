@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber wp"] 1644688805 "wp.bcf" "wp.bbl" "wp" 1644688812
-  "references/main_biblio.bib" 1644688802 31103 e4dadde7c38a627e0bb7f33cec47fa43 ""
-  "wp.bcf" 1644688812 109737 c02a376767a166b48dbb41776b877565 "pdflatex"
+["biber wp"] 1644771406 "wp.bcf" "wp.bbl" "wp" 1644774873
+  "references/main_biblio.bib" 1644771335 31772 068f9b676acf975e4f5fe3b559bec79e ""
+  "wp.bcf" 1644774873 109910 a44e28069b5b8f7ad6b9a5d20f67c065 "pdflatex"
   (generated)
-  "wp.blg"
   "wp.bbl"
-["pdflatex"] 1644688810 "/Users/sbbk475/githubRepos/DrSnow/workingPapers/santoni-et-al-LQ/manuscript/wp.tex" "/Users/sbbk475/githubRepos/DrSnow/workingPapers/santoni-et-al-LQ/manuscript/wp.pdf" "wp" 1644688812
-  "/Users/sbbk475/githubRepos/DrSnow/workingPapers/santoni-et-al-LQ/manuscript/wp.aux" 1644688812 17830 1459a308f3bcc64dea77c0bd2aa14667 ""
-  "/Users/sbbk475/githubRepos/DrSnow/workingPapers/santoni-et-al-LQ/manuscript/wp.tex" 1644688801 45118 087f1a44a0ef660da8354840ef00fa00 ""
+  "wp.blg"
+["pdflatex"] 1644774871 "/Users/sbbk475/githubRepos/DrSnow/workingPapers/santoni-et-al-LQ/manuscript/wp.tex" "/Users/sbbk475/githubRepos/DrSnow/workingPapers/santoni-et-al-LQ/manuscript/wp.pdf" "wp" 1644774873
+  "/Users/sbbk475/githubRepos/DrSnow/workingPapers/santoni-et-al-LQ/manuscript/wp.aux" 1644774873 18290 dff498eb71ce1300315e4e17f4c1a41d ""
+  "/Users/sbbk475/githubRepos/DrSnow/workingPapers/santoni-et-al-LQ/manuscript/wp.tex" 1644774871 47147 72d16968656980126f7f852f0f0ded6e ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1202520719 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -274,17 +274,17 @@
   "exhibits/potential_outcome.pgf" 1644531590 15994 d448b747662a418296c9cd6af500fde2 ""
   "exhibits/studies_over_time.pgf" 1644531594 26242 c770561922f3e3036e5280a338cf16be ""
   "exhibits/typology.pdf" 1644536178 15819 6ae1d5b01249baa0dee6063d32a8f472 ""
-  "wp.aux" 1644688812 17830 1459a308f3bcc64dea77c0bd2aa14667 "pdflatex"
-  "wp.bbl" 1644688807 64672 aeb905a93cf595f2ecc521b24f3c1332 "biber wp"
-  "wp.out" 1644688812 1612 ef44108d2517ca7cbaed28ab124ae05d "pdflatex"
-  "wp.run.xml" 1644688812 2360 c16e9e6922db931a2abce3ac7e6b4302 "pdflatex"
-  "wp.tex" 1644688801 45118 087f1a44a0ef660da8354840ef00fa00 ""
+  "wp.aux" 1644774873 18290 dff498eb71ce1300315e4e17f4c1a41d "pdflatex"
+  "wp.bbl" 1644771408 68164 a1a6ab9bf4e04e27958127f07bb2ef17 "biber wp"
+  "wp.out" 1644774873 1612 ef44108d2517ca7cbaed28ab124ae05d "pdflatex"
+  "wp.run.xml" 1644774873 2360 c16e9e6922db931a2abce3ac7e6b4302 "pdflatex"
+  "wp.tex" 1644774871 47147 72d16968656980126f7f852f0f0ded6e ""
   (generated)
-  "wp.log"
-  "wp.bcf"
-  "wp.aux"
-  "wp.out"
   "/Users/sbbk475/githubRepos/DrSnow/workingPapers/santoni-et-al-LQ/manuscript/wp.pdf"
   "wp.pdf"
-  "wp.run.xml"
+  "wp.out"
   "/Users/sbbk475/githubRepos/DrSnow/workingPapers/santoni-et-al-LQ/manuscript/wp.log"
+  "wp.run.xml"
+  "wp.aux"
+  "wp.log"
+  "wp.bcf"
