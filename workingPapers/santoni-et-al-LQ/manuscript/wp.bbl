@@ -19,6 +19,47 @@
 
 \refsection{1}
   \datalist[entry]{nty/global//global/global}
+    \entry{belloc_et_al_2016}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c0a001b5bd450141fd4190507f6d79ba}{%
+           family={Belloc},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=242006f30b6f9517c5fe970685f132e6}{%
+           family={Drago},
+           familyi={D\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69b95e99f446d759af0a08664414e216}{%
+           family={Galbiati},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{884194af5af8c757b4ed84cc947602f5}
+      \strng{fullhash}{884194af5af8c757b4ed84cc947602f5}
+      \strng{bibnamehash}{884194af5af8c757b4ed84cc947602f5}
+      \strng{authorbibnamehash}{884194af5af8c757b4ed84cc947602f5}
+      \strng{authornamehash}{884194af5af8c757b4ed84cc947602f5}
+      \strng{authorfullhash}{884194af5af8c757b4ed84cc947602f5}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quarterly Journal of Economics}
+      \field{number}{4}
+      \field{title}{Earthquakes, Religion, and Transition to Self-Government in Italian Cities}
+      \field{volume}{131}
+      \field{year}{2016}
+      \field{pages}{1875\bibrangedash 1926}
+      \range{pages}{52}
+    \endentry
     \entry{byun20191368}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=02daca5442bace2d1c31e5fe2133dfb8}{%
@@ -1176,6 +1217,113 @@
       \field{pages}{1070\bibrangedash 1096}
       \range{pages}{27}
     \endentry
+    \entry{neyman_et_al_1923}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2fc994c2456d28eb2e6a7e80948967f9}{%
+           family={Neyman},
+           familyi={N\bibinitperiod},
+           given={Jerzy\bibnamedelima Splaw},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38daabbc03fb64177f726e618327497e}{%
+           family={Dabrowska},
+           familyi={D\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f037f8f5139efb5f2d95684beb918c88}{%
+           family={Speed},
+           familyi={S\bibinitperiod},
+           given={T.\bibnamedelimi P.},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5bb609f0ad7e6f99f4842dcf221638c5}
+      \strng{fullhash}{5bb609f0ad7e6f99f4842dcf221638c5}
+      \strng{bibnamehash}{5bb609f0ad7e6f99f4842dcf221638c5}
+      \strng{authorbibnamehash}{5bb609f0ad7e6f99f4842dcf221638c5}
+      \strng{authornamehash}{5bb609f0ad7e6f99f4842dcf221638c5}
+      \strng{authorfullhash}{5bb609f0ad7e6f99f4842dcf221638c5}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Statistical Sciences (originally in the Annals of Agricultural Sciences)}
+      \field{number}{5}
+      \field{title}{On the Application of Probability Theory to Agricultural Experiments}
+      \field{volume}{5}
+      \field{year}{1923 (1990)}
+      \field{pages}{465\bibrangedash 472}
+      \range{pages}{8}
+    \endentry
+    \entry{nguyen_et_al_2010}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f9ec3f954fa0b8b600f67fbca90fbdfd}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Bang\bibnamedelima Dang},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a1e9de5a2d5e05429516d800a82b5ed}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Kasper\bibnamedelima Meisner},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d0b5dcd1656b2ffc6d1ae523886e14f}
+      \strng{fullhash}{5d0b5dcd1656b2ffc6d1ae523886e14f}
+      \strng{bibnamehash}{5d0b5dcd1656b2ffc6d1ae523886e14f}
+      \strng{authorbibnamehash}{5d0b5dcd1656b2ffc6d1ae523886e14f}
+      \strng{authornamehash}{5d0b5dcd1656b2ffc6d1ae523886e14f}
+      \strng{authorfullhash}{5d0b5dcd1656b2ffc6d1ae523886e14f}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0304-405X}
+      \field{journaltitle}{Journal of Financial Economics}
+      \field{number}{3}
+      \field{title}{{The Value of Independent Directors: Evidence from Sudden Deaths}}
+      \field{volume}{98}
+      \field{year}{2010}
+      \field{pages}{550\bibrangedash 567}
+      \range{pages}{18}
+    \endentry
+    \entry{poulos_2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b2549e4c976cf3be7f9821f20ca4b7d}{%
+           family={Poulos},
+           familyi={P\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8b2549e4c976cf3be7f9821f20ca4b7d}
+      \strng{fullhash}{8b2549e4c976cf3be7f9821f20ca4b7d}
+      \strng{bibnamehash}{8b2549e4c976cf3be7f9821f20ca4b7d}
+      \strng{authorbibnamehash}{8b2549e4c976cf3be7f9821f20ca4b7d}
+      \strng{authornamehash}{8b2549e4c976cf3be7f9821f20ca4b7d}
+      \strng{authorfullhash}{8b2549e4c976cf3be7f9821f20ca4b7d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0048-5829}
+      \field{journaltitle}{Public Choice}
+      \field{number}{1-2}
+      \field{title}{{Land Lotteries, Long-Term Wealth, and Political Selection}}
+      \field{volume}{178}
+      \field{year}{2019}
+      \field{pages}{217\bibrangedash 230}
+      \range{pages}{14}
+    \endentry
     \entry{qian20192271}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=c288d1e48edeee841173fd3568680109}{%
@@ -1389,6 +1537,33 @@
       \field{year}{2020}
       \field{pages}{101338}
       \range{pages}{1}
+    \endentry
+    \entry{snow_1855}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f3f372af4d3c8e5ce1f98ccd3bfe3119}{%
+           family={Snow},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Churchill, 2ndedn. Reprinted in Snow on Cholera, London: Humphrey Milford; Oxford University Press.}%
+      }
+      \strng{namehash}{f3f372af4d3c8e5ce1f98ccd3bfe3119}
+      \strng{fullhash}{f3f372af4d3c8e5ce1f98ccd3bfe3119}
+      \strng{bibnamehash}{f3f372af4d3c8e5ce1f98ccd3bfe3119}
+      \strng{authorbibnamehash}{f3f372af4d3c8e5ce1f98ccd3bfe3119}
+      \strng{authornamehash}{f3f372af4d3c8e5ce1f98ccd3bfe3119}
+      \strng{authorfullhash}{f3f372af4d3c8e5ce1f98ccd3bfe3119}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{On the Mode of Communication of Cholera}
+      \field{year}{1855 (1965)}
     \endentry
     \entry{tan20141574}{article}{}
       \name{author}{2}{}{%
