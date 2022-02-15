@@ -197,6 +197,7 @@ bibstyle=authortitle
 %\usepackage{ctable}
 \renewcommand{\thetable}{\Roman{table}}
 \usepackage{csquotes}
+\usepackage{pdflscape}
 
 % -------------------------- Special chars -----------------------------------
 \usepackage{amssymb}
@@ -213,7 +214,7 @@ bibstyle=authortitle
 \definecolor{tet_2_c}{HTML}{D5AB6A}
 \definecolor{tet_3_c}{HTML}{6AD575}
 
-% =============================== References =================================
+% =============================== References ===================================
 % ------------------------------ Load biblio ---------------------------------
 \addbibresource{references/main_biblio.bib}
 \addbibresource{references/appendix_biblio.bib}
@@ -351,9 +352,9 @@ Hence, he argues:
   why they work.'' (page 4)
 \end{quote}
 
-Coming from an econometric background, Heckaman and Urzua \parencite*{heckman_urzua_2010} 
-share Deaton's concerns about IV as a lever to approximate the experimental 
-ideal:
+Coming from an econometric background, Heckaman and Urzua
+\parencite*{heckman_urzua_2010} share Deaton's concerns about IV as a lever to
+approximate the experimental ideal:
 
 \begin{quote}
   ``The problem that plagues the IV approach is that the questions it answers are
@@ -380,23 +381,80 @@ war in Africa. Thanks to the ingenious choice to consider weather change data,
 the authors broaden the conversation on institutions and economic growth.
 Particularly, rainfall variations facilitate an IV design that copes with
 longstanding endogeneity issues regarding the co-evolution of institutions and
-macroeconomic factors and allows investigating empirically a fresh theoretical
-relationship, namely, the effect of economic growth on the likelihood of civil
-war. 
+macroeconomic factors. Hence, the authors can investigate empirically a fresh
+and important theoretical relationship, namely, the effect of economic growth on
+the likelihood of civil war. 
 
-%% poterntial outcome framework
+%% potential outcome framework
 Regarding the \textit{empirical relevance} of a naturally-occurring event, the
-literature on natural experiments shows a quite strict view: an event qualifies
-as an exogenous shock if and only if it allows to operate a research
-design with control group \parencite[][]{cook_et_al_2002}. In other words, there
-should be an adequate time window\footnote{We discuss the temporal aspects of
-exogeneous shocks' effects in Section \ref{sec:how_exogenous_shocks_differ} and
-Section \ref{sec:harnessing_exogenous_shocks}.} in which the intervention
-emerging from the exogenous shock affects a fraction a population units' only. 
-That is \textit{condicio sine qua non} to get an average estimation
-of the treatment using the Neyman-Holland-Rubin's model.
+literature on natural experiments shows a strict view: an event qualifies as an
+exogenous shock if and only if it allows to operate a research design with
+control group \parencite[][]{cook_et_al_2002}. In other words, there should be
+an adequate time window\footnote{We discuss the temporal aspects of exogeneous
+shocks' effects in Section \ref{sec:how_exogenous_shocks_differ} and Section
+\ref{sec:harnessing_exogenous_shocks}.} in which the intervention $T$ emerging
+from the exogenous shock affects a fraction a population's units only.  Such a
+condition is \textit{sine qua non} to evaluate the impact of the intervention
+using Neyman's potential outcome framework \parencite*{neyman_et_al_1923}, an
+unbiased estimator of the average causal effect $T - C$ that is based on three
+quantities: (1) $\widehat{T}$, the average response, if all subjects were assigned
+to treatment; (2) $\widehat{C}$, the average response, if all subjects were assigned
+to control; and (3) the difference $\hat{T} - \widehat{C}$.
 
+The study of John Snow of London's cholera out-break of 1853-54\footnote{The
+project of Snow --- aiming to prove that cholera did not transmit through the
+air, the so called `miasma hypothesis'--- developed along two arms: he used
+geospatial visualizations to show that attacks clustered around Broad Street
+water pump in London's Soho district; then, he conducted the standard natural
+experiment briefly summarized that we briefly summarize in the main text.}
+emphasizes the importance of using exogenous shocks that heterogeneously affect
+the units of a population. In 1852, the Lambeth Waterworks company --- one of
+the major utility companies supplying water to several parts of the city ---
+relocated their water works from Hungerford Market to fifteen mile upstream in
+the Thames, thereby \textit{``obtaining a supply of water quite free from the
+sewage of London''} \parencite[][page 68]{snow_1855}. Contrarily, Southwark \&
+Vauxhall, a company competing with Lambeth Waterworks in several districts of
+London, left its intake pipe downstream in the Thames at Battersea. Snow
+obtained records on cholera deaths in households throughout London, as well as
+information on the company that provided water to each household and the total
+number of houses served by each company. Figure
+\ref{fig:snow_natural_experiment} reports one of the most compelling pieces of
+empirical evidence included the study: fatal attacks are compared before and
+after the exogenous shock (Lambeth Waterworks moved their intake pipelines in
+1952) and by water supply (see the column reported on the far-right hand section
+of the table). Consistently with Neyman model, the analyses of Snow disentangle
+the `true' effect of the shock on cholera communication from time invariant
+attributes regarding the households served by different water suppliers, and,
+perhaps more importantly, from the time variant factors such as the state of the
+cholera out-break at different points in time. Should the naturally-occurring
+event affected the totality of households in London, unlikely Snow's work would
+have addressed the problem of confounders convincingly.  
 
+\begin{figure}
+  \begin{small}
+    \begin{center}
+      \includegraphics[width=0.8\textwidth]{exhibits/snow_natural_experiment.png}
+    \end{center}
+    \caption{An extract of the statistical analyses reported in John Snow's 
+    `On the mode of communication of cholera' \parencite*{snow_1855}. The table,
+    reported at page 90, considers both pretest and posttest data-points ---
+    Lambeth Waterworks moved their intake pipes in 1952 --- for treated 
+    and control households.}
+    \label{fig:snow_natural_experiment}
+  \end{small}
+\end{figure}
+
+%% sudden? out of control?
+A related but distinct aspect of \textit{empirical relevance} concerns the
+`exogenous' nature of the naturally-occurring variation. The literature on
+natural experiment emphasizes that relevant events are not necessarily sudden,
+such as the death of a business leader because of hearth attack
+\parencite[e.g.,][]{nguyen_et_al_2010},\footnote{} uncontrollable, such as earthquakes 
+\parencite[e.g.,][]{belloc_et_al_2016}, or random, such as lotteries \parencite[e.g.][]{poulos_2019}. 
+Legal changes or industry regulations can be exogenous shocks to certain
+research questions. Dunning advances a three-step test to assess : .
+
+.
 
 \begin{figure}[!htbp]
   %\sffamily
@@ -414,11 +472,59 @@ of the treatment using the Neyman-Holland-Rubin's model.
 \end{figure}
 
 
-%% random ond as-if random nature
+%% random or as-if random nature
 Finally, .
 
 \subsection{Exogenous shocks in leadership and management research}
 \label{subsec:exogenous_shocks_in_management}
+
+\noindent This systematic review focuses on 87 studies that leverage a natural
+experiment design to inquire into phenomena or theoretical relationships
+regarding the field of leadership (e.g., Gardner et al. 2010; Dinh et al. 2014).
+We identified candidate studies via an electronic search conducted within
+Scopus. We searched for business and management, psychology, social sciences, or
+multidisciplinary journal articles with the keywords `natural experiment,'
+`regression discontinuity design,' or `instrumental variable' in the title,
+abstract, \emph{or} set of author's generated keywords.\footnote{The query we
+	operated was as follows: TITLE-ABS-KEY (``natural experiment*'') OR
+	TITLE-ABS-KEY (``regression discontinuity design'') OR TITLE-ABS-KEY (
+``instrumental variable*'') AND ( LIMIT-TO ( DOCTYPE , ``ar'')). The outcome of
+the query---in the form article-level metadata---is available in the
+supplemental materials.} For January 2000 - March 2019 ---the timespan of our
+review---the search resulted in 49 unique items.\footnote{Data were retrieved
+	on April 5, 2019.}
+
+The two authors independently went through each abstract and retained all the
+\emph{empirical} studies that fulfilled two criteria: First, the work adopted at
+least one of the three forms of natural experiment, namely, `standard natural
+experiments,' `instrumental variables,' and `regression discontinuity designs'
+(Dunning 2012). Second, the work addressed at least one leadership topic/theory
+included in Gardner and colleagues' review of the theoretical conversations that
+characterize \emph{The Leadership Quarterly} journal.\footnote{The supplemental
+materials report the categories associated with each individual study.} Having
+completed the independent screening phase, we validated the coding decisions. We
+thus considered the full papers of the 87 studies that were temporarily
+filtered-in. Any disagreement about the theoretical focus of each individual
+study was reconciled through discussion and by evaluating the focal study
+against the conceptual categories and examples presented in Gardner and
+colleagues' (2010) review. This led to the exclusion of five studies. Finally,
+the results achieved via the Scopus database were complemented with a Google
+Scholar search combining the above-mentioned keywords with the term
+`leadership.' This led to the inclusion of five additional studies.  Hence, our
+review was based on a set of 87 published articles.\footnote{The number of
+	paper-research design instances we considered is higher than the number
+of studies, because two studies (Dal Bó et al. 2009; Dasgupta 2018) use two
+research designs.}
+
+Figure~\ref{fig:ne_studies_distr} illustrates the distribution of the
+studies with respect to the form of natural experiment (panel A) and the time
+period (panel B) involved. Standard natural experiments (N = 40) and
+instrumental variable designs (N = 41) are the most popular forms of natural
+experiments in leadership research, and, overall, their diffusion seems to grow
+over time. Regression discontinuity designs are the least popular form (N = 8)
+and their use in the field of leadership is scattered over the last ten years.
+Appendix~A provides further descriptive elements regarding the set of studies.
+
 
 
 \begin{figure}[!htbp]
