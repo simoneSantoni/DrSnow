@@ -19,6 +19,97 @@
 
 \refsection{1}
   \datalist[entry]{nty/global//global/global}
+    \entry{azoulay_et_al_2010}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b4cc2c487e2a06add0cc869a246b9715}{%
+           family={Azoulay},
+           familyi={A\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4261dca577c092ac23ea9268a9a06a61}{%
+           family={Graff\bibnamedelima Zivin},
+           familyi={G\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           given={Joshua\bibnamedelima S},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=2bc62378400adef50889376e36d87c84}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jialan},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{6ccf747475e51f4a381ce62b87deb81c}
+      \strng{fullhash}{6ccf747475e51f4a381ce62b87deb81c}
+      \strng{bibnamehash}{6ccf747475e51f4a381ce62b87deb81c}
+      \strng{authorbibnamehash}{6ccf747475e51f4a381ce62b87deb81c}
+      \strng{authornamehash}{6ccf747475e51f4a381ce62b87deb81c}
+      \strng{authorfullhash}{6ccf747475e51f4a381ce62b87deb81c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{number}{2}
+      \field{title}{Superstar Extinction}
+      \field{volume}{125}
+      \field{year}{2010}
+      \field{pages}{549\bibrangedash 589}
+      \range{pages}{41}
+    \endentry
+    \entry{beaman_et_al_2012}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=f69fd620b2cdfb4e28c6527a0e7eaf91}{%
+           family={Beaman},
+           familyi={B\bibinitperiod},
+           given={Lori},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e6b0ea4eee38822cdb0a4361e98752c}{%
+           family={Duflo},
+           familyi={D\bibinitperiod},
+           given={Esther},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f94d9f78f17d3f4d86c9f2826197827}{%
+           family={Pande},
+           familyi={P\bibinitperiod},
+           given={Rohini},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ffe78407724fe2566516c3974c6edd36}{%
+           family={Topalova},
+           familyi={T\bibinitperiod},
+           given={Petia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{a249e12262507aa703e9ffa0146e8af1}
+      \strng{fullhash}{a249e12262507aa703e9ffa0146e8af1}
+      \strng{bibnamehash}{3fc7ecd7be8a7c0ac02c9c6ece1a65ee}
+      \strng{authorbibnamehash}{3fc7ecd7be8a7c0ac02c9c6ece1a65ee}
+      \strng{authornamehash}{a249e12262507aa703e9ffa0146e8af1}
+      \strng{authorfullhash}{a249e12262507aa703e9ffa0146e8af1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{science}
+      \field{number}{6068}
+      \field{title}{Female Leadership Raises Aspirations and Educational Attainment for Girls: A Policy Experiment in India}
+      \field{volume}{335}
+      \field{year}{2012}
+      \field{pages}{582\bibrangedash 586}
+      \range{pages}{5}
+    \endentry
     \entry{belloc_et_al_2016}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=c0a001b5bd450141fd4190507f6d79ba}{%
@@ -249,6 +340,38 @@
       \field{year}{2010}
       \field{pages}{917\bibrangedash 945}
       \range{pages}{29}
+    \endentry
+    \entry{chauchard_2014}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e246b4d4553b5638c68b3ba92b1d75b6}{%
+           family={Chauchard},
+           familyi={C\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{e246b4d4553b5638c68b3ba92b1d75b6}
+      \strng{fullhash}{e246b4d4553b5638c68b3ba92b1d75b6}
+      \strng{bibnamehash}{e246b4d4553b5638c68b3ba92b1d75b6}
+      \strng{authorbibnamehash}{e246b4d4553b5638c68b3ba92b1d75b6}
+      \strng{authornamehash}{e246b4d4553b5638c68b3ba92b1d75b6}
+      \strng{authorfullhash}{e246b4d4553b5638c68b3ba92b1d75b6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Political Science Review}
+      \field{number}{2}
+      \field{title}{Can Descriptive Representation Change Beliefs about a Stigmatized Group? Evidence from Rural India}
+      \field{volume}{108}
+      \field{year}{2014}
+      \field{pages}{403\bibrangedash 422}
+      \range{pages}{20}
     \endentry
     \entry{chen20181239}{article}{}
       \name{author}{2}{}{%
@@ -1105,6 +1228,41 @@
       \field{pages}{1082\bibrangedash 1100}
       \range{pages}{19}
     \endentry
+    \entry{matsa_miller_2013}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f23110f54e86d4a28df2f4cd236f475f}{%
+           family={Matsa},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26b62041d78d773899dd3cc1663af0b1}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Amalia\bibnamedelima R},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{efbce2b9276151071eff75b63ba5177d}
+      \strng{fullhash}{efbce2b9276151071eff75b63ba5177d}
+      \strng{bibnamehash}{efbce2b9276151071eff75b63ba5177d}
+      \strng{authorbibnamehash}{efbce2b9276151071eff75b63ba5177d}
+      \strng{authornamehash}{efbce2b9276151071eff75b63ba5177d}
+      \strng{authorfullhash}{efbce2b9276151071eff75b63ba5177d}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Journal: Applied Economics}
+      \field{number}{3}
+      \field{title}{A Female Style in Corporate Leadership? Evidence from Quotas}
+      \field{volume}{5}
+      \field{year}{2013}
+      \field{pages}{136\bibrangedash 69}
+      \range{pages}{34}
+    \endentry
     \entry{miguel_et_al_2004}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=14378045148a3551d5999a9b70b40ffe}{%
@@ -1293,6 +1451,35 @@
       \field{year}{2010}
       \field{pages}{550\bibrangedash 567}
       \range{pages}{18}
+    \endentry
+    \entry{oettl_2012}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5cd394d3e3c4b20f2904b67ca81eec0d}{%
+           family={Oettl},
+           familyi={O\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5cd394d3e3c4b20f2904b67ca81eec0d}
+      \strng{fullhash}{5cd394d3e3c4b20f2904b67ca81eec0d}
+      \strng{bibnamehash}{5cd394d3e3c4b20f2904b67ca81eec0d}
+      \strng{authorbibnamehash}{5cd394d3e3c4b20f2904b67ca81eec0d}
+      \strng{authornamehash}{5cd394d3e3c4b20f2904b67ca81eec0d}
+      \strng{authorfullhash}{5cd394d3e3c4b20f2904b67ca81eec0d}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Management Science}
+      \field{number}{6}
+      \field{title}{Reconceptualizing Stars: Scientist Helpfulness and Peer Performance}
+      \field{volume}{58}
+      \field{year}{2012}
+      \field{pages}{1122\bibrangedash 1140}
+      \range{pages}{19}
     \endentry
     \entry{poulos_2019}{article}{}
       \name{author}{1}{}{%
