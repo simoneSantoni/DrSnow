@@ -60,6 +60,42 @@
       \field{pages}{549\bibrangedash 589}
       \range{pages}{41}
     \endentry
+    \entry{barreto2013687}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8017171de26a86ac1a91e7bd820662d9}{%
+           family={Barreto},
+           familyi={B\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0e7367fdae6bce924a33099ac43f50c}{%
+           family={Patient},
+           familyi={P\bibinitperiod},
+           given={D.L.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{840d20a57beaed7bfe29c62aeb6bbb6a}
+      \strng{fullhash}{840d20a57beaed7bfe29c62aeb6bbb6a}
+      \strng{bibnamehash}{840d20a57beaed7bfe29c62aeb6bbb6a}
+      \strng{authorbibnamehash}{840d20a57beaed7bfe29c62aeb6bbb6a}
+      \strng{authornamehash}{840d20a57beaed7bfe29c62aeb6bbb6a}
+      \strng{authorfullhash}{840d20a57beaed7bfe29c62aeb6bbb6a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Management Journal}
+      \field{note}{cited By 44}
+      \field{number}{6}
+      \field{title}{Toward a Theory of Intraorganizational Attention Based on Desirability and Feasibility Factors}
+      \field{volume}{34}
+      \field{year}{2013}
+      \field{pages}{687\bibrangedash 703}
+      \range{pages}{17}
+    \endentry
     \entry{beaman_et_al_2012}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=f69fd620b2cdfb4e28c6527a0e7eaf91}{%
@@ -607,6 +643,48 @@
       \field{pages}{39\bibrangedash 56}
       \range{pages}{18}
     \endentry
+    \entry{cui20191216}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5703ef2c6a412485dfcc8f9e75e5de20}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=9ab0a1ca170edb74c8a83e6c255dd4f0}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={D.J.},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=6360cb21e81081ee745b25b2a4fe1cd2}{%
+           family={Bassamboo},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{54a95d3ef196a90fb1353f0c8462a867}
+      \strng{fullhash}{54a95d3ef196a90fb1353f0c8462a867}
+      \strng{bibnamehash}{54a95d3ef196a90fb1353f0c8462a867}
+      \strng{authorbibnamehash}{54a95d3ef196a90fb1353f0c8462a867}
+      \strng{authornamehash}{54a95d3ef196a90fb1353f0c8462a867}
+      \strng{authorfullhash}{54a95d3ef196a90fb1353f0c8462a867}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Management Science}
+      \field{note}{cited By 27}
+      \field{number}{3}
+      \field{title}{Learning from Inventory Availability Information: Evidence from Field Experiments on Amazon}
+      \field{volume}{65}
+      \field{year}{2019}
+      \field{pages}{1216\bibrangedash 1235}
+      \range{pages}{20}
+    \endentry
     \entry{deaton_2009}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=84a3fb0a415707452c63f887f259ab3a}{%
@@ -774,6 +852,76 @@
       \field{title}{The Competitive Advantage of Affiliation with Business Groups in the Political Environment: Evidence from the Arab Spring}
       \field{year}{2020}
     \endentry
+    \entry{glynn20051031}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9bc700e93586d96f4d2f62bd173d19cb}{%
+           family={Glynn},
+           familyi={G\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0feccd2811de4968dedfe31bc32a7b51}{%
+           family={Lounsbury},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2eae45b6ccbd1f05023aa108424a13ee}
+      \strng{fullhash}{2eae45b6ccbd1f05023aa108424a13ee}
+      \strng{bibnamehash}{2eae45b6ccbd1f05023aa108424a13ee}
+      \strng{authorbibnamehash}{2eae45b6ccbd1f05023aa108424a13ee}
+      \strng{authornamehash}{2eae45b6ccbd1f05023aa108424a13ee}
+      \strng{authorfullhash}{2eae45b6ccbd1f05023aa108424a13ee}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Management Studies}
+      \field{number}{5}
+      \field{title}{From the Critics Corner: Logic Blending, Discursive Change and Authenticity in a Cultural Production System}
+      \field{volume}{42}
+      \field{year}{2005}
+      \field{pages}{1031\bibrangedash 1055}
+      \range{pages}{25}
+    \endentry
+    \entry{gonzalez_et_al_2018}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6548ea1386a2429910bc95007ec7810b}{%
+           family={Gonzalez-Mulé},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77482b75446bc3a0b02b037e4dfd601f}{%
+           family={Aguinis},
+           familyi={A\bibinitperiod},
+           given={Herman},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{63e014644735314712a7c08ea2414357}
+      \strng{fullhash}{63e014644735314712a7c08ea2414357}
+      \strng{bibnamehash}{63e014644735314712a7c08ea2414357}
+      \strng{authorbibnamehash}{63e014644735314712a7c08ea2414357}
+      \strng{authornamehash}{63e014644735314712a7c08ea2414357}
+      \strng{authorfullhash}{63e014644735314712a7c08ea2414357}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Management}
+      \field{number}{6}
+      \field{title}{Advancing theory by assessing boundary conditions with metaregression: A critical review and best-practice recommendations}
+      \field{volume}{44}
+      \field{year}{2018}
+      \field{pages}{2246\bibrangedash 2273}
+      \range{pages}{28}
+    \endentry
     \entry{gupta2020802}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=5641bea586a2e5ad69778bf313f2d845}{%
@@ -932,6 +1080,35 @@
       \field{title}{Trust and Contracting: Evidence from Church Sex Scandals}
       \field{year}{2021}
     \endentry
+    \entry{jenkins2010884}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f17c62c8549aab3537248ed4872c4faa}{%
+           family={Jenkins},
+           familyi={J\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f17c62c8549aab3537248ed4872c4faa}
+      \strng{fullhash}{f17c62c8549aab3537248ed4872c4faa}
+      \strng{bibnamehash}{f17c62c8549aab3537248ed4872c4faa}
+      \strng{authorbibnamehash}{f17c62c8549aab3537248ed4872c4faa}
+      \strng{authornamehash}{f17c62c8549aab3537248ed4872c4faa}
+      \strng{authorfullhash}{f17c62c8549aab3537248ed4872c4faa}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Management Studies}
+      \field{number}{5}
+      \field{title}{Technological Discontinuities and Competitive Advantage: A Historical Perspective on Formula 1 Motor Racing 1950-2006}
+      \field{volume}{47}
+      \field{year}{2010}
+      \field{pages}{884\bibrangedash 910}
+      \range{pages}{27}
+    \endentry
     \entry{jia2020290}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=0f98d24928baeb4dcd760770761b00a5}{%
@@ -1008,6 +1185,53 @@
       \field{pages}{1300\bibrangedash 1324}
       \range{pages}{25}
     \endentry
+    \entry{ke2019439}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=f07a22eaef6a031c03ed8a802763bbec}{%
+           family={Ke},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=32ecf3b8563f881c200eaaf65381ff0d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=acb5f6850eb28dd7b92df4c5f2cc9055}{%
+           family={Ling},
+           familyi={L\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=1f26f664835ac6c347db22001b657f1a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{b9c3a1485d885e7ad8a556244a47f3d6}
+      \strng{fullhash}{b9c3a1485d885e7ad8a556244a47f3d6}
+      \strng{bibnamehash}{23098c4b2cf63cfbeac9db8da908c977}
+      \strng{authorbibnamehash}{23098c4b2cf63cfbeac9db8da908c977}
+      \strng{authornamehash}{b9c3a1485d885e7ad8a556244a47f3d6}
+      \strng{authorfullhash}{b9c3a1485d885e7ad8a556244a47f3d6}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Management Science}
+      \field{number}{1}
+      \field{title}{Social Connections Within Executive Teams and Management Forecasts}
+      \field{volume}{65}
+      \field{year}{2019}
+      \field{pages}{439\bibrangedash 457}
+      \range{pages}{19}
+    \endentry
     \entry{keele_et_al_2016}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6e3c81199764b364deb7d5fada503c91}{%
@@ -1081,6 +1305,41 @@
       \field{year}{2018}
       \field{pages}{5725\bibrangedash 5747}
       \range{pages}{23}
+    \endentry
+    \entry{kriauciunas2006659}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a18a8f24d3883aebe6ee16889d64c3ed}{%
+           family={Kriauciunas},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d18b22c0b4e7570b9815d9354e0c8c9}{%
+           family={Kale},
+           familyi={K\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{16d8105ba816ead2c04f089296c12eb1}
+      \strng{fullhash}{16d8105ba816ead2c04f089296c12eb1}
+      \strng{bibnamehash}{16d8105ba816ead2c04f089296c12eb1}
+      \strng{authorbibnamehash}{16d8105ba816ead2c04f089296c12eb1}
+      \strng{authornamehash}{16d8105ba816ead2c04f089296c12eb1}
+      \strng{authorfullhash}{16d8105ba816ead2c04f089296c12eb1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Management Journal}
+      \field{number}{7}
+      \field{title}{The Impact of Socialist Imprinting and Search on Resource Change: A Study of Firms in Lithuania}
+      \field{volume}{27}
+      \field{year}{2006}
+      \field{pages}{659\bibrangedash 679}
+      \range{pages}{21}
     \endentry
     \entry{krishnan20194522}{article}{}
       \name{author}{2}{}{%
@@ -1262,6 +1521,35 @@
       \field{year}{2013}
       \field{pages}{136\bibrangedash 69}
       \range{pages}{34}
+    \endentry
+    \entry{mcsweeney2009933}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=91374f292dad179ca6bef40fd76e47f9}{%
+           family={McSweeney},
+           familyi={M\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{91374f292dad179ca6bef40fd76e47f9}
+      \strng{fullhash}{91374f292dad179ca6bef40fd76e47f9}
+      \strng{bibnamehash}{91374f292dad179ca6bef40fd76e47f9}
+      \strng{authorbibnamehash}{91374f292dad179ca6bef40fd76e47f9}
+      \strng{authornamehash}{91374f292dad179ca6bef40fd76e47f9}
+      \strng{authorfullhash}{91374f292dad179ca6bef40fd76e47f9}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Organization Studies}
+      \field{number}{9}
+      \field{title}{Dynamic Diversity: Variety and Variation Within Countries}
+      \field{volume}{30}
+      \field{year}{2009}
+      \field{pages}{933\bibrangedash 957}
+      \range{pages}{25}
     \endentry
     \entry{miguel_et_al_2004}{article}{}
       \name{author}{3}{}{%
@@ -1587,6 +1875,53 @@
       \field{pages}{1496\bibrangedash 1525}
       \range{pages}{30}
     \endentry
+    \entry{rindova_et_al_2018}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4d5251bf16f3a8d76ad3baa0e0b0403a}{%
+           family={Rindova},
+           familyi={R\bibinitperiod},
+           given={Violina\bibnamedelima P},
+           giveni={V\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee56f917525a787ee5c5e28c138e67b5}{%
+           family={Martins},
+           familyi={M\bibinitperiod},
+           given={Luis\bibnamedelima L},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76b188c906f2096560936798cb9a20dc}{%
+           family={Srinivas},
+           familyi={S\bibinitperiod},
+           given={Santosh\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b568294149f077ca921be6aab84f47cd}{%
+           family={Chandler},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2b127747e1042075d4584eee5c711be7}
+      \strng{fullhash}{2b127747e1042075d4584eee5c711be7}
+      \strng{bibnamehash}{1674d8eb7b7cf9886c06681f526579ac}
+      \strng{authorbibnamehash}{1674d8eb7b7cf9886c06681f526579ac}
+      \strng{authornamehash}{2b127747e1042075d4584eee5c711be7}
+      \strng{authorfullhash}{2b127747e1042075d4584eee5c711be7}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Management}
+      \field{number}{6}
+      \field{title}{The Good, the Bad, and the Ugly of Organizational Rankings: A Multidisciplinary Review of the Literature and Directions for Future Research}
+      \field{volume}{44}
+      \field{year}{2018}
+      \field{pages}{2175\bibrangedash 2208}
+      \range{pages}{34}
+    \endentry
     \entry{roseinzweig_et_al_2000}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=f9c67fbc5c25783ec1a892d207f291ee}{%
@@ -1787,6 +2122,76 @@
       \field{pages}{1574\bibrangedash 1593}
       \range{pages}{20}
     \endentry
+    \entry{tham20182901}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a3c16da334008813903303333b4d527f}{%
+           family={Tham},
+           familyi={T\bibinitperiod},
+           given={W.W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac1e53a729fb5e17f189b90dce8dc930}{%
+           family={Sojli},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d1b1ca97a7214965eca3d9f306e03c3}{%
+           family={Skjeltorp},
+           familyi={S\bibinitperiod},
+           given={J.A.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5cad4065db22a8bd48d1a96378ee5678}
+      \strng{fullhash}{5cad4065db22a8bd48d1a96378ee5678}
+      \strng{bibnamehash}{5cad4065db22a8bd48d1a96378ee5678}
+      \strng{authorbibnamehash}{5cad4065db22a8bd48d1a96378ee5678}
+      \strng{authornamehash}{5cad4065db22a8bd48d1a96378ee5678}
+      \strng{authorfullhash}{5cad4065db22a8bd48d1a96378ee5678}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Management Science}
+      \field{number}{6}
+      \field{title}{Cross-Sided Liquidity Externalities}
+      \field{volume}{64}
+      \field{year}{2018}
+      \field{pages}{2901\bibrangedash 2929}
+      \range{pages}{29}
+    \endentry
+    \entry{uzzi199735}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=50fd4dfbaabe327e77d960dfaec005d4}{%
+           family={Uzzi},
+           familyi={U\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{50fd4dfbaabe327e77d960dfaec005d4}
+      \strng{fullhash}{50fd4dfbaabe327e77d960dfaec005d4}
+      \strng{bibnamehash}{50fd4dfbaabe327e77d960dfaec005d4}
+      \strng{authorbibnamehash}{50fd4dfbaabe327e77d960dfaec005d4}
+      \strng{authornamehash}{50fd4dfbaabe327e77d960dfaec005d4}
+      \strng{authorfullhash}{50fd4dfbaabe327e77d960dfaec005d4}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Administrative Science Quarterly}
+      \field{number}{1}
+      \field{title}{Social Structure and Competition in Interfirm Networks: The Paradox of Embeddedness}
+      \field{volume}{42}
+      \field{year}{1997}
+      \field{pages}{35\bibrangedash 67}
+      \range{pages}{33}
+    \endentry
     \entry{vergne20121027}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=713b2fee948f11062618173ddf53fae0}{%
@@ -1922,12 +2327,12 @@
     \endentry
     \entry{zhang2020}{article}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=1f26f664835ac6c347db22001b657f1a}{%
+        {{un=1,uniquepart=given,hash=1f26f664835ac6c347db22001b657f1a}{%
            family={Zhang},
            familyi={Z\bibinitperiod},
            given={Y.},
            giveni={Y\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=1,uniquepart=given,hash=ef065b28c31984323fd6d3483d29aafd}{%
            family={Li},
            familyi={L\bibinitperiod},
