@@ -144,6 +144,14 @@
 %\usepackage{endnotes}
 %\let\footnote=\endnote
 
+%% -------------------------------- Fonts ------------------------------------
+\usepackage{amsmath}                  % extended mathematics
+\usepackage[scaled=0.9]{helvet}       % sans-serif font to use
+\usepackage[defaultmathsize, symbolgreek]{mathastext}
+%\renewcommand\familydefault\sfdefault
+\Mathastext[helvet]
+\usepackage{sansmath}                 % maths with sans-serif
+
 %% ------------------------------- Links ------------------------------------- 
 \usepackage[dvipsnames]{xcolor}
 \usepackage[
@@ -233,7 +241,7 @@ Types, Challenges, and Opportunities\vspace{2em}}
 \affil[$\star$]{Vrije Universiteit Amsterdam}
 \affil[$\circ$]{Mays Business School --- Texas A\&M University}
 
-\renewcommand\Authands{and}
+\renewcommand\Authands{ and }
 %\renewcommand\Authfont{\sffamily}
 \renewcommand\Affilfont{\normalsize}
 
@@ -578,23 +586,23 @@ author's generated keywords. The search resulted in 49 unique items.
 \footnote{Data were retrieved on January 17, 2022.}
 
 Having considered the full manuscript of each retrieved articles, we discarded
-17 articles that did not fall within the remit of the review. Particularly, 
+18 articles that did not fall within the remit of the review. Particularly, 
 we excluded from the sample two studies in which the search token appears once and 
 appears not to focus on or use the conceptual category of `exogenous shock'
 \parencite{uzzi199735,kriauciunas2006659}; one work focusing on managers'
 cognitive representation of a shock \parencite{barreto2013687}; four non-empirical papers
 \parencite[e.g.,][]{mcsweeney2009933}; two qualitative studies
-\parencite[i.e.,][]{glynn20051031, jenkins2010884}; one field experiment 
-\parencite{cui20191216}; seven Management Science articles dealing with 
-finance, marketing, or operations subjects \parencite[e.g.][]{tham20182901}.
+\parencite{glynn20051031, jenkins2010884}; one field experiment 
+\parencite{cui20191216}; eight Management Science articles dealing with 
+finance, marketing, or operations subjects \parencite[e.g.,][]{tham20182901}.
 Figure~\ref{fig:studies_across_journals} illustrates the distribution of sample
 studies across journals.
 
 \begin{figure}[!htbp]
     \centering
-    \import{}{exhibits/studies_over_time.pgf}
+    \import{}{exhibits/studies_across_journals.pgf}
     \caption{Distribution of studies that claim to use an exogenous shock across
-    management journals.  Notes: N = 32; in the interest of consistency, we
+    management journals.  Notes: N = 31; in the interest of consistency, we
     excluded `exogenous shock' studies published in Management Science addressing
     finance, marketing, or operations subjects. The following journals do not have any
     `exogenous shock' study: Administrative Science Quarterly, Entrepreneurship
@@ -616,31 +624,31 @@ substantive scope of the study --- or both. Having completed the independent
 analysis of sample studies, the two authors merged their coding choices and 
 reconciled their different views regarding the role of the exogenous shock play
 in four papers.\footnote{The coding spreadsheet is publicly available at: \href{
-https://www.dropbox.com/scl/fi/rt3110pvhbjcu6i7vp3to/coding.xlsx?dl=0}
-{https://www.dropbox.com/.../coding.xlsx?dl=0}.} Table
+https://www.dropbox.com/s/rzz0kb7hjoe4ec9/coded_studies.csv?dl=0}
+{https://www.dropbox.com/.../coded\_studies.xlsx?dl=0}.} Table
 \ref{tab:summary_of_sample_studies} reports the outcome of our coding, including
 a brief summary of how the naturally-occurring event qualifies as an exogenous
 shock (see the column `Summary', reported on the right-hand side of the table).
 
 Regarding the first dimension of our coding, the most popular categories of 
 events are `legal change' and (N = 11) and `turnover' (N = 6) --- see Figure 
-\ref{fig:classes_of_events}. Concerning `legal change,' scholars have relied 
-on events such as the staggered passage of anti-takeover laws 
+\ref{fig:classes_of_events}. Concerning `legal change,' scholars have relied on
+events such as the staggered passage of anti-takeover laws 
 \parencite{cabral202128,wang20162393}, change in immigration rules 
-\parencite{choudhury2019203}, the Sarbane-Oxley Act \parencite{gupta2020802},
-SEC's regulation change \parencite{jia2020290}, the change of 
-inheritance, gift, and estate taxes \parencite{kang20201300}, 
-the staggered adoption of the Inevitable Disclosure Doctrine in U.S.
-\parencite{kang20201300}, a revision of U.S. Higher Education Amendments 
-\parencite{krishnan20194522}, reductions in import tariffs 
-\parencite{li20194011}, demonetization measures \parencite{natarajan20191070}.
-Turnover events comprise sick leave episodes of key employees 
-\parencite{chen20181239,drexler20142722,chown2015177,}, 
-political leadership churn \parencite{gedefawbirhanu2020,byun20191368},
-and sudden deaths of executives \parencite{koh20185725}. Other recurrent 
-events include terrorist attacks \parencite{corbo2016323,vergne20121027,li20194011} and 
-scandals \parencite{cai2019159,hilary2021}, and change in financial analysts'
-coverage \parencite{chatterji2010917,qian20192271}.
+\parencite{choudhury2019203}, the Garn-St. Germain Act
+\parencite{haveman2001253}, the Sarbane-Oxley Act \parencite{gupta2020802},
+SEC's regulation change \parencite{jia2020290}, the change of inheritance, gift,
+and estate taxes \parencite{kang20201300}, the staggered adoption of the
+Inevitable Disclosure Doctrine in U.S.  \parencite{kang20201300}, a revision of
+U.S. Higher Education Amendments \parencite{krishnan20194522}, reductions in
+import tariffs \parencite{li20194011}, demonetization measures
+\parencite{natarajan20191070}.  Turnover events comprise sick leave episodes of
+key employees \parencite{chen20181239,drexler20142722,chown2015177,}, political
+leadership churn \parencite{birhanu2020,byun20191368}, and sudden deaths
+of executives \parencite{ke2019439}. Other recurrent events include terrorist
+attacks \parencite{corbo2016323,vergne20121027,li20194011} and scandals
+\parencite{cai2019159,hilary2021}, and change in financial analysts' coverage
+\parencite{chatterji2010917,qian20192271}.
 
 \begin{figure}[!htbp]
     \centering
@@ -650,7 +658,30 @@ coverage \parencite{chatterji2010917,qian20192271}.
     \label{fig:classes_of_events}
 \end{figure}
 
+As shown in the Venn diagram included in Figure \ref{fig:event_roles},
+naturally-occurring events are claimed to play an empirical role in the large majority
+of the cases included in our sample (N = 25). For instance, Krishnan and 
+Wang \parencite*{krishnan20194522} use data from the Survey of Consumer 
+Finances to address the research question
+`does student debt influence the propensity to start a firm?'. The concept 
+of exogenous shock is not important for the scope of the work 
+and does not inform the proposed theorizing. At the same time, one may study
+the relationship between student debt and business creation in the context of 
+an observational research design. However, the authors are concerned about 
+the causal interpretation of their empirical estimates:
 
+\begin{quote}
+  \textit{
+  ``there may be unobserved characteristics that may drive our results. For
+  instance, individuals with wealthier families may have lower student debt as
+  well as the financial means to start a firm. Such unobservable family effects
+  may explain the negative relation between student debt and entrepreneurship.
+  Alternatively, individuals from wealthier families may borrow more if they
+  expect to be able to pay back the loans easily (and such individuals are more
+  likely to be entrepreneurs).''
+  }
+  (page 4528)
+\end{quote}
 
 \begin{figure}[!htbp]
     \centering
@@ -659,9 +690,127 @@ coverage \parencite{chatterji2010917,qian20192271}.
     \label{fig:event_roles}
 \end{figure}
 
+Hence, they use a legal change as an exogenous shock to the cost of business 
+failures for individuals with greater levels of student loans:
 
+\begin{quote}
+  \textit{
+  ``To address endogeneity concerns, we utilize the Higher Education Amendments
+  (HEA) of 1998, which effectively rendered student loans completely
+  non-dischargeable. We find that students that were already in four-year college
+  at the time of this regulation and had significant student debt were less
+  likely to start a firm. This test considers only individuals who were enrolled
+  prior to the year of regulation (i.e., prior to 1998) in a four-year college.
+  The idea is that, for the group of individuals who are already enrolled in
+  college, the regulatory change is clearly exogenous, in the sense that it
+  does not drive their choice to enter college. ''
+  }
+  (page 4532)
+\end{quote}
 
-\clearpage
+Half of the studies circa (N = 16) assign a substantive role to exogenous
+shocks.  For example, Haveman, Russo and Meyer \parencite*{haveman2001253} 
+articulate a framework that links organizations' responses to discontinuous
+industry-level, regulatory change. The theoretical section of the study maps the
+phenomenon of regulatory change onto the General Punctuated Equilibrium Model
+and provides expectations about the multiple consequences of regulatory change
+for individual organizations. The substantive role of the shock is self-evident
+in the formulation of the hypotheses, e.g.:
+
+\begin{quote}
+  \textit{
+    ``Immediately following any regulatory punctuation, CEO succession rates
+    will not rise; instead, CEO succession rates will rise gradually as time
+    passes.''
+  }
+  (page 259)
+\end{quote}
+
+It is worth to notice the authors emphasize the `exogenous' nature of the Garn-St.
+Germain Act --- the example of regulatory change at the center of the paper 
+---, but they do not discuss what it means for the research design of 
+the study, and, especially, in terms of empirical identification.
+
+We also found a subset of studies (N = 8) that claim to use an exogenous with
+empirical and substantive relevance. Byun, Raffaele, and Ganco
+\parencite{byun20191368} propose a set of hypothesis that connect `discontinuous
+increases in the value of an employee's relational capital' with `employee
+turnover' and `spinout' formation. For example, their first hypothesis states:
+
+\begin{quote}
+  \textit{
+    ``Discontinuous increases in the value of an  employee's relational capital 
+    will be positively related to employee exit.''
+  }
+  (page 1371)
+\end{quote}
+
+The authors can advance and test this and the other hypotheses thanks to
+naturally-occuring events regarding the politicians connected to lobbyists
+(i.e., `employees').  Here is a passage concerning the description of the
+independent variable of the study, `discontinuous increases in the value of an
+employee's relational capital:'
+
+\begin{quote}
+  \textit{
+    ``We use appointments to committee chair and assignments to the four most
+    powerful committees in Congress to capture connected politicians' power
+    changes in the legislative process. Discontinuous increase is a binary
+    variable coded `1' for the first year a politician connected to a lobbyist is
+    selected to be a chair of a congressional committee or is assigned to one of
+    the powerful committees in Congress and `0' otherwise.''
+  }
+  (page 1375)
+\end{quote}
+
+The series of political appointment decisions play also an empirical role, the 
+Byun and colleagues point out: 
+
+\begin{quote}
+  \textit{
+    ``Our identifying assumption is consistent with prior work and rests on the
+    notion that the temporal change in power of connected politicians is
+    exogenous, conditional on the observable characteristics of the lobbyists
+    and their firms [omitted]. For the power change of a connected politician to
+    be plausibly exogenous, whether and when the connected politician will
+    experience the advancement has to be difficult to predict by lobbyists and
+    firms. In addition, the change in lobbyist's value creation due to a surge
+    in the value of political connections should be uncorrelated with the
+    accumulation of the lobbyist's expertise, conditional on observables. Given
+    the complicated and uncertain political process of chair selection and
+    committee assignment, scholars have argued that committee and chair
+    assignment satisfies these conditions with respect to lobbyists [omitted].
+    In fact, others have gone as far as to argue that the timing and ascension
+    of committee and chair appointments are exogenous even to the politician
+    herself [omitted]. Thus, it is reasonable to believe that using the power
+    change of a connected politician to capture discontinuous in-creases in the
+    lobbyist's relational capital would alleviate identification concerns due to
+    potential omitted variable biases.''
+  }
+  (page 1375)
+\end{quote}
+
+\begin{figure}
+  \raggedleft
+  \begin{small}
+    \import{}{exhibits/potential_outcome.pgf}
+    \caption{
+      Distribution of studies across research designs and exogenous shocks'
+      roles. Notes. --- A design lacking a control group has pretest and posttest
+      observations for one group only; a design with a control group has
+      pre-test and post-test both for units that are affected by the exogenous
+      shock and those that are not.
+    }
+    \label{fig:potential_outcome}
+  \end{small}
+\end{figure}
+
+Figure \ref{fig:potential_outcome} illustrates the distribution of sample studies 
+across research designs and exogenous shocks' roles. Circa one third of 
+the articles (N = 11) operate a research design without control group. For
+example, Corbo, Ferriani, and Corrado \parencite*{corbo2016323} use 9/11 
+as a shock for the logics behind the formation of alliances in the airline industry.
+
 
 % define new column type
 \newcolumntype{Y}[1]{%
@@ -700,7 +849,7 @@ coverage \parencite{chatterji2010917,qian20192271}.
          \multicolumn{1}{l}{Summary}\\
          \midrule \\[-1.8ex]
 
-         Birhanu \& Wezel \parencite*{gedefawbirhanu2020}\dotfill &
+         Birhanu \& Wezel \parencite*{birhanu2020}\dotfill &
          Government changes following Arab spring social movement. &
          How does group affiliation influence firm performance under weak market
          institutions?&
@@ -713,7 +862,7 @@ coverage \parencite{chatterji2010917,qian20192271}.
          Change in a politician's committee and/or committee chair assignments. &
          How do changes in an employee's relational capital influence mobility 
          and entrepreneurship decisions? &
-         \multicolumn{1}{c}{$\times$} &
+         \multicolumn{1}{c}{$\checkmark$} &
          \multicolumn{1}{c}{$\checkmark$} &
          Lobbyists may experience a discontinuous shift in the value associated
          with a connection if there are changes to a politician's committee
@@ -1022,7 +1171,7 @@ coverage \parencite{chatterji2010917,qian20192271}.
          \multicolumn{1}{l}{Summary}\\
          \midrule \\[-1.8ex]
 
-         Koh et al. \parencite*{koh20185725}\dotfill &
+         Ke et al. \parencite*{ke2019439}\dotfill &
          Sudden deaths and retirements of executives. &
          How do social connections among executive team members affect 
          management forecast accuracy?&
@@ -1306,21 +1455,6 @@ coverage \parencite{chatterji2010917,qian20192271}.
 
 \clearpage
 
-\begin{figure}
-  \raggedleft
-  \begin{small}
-      \import{}{exhibits/potential_outcome.pgf}
-    \caption{Distribution of `exogenous shock' studies across research 
-    design types and by role of the naturally-occurring event. A design 
-    lacking a control group has pret-est and post-test datapoints for 
-    one group only; a design with a control group has pre-test and 
-    post-test both for units that are affected by the exogenous shock and 
-    those that are not.}
-    \label{fig:potential_outcome}
-  \end{small}
-\end{figure}
-
-
 \section{How do exogenous shock differ?}
 \label{sec:how_exogenous_shocks_differ}
 
@@ -1338,9 +1472,20 @@ coverage \parencite{chatterji2010917,qian20192271}.
 \section{Harnessing exogenous shocks: opportunities and challenges}
 \label{sec:harnessing_exogenous_shocks}
 
-.
-
-
+\begin{itemize}
+\item Environmental change - theory mapping
+\item Temporal effects / timeline within which one expects the effects of the exogenous shock takes place
+\item Scope to influence regulator's choices?
+\item Time to react to regulator's choices?
+\item Does a staggered adoption of legislative change correlate with admin/state-level features?
+\item Exogenous shocks may have consequences that span multiple levels of analysis (e.g., sudden deaths of business owners)
+\item Strategic purposes might lead the exogenous shock — entities that are treated might be passive — however, the policy maker may have incentives to treat certain entities
+\item Conditional exogeneity (exogeneity within a statistical model sounds weird)
+\item The nature of regulatory changes should be investigated from a multi-level perspective
+\item Opportunities to marry the theoretical and empirical approaches to the study of shocks
+\item Regulatory change — information, incentives, and capacity elements should be assessed before and after the introduction of the new law.
+\item Scale of the shock and availabilities of counterfactualsThe
+\end{itemize}
 
 \begin{figure}[!htbp]
   \includegraphics[width=1\textwidth]{exhibits/place_holder.pdf}

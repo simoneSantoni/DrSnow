@@ -821,7 +821,7 @@
       \field{pages}{730\bibrangedash 740}
       \range{pages}{11}
     \endentry
-    \entry{gedefawbirhanu2020}{article}{}
+    \entry{birhanu2020}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=e75f21d6f7f65d1331f7095b4e8164ad}{%
            family={Gedefaw\bibnamedelima Birhanu},
@@ -1012,6 +1012,47 @@
       \field{year}{2018}
       \field{pages}{486\bibrangedash 516}
       \range{pages}{31}
+    \endentry
+    \entry{haveman2001253}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=94a32b87bca815b7f5843cdf5fc21f6c}{%
+           family={Haveman},
+           familyi={H\bibinitperiod},
+           given={H.A.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb1cfd1cae8d166b6f15401f9fa5f988}{%
+           family={Russo},
+           familyi={R\bibinitperiod},
+           given={M.V.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6be782c196a21eecf6809478c1c7d34a}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={A.D.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{561dabb2dd3bba17cd5410c73c1a5b69}
+      \strng{fullhash}{561dabb2dd3bba17cd5410c73c1a5b69}
+      \strng{bibnamehash}{561dabb2dd3bba17cd5410c73c1a5b69}
+      \strng{authorbibnamehash}{561dabb2dd3bba17cd5410c73c1a5b69}
+      \strng{authornamehash}{561dabb2dd3bba17cd5410c73c1a5b69}
+      \strng{authorfullhash}{561dabb2dd3bba17cd5410c73c1a5b69}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Organization Science}
+      \field{number}{3}
+      \field{title}{Organizational Environments in Flux: The Impact of Regulatory Punctuations on Organizational Domains, CEO Succession, and Performance}
+      \field{volume}{12}
+      \field{year}{2001}
+      \field{pages}{253\bibrangedash 273}
+      \range{pages}{21}
     \endentry
     \entry{heckman_urzua_2010}{article}{}
       \name{author}{2}{}{%
