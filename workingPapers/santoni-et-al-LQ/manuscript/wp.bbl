@@ -18,7 +18,265 @@
 
 
 \refsection{1}
-  \datalist[entry]{nty/global//global/global}
+  \datalist[entry]{cms/global//global/global}
+    \entry{abadie_2021}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da499bff747c5f6cd0ec9185c820ba4d}{%
+           family={Abadie},
+           familyi={A\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da499bff747c5f6cd0ec9185c820ba4d}
+      \strng{fullhash}{da499bff747c5f6cd0ec9185c820ba4d}
+      \strng{bibnamehash}{da499bff747c5f6cd0ec9185c820ba4d}
+      \strng{authorbibnamehash}{da499bff747c5f6cd0ec9185c820ba4d}
+      \strng{authornamehash}{da499bff747c5f6cd0ec9185c820ba4d}
+      \strng{authorfullhash}{da499bff747c5f6cd0ec9185c820ba4d}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{Probably because of their interpretability and transparent nature, synthetic controls have become widely applied in empirical research in economics and the social sciences. This article aims to provide practical guidance to researchers employing synthetic control methods. The article starts with an overview and an introduction to synthetic control estimation. The main sections discuss the advantages of the synthetic control framework as a research design, and describe the settings where synthetic controls provide reliable estimates and those where they may fail. The article closes with a discussion of recent extensions, related methods, and avenues for future research. (JEL B41, C32, C54, E23, F15, O47)}}
+      \field{journaltitle}{Journal of Economic Literature}
+      \field{number}{2}
+      \field{title}{{Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects}}
+      \field{volume}{59}
+      \field{year}{2021}
+      \field{pages}{391\bibrangedash 425}
+      \range{pages}{35}
+    \endentry
+    \entry{abadie_et_al_2010}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=da499bff747c5f6cd0ec9185c820ba4d}{%
+           family={Abadie},
+           familyi={A\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b45c00701af03c6c0ab37b49f5d375c5}{%
+           family={Diamond},
+           familyi={D\bibinitperiod},
+           given={Alexis},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be94165c21f502aeaed11e611358d6be}{%
+           family={Hainmueller},
+           familyi={H\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bb1c0d171effadee95d0232167198de0}
+      \strng{fullhash}{bb1c0d171effadee95d0232167198de0}
+      \strng{bibnamehash}{bb1c0d171effadee95d0232167198de0}
+      \strng{authorbibnamehash}{bb1c0d171effadee95d0232167198de0}
+      \strng{authornamehash}{bb1c0d171effadee95d0232167198de0}
+      \strng{authorfullhash}{bb1c0d171effadee95d0232167198de0}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0162-1459}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{number}{490}
+      \field{title}{{Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California’s Tobacco Control Program}}
+      \field{volume}{105}
+      \field{year}{2010}
+      \field{pages}{493\bibrangedash 505}
+      \range{pages}{13}
+    \endentry
+    \entry{abadie_et_al_2015}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=da499bff747c5f6cd0ec9185c820ba4d}{%
+           family={Abadie},
+           familyi={A\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b45c00701af03c6c0ab37b49f5d375c5}{%
+           family={Diamond},
+           familyi={D\bibinitperiod},
+           given={Alexis},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be94165c21f502aeaed11e611358d6be}{%
+           family={Hainmueller},
+           familyi={H\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bb1c0d171effadee95d0232167198de0}
+      \strng{fullhash}{bb1c0d171effadee95d0232167198de0}
+      \strng{bibnamehash}{bb1c0d171effadee95d0232167198de0}
+      \strng{authorbibnamehash}{bb1c0d171effadee95d0232167198de0}
+      \strng{authornamehash}{bb1c0d171effadee95d0232167198de0}
+      \strng{authorfullhash}{bb1c0d171effadee95d0232167198de0}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1540-5907}
+      \field{journaltitle}{American Journal of Political Science}
+      \field{number}{2}
+      \field{title}{{Comparative Politics and the Synthetic Control Method}}
+      \field{volume}{59}
+      \field{year}{2015}
+      \field{pages}{495\bibrangedash 510}
+      \range{pages}{16}
+    \endentry
+    \entry{abadie_gardeazabal_2003}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=da499bff747c5f6cd0ec9185c820ba4d}{%
+           family={Abadie},
+           familyi={A\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=990a64faa006b28cd41f2075997cba18}{%
+           family={Gardeazabal},
+           familyi={G\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f722330d5128ffafe3dd6ff1eae7e9c0}
+      \strng{fullhash}{f722330d5128ffafe3dd6ff1eae7e9c0}
+      \strng{bibnamehash}{f722330d5128ffafe3dd6ff1eae7e9c0}
+      \strng{authorbibnamehash}{f722330d5128ffafe3dd6ff1eae7e9c0}
+      \strng{authornamehash}{f722330d5128ffafe3dd6ff1eae7e9c0}
+      \strng{authorfullhash}{f722330d5128ffafe3dd6ff1eae7e9c0}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{1}
+      \field{title}{{The Economic Costs of Conflict: A Case Study of the Basque Country}}
+      \field{volume}{93}
+      \field{year}{2003}
+      \field{pages}{113\bibrangedash 132}
+      \range{pages}{20}
+    \endentry
+    \entry{aizenam_kletzer_2011}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=496e682e090ae7b8261f5bf11f72f5f3}{%
+           family={Aizenman},
+           familyi={A\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f9aad295acad1b417b442599c2ca7df}{%
+           family={Kletzer},
+           familyi={K\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6f3f15469483ad992fe275adc3c60baa}
+      \strng{fullhash}{6f3f15469483ad992fe275adc3c60baa}
+      \strng{bibnamehash}{6f3f15469483ad992fe275adc3c60baa}
+      \strng{authorbibnamehash}{6f3f15469483ad992fe275adc3c60baa}
+      \strng{authornamehash}{6f3f15469483ad992fe275adc3c60baa}
+      \strng{authorfullhash}{6f3f15469483ad992fe275adc3c60baa}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Economics}
+      \field{number}{27}
+      \field{title}{{The Life Cycle of Scholars and Papers in Economics --- the `Citation Death Tax'}}
+      \field{volume}{43}
+      \field{year}{2011}
+      \field{pages}{4135\bibrangedash 4148}
+      \range{pages}{14}
+    \endentry
+    \entry{angrist_2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=71a74466a85192690bb7668576e4f2f3}{%
+           family={Angrist},
+           familyi={A\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{71a74466a85192690bb7668576e4f2f3}
+      \strng{fullhash}{71a74466a85192690bb7668576e4f2f3}
+      \strng{bibnamehash}{71a74466a85192690bb7668576e4f2f3}
+      \strng{authorbibnamehash}{71a74466a85192690bb7668576e4f2f3}
+      \strng{authornamehash}{71a74466a85192690bb7668576e4f2f3}
+      \strng{authorfullhash}{71a74466a85192690bb7668576e4f2f3}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NBER Working Paper Series}
+      \field{title}{{Empirical Strategies in Economics: Illuminating the Path from Cause to Effect}}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb http://www.nber.org/papers/w29726
+      \endverb
+      \verb{url}
+      \verb http://www.nber.org/papers/w29726
+      \endverb
+    \endentry
+    \entry{azoulay_et_al_2019_b}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b4cc2c487e2a06add0cc869a246b9715}{%
+           family={Azoulay},
+           familyi={A\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1871da4cb8e0b08d2cb92a87b09883b}{%
+           family={Fons-Rosen},
+           familyi={F\bibinithyphendelim R\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7501452ae6ed573c699552d9d7bc79b}{%
+           family={Zivin},
+           familyi={Z\bibinitperiod},
+           given={Joshua\bibnamedelimb S\bibnamedelima Graff},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9d84bdbc998e06815edbbaab72af69a4}
+      \strng{fullhash}{9d84bdbc998e06815edbbaab72af69a4}
+      \strng{bibnamehash}{9d84bdbc998e06815edbbaab72af69a4}
+      \strng{authorbibnamehash}{9d84bdbc998e06815edbbaab72af69a4}
+      \strng{authornamehash}{9d84bdbc998e06815edbbaab72af69a4}
+      \strng{authorfullhash}{9d84bdbc998e06815edbbaab72af69a4}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{8}
+      \field{title}{{Does Science Advance One Funeral at a Time?}}
+      \field{volume}{109}
+      \field{year}{2019}
+      \field{pages}{2889\bibrangedash 2920}
+      \range{pages}{32}
+    \endentry
     \entry{azoulay_et_al_2010}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=b4cc2c487e2a06add0cc869a246b9715}{%
@@ -33,12 +291,12 @@
            given={Joshua\bibnamedelima S},
            giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=2bc62378400adef50889376e36d87c84}{%
+        {{un=0,uniquepart=base,hash=2bc62378400adef50889376e36d87c84}{%
            family={Wang},
            familyi={W\bibinitperiod},
            given={Jialan},
            giveni={J\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{6ccf747475e51f4a381ce62b87deb81c}
       \strng{fullhash}{6ccf747475e51f4a381ce62b87deb81c}
@@ -47,7 +305,7 @@
       \strng{authornamehash}{6ccf747475e51f4a381ce62b87deb81c}
       \strng{authorfullhash}{6ccf747475e51f4a381ce62b87deb81c}
       \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -59,6 +317,47 @@
       \field{year}{2010}
       \field{pages}{549\bibrangedash 589}
       \range{pages}{41}
+    \endentry
+    \entry{azoulay_et_al_2019_a}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b4cc2c487e2a06add0cc869a246b9715}{%
+           family={Azoulay},
+           familyi={A\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78798653826cec2347394b186acc2867}{%
+           family={Wahlen},
+           familyi={W\bibinitperiod},
+           given={J\bibnamedelima Michael},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f9be026ae3cf719df5d9eab3d4367792}{%
+           family={Sivan},
+           familyi={S\bibinitperiod},
+           given={Ezra\bibnamedelimb W\bibnamedelima Zuckerman},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{40f06e062bc997ec0396910c66ad0117}
+      \strng{fullhash}{40f06e062bc997ec0396910c66ad0117}
+      \strng{bibnamehash}{40f06e062bc997ec0396910c66ad0117}
+      \strng{authorbibnamehash}{40f06e062bc997ec0396910c66ad0117}
+      \strng{authornamehash}{40f06e062bc997ec0396910c66ad0117}
+      \strng{authorfullhash}{40f06e062bc997ec0396910c66ad0117}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Sociology}
+      \field{number}{3}
+      \field{title}{{Death of the Salesman but Not the Sales Force: How Interested Promotion Skews Scientific Valuation}}
+      \field{volume}{125}
+      \field{year}{2019}
+      \field{pages}{786\bibrangedash 845}
+      \range{pages}{60}
     \endentry
     \entry{barreto2013687}{article}{}
       \name{author}{2}{}{%
@@ -82,7 +381,7 @@
       \strng{authornamehash}{840d20a57beaed7bfe29c62aeb6bbb6a}
       \strng{authorfullhash}{840d20a57beaed7bfe29c62aeb6bbb6a}
       \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -126,14 +425,14 @@
       \list{publisher}{1}{%
         {American Association for the Advancement of Science}%
       }
-      \strng{namehash}{a249e12262507aa703e9ffa0146e8af1}
+      \strng{namehash}{3fc7ecd7be8a7c0ac02c9c6ece1a65ee}
       \strng{fullhash}{a249e12262507aa703e9ffa0146e8af1}
-      \strng{bibnamehash}{3fc7ecd7be8a7c0ac02c9c6ece1a65ee}
-      \strng{authorbibnamehash}{3fc7ecd7be8a7c0ac02c9c6ece1a65ee}
-      \strng{authornamehash}{a249e12262507aa703e9ffa0146e8af1}
+      \strng{bibnamehash}{a249e12262507aa703e9ffa0146e8af1}
+      \strng{authorbibnamehash}{a249e12262507aa703e9ffa0146e8af1}
+      \strng{authornamehash}{3fc7ecd7be8a7c0ac02c9c6ece1a65ee}
       \strng{authorfullhash}{a249e12262507aa703e9ffa0146e8af1}
       \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -174,7 +473,7 @@
       \strng{authornamehash}{884194af5af8c757b4ed84cc947602f5}
       \strng{authorfullhash}{884194af5af8c757b4ed84cc947602f5}
       \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -186,6 +485,99 @@
       \field{year}{2016}
       \field{pages}{1875\bibrangedash 1926}
       \range{pages}{52}
+    \endentry
+    \entry{bennedsen_et_al_2007}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=98444674135d1edf09c69d9114f5b868}{%
+           family={Bennedsen},
+           familyi={B\bibinitperiod},
+           given={Morten},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a1e9de5a2d5e05429516d800a82b5ed}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Kasper\bibnamedelima Meisner},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f48adcf0b896d839055b7a8d5c8ec89a}{%
+           family={Perez-Gonzalez},
+           familyi={P\bibinithyphendelim G\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=287de905b4466fc70e43b0887a343ae1}{%
+           family={Wolfenzon},
+           familyi={W\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{73922b3d6af5a4900406c0e486f8b031}
+      \strng{fullhash}{10912179b24d5e823713cc03bb16ebd0}
+      \strng{bibnamehash}{10912179b24d5e823713cc03bb16ebd0}
+      \strng{authorbibnamehash}{10912179b24d5e823713cc03bb16ebd0}
+      \strng{authornamehash}{73922b3d6af5a4900406c0e486f8b031}
+      \strng{authorfullhash}{10912179b24d5e823713cc03bb16ebd0}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quarterly Journal of Economics}
+      \field{title}{{Inside the Family Firm: The Role of Families in Succession Decisions and Performance}}
+      \field{year}{2007}
+      \field{pages}{647\bibrangedash 691}
+      \range{pages}{45}
+    \endentry
+    \entry{brown_et_al_2017}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e4c7c053f413fd46c84d66b11eb5a0df}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Jill\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f596780a860b0f890fc26caa5534574}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b42df4f2d15565b0d4eaa21c167d441}{%
+           family={Salas},
+           familyi={S\bibinitperiod},
+           given={Jesus\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cc515fb7aca46c31e05e8ae3c5a2170}{%
+           family={Ward},
+           familyi={W\bibinitperiod},
+           given={Andrew\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a30f278b77ec86906aa30d8d3e1e9492}
+      \strng{fullhash}{79a2a8fbe0c1e60894387c1ab4e9c06d}
+      \strng{bibnamehash}{79a2a8fbe0c1e60894387c1ab4e9c06d}
+      \strng{authorbibnamehash}{79a2a8fbe0c1e60894387c1ab4e9c06d}
+      \strng{authornamehash}{a30f278b77ec86906aa30d8d3e1e9492}
+      \strng{authorfullhash}{79a2a8fbe0c1e60894387c1ab4e9c06d}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1047-7039}
+      \field{journaltitle}{Organization Science}
+      \field{number}{3}
+      \field{title}{{Do Investors Care About Director Tenure? Insights from Executive Cognition and Social Capital Theories}}
+      \field{volume}{28}
+      \field{year}{2017}
+      \field{pages}{471\bibrangedash 494}
+      \range{pages}{24}
     \endentry
     \entry{byun20191368}{article}{}
       \name{author}{3}{}{%
@@ -215,7 +607,7 @@
       \strng{authornamehash}{4a643f936f7b6048fdc2453e6bb42eb6}
       \strng{authorfullhash}{4a643f936f7b6048fdc2453e6bb42eb6}
       \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -256,7 +648,7 @@
       \strng{authornamehash}{71bb72769d6000f3b8430f037d03335e}
       \strng{authorfullhash}{71bb72769d6000f3b8430f037d03335e}
       \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -291,7 +683,7 @@
       \strng{authornamehash}{6277742a5e8378ae4ff86b6f72b14ced}
       \strng{authorfullhash}{6277742a5e8378ae4ff86b6f72b14ced}
       \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -329,7 +721,7 @@
       \strng{authornamehash}{0e7de78f0c564b82ef63d3f82f75f41e}
       \strng{authorfullhash}{0e7de78f0c564b82ef63d3f82f75f41e}
       \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -364,7 +756,7 @@
       \strng{authornamehash}{1d72d64849abf8c70be0e9c48c17cb98}
       \strng{authorfullhash}{1d72d64849abf8c70be0e9c48c17cb98}
       \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -396,7 +788,7 @@
       \strng{authornamehash}{e246b4d4553b5638c68b3ba92b1d75b6}
       \strng{authorfullhash}{e246b4d4553b5638c68b3ba92b1d75b6}
       \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -431,7 +823,7 @@
       \strng{authornamehash}{ea244d268067dd82f6596c3e98b2952e}
       \strng{authorfullhash}{ea244d268067dd82f6596c3e98b2952e}
       \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -444,6 +836,52 @@
       \field{pages}{1239\bibrangedash 1267}
       \range{pages}{29}
     \endentry
+    \entry{cho_et_al_2016}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=f7531ab1b1ba95604ee2fa080785bf9a}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Chanho},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=370e9ca4cc5337fcdecd7dffea8c2103}{%
+           family={Halford},
+           familyi={H\bibinitperiod},
+           given={Joseph\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=42286e67c5ad2e7a536197294d978c73}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd91c0a1fb24a34f30f9c2b85d3f65b0}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Lilian},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dacb3e902b25aa9c3fc754e0659db22a}
+      \strng{fullhash}{b8256ac8f9802126eff915c5a094110e}
+      \strng{bibnamehash}{b8256ac8f9802126eff915c5a094110e}
+      \strng{authorbibnamehash}{b8256ac8f9802126eff915c5a094110e}
+      \strng{authornamehash}{dacb3e902b25aa9c3fc754e0659db22a}
+      \strng{authorfullhash}{b8256ac8f9802126eff915c5a094110e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Corporate Finance}
+      \field{title}{{Do Managers Matter for Corporate Innovation?}}
+      \field{volume}{36}
+      \field{year}{2016}
+      \field{pages}{206\bibrangedash 229}
+      \range{pages}{24}
+    \endentry
     \entry{choudhury2019203}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=e96d349c5b727a6ab9eae2cccb2819d2}{%
@@ -452,12 +890,12 @@
            given={P.},
            giveni={P\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=10831d5d5eed2908df148a392dcb643f}{%
+        {{un=0,uniquepart=base,hash=10831d5d5eed2908df148a392dcb643f}{%
            family={Kim},
            familyi={K\bibinitperiod},
            given={D.Y.},
            giveni={D\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{ae99bf3f6f350c4e8f4ce5e57e89cfcc}
       \strng{fullhash}{ae99bf3f6f350c4e8f4ce5e57e89cfcc}
@@ -466,7 +904,7 @@
       \strng{authornamehash}{ae99bf3f6f350c4e8f4ce5e57e89cfcc}
       \strng{authorfullhash}{ae99bf3f6f350c4e8f4ce5e57e89cfcc}
       \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -501,7 +939,7 @@
       \strng{authornamehash}{76058303dd6e79abfd6f853614924bea}
       \strng{authorfullhash}{76058303dd6e79abfd6f853614924bea}
       \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -545,7 +983,7 @@
       \strng{authornamehash}{831a4ec10fdb40f2b14c788e02cd5f92}
       \strng{authorfullhash}{831a4ec10fdb40f2b14c788e02cd5f92}
       \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -583,7 +1021,7 @@
       \strng{authornamehash}{8824cca5d143418425a8e852311100f9}
       \strng{authorfullhash}{8824cca5d143418425a8e852311100f9}
       \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -623,14 +1061,14 @@
            giveni={F\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{ed470847ea62c04df681c20d33e2b25e}
+      \strng{namehash}{91f00eef9580f7f365449760c1193ef5}
       \strng{fullhash}{ed470847ea62c04df681c20d33e2b25e}
-      \strng{bibnamehash}{91f00eef9580f7f365449760c1193ef5}
-      \strng{authorbibnamehash}{91f00eef9580f7f365449760c1193ef5}
-      \strng{authornamehash}{ed470847ea62c04df681c20d33e2b25e}
+      \strng{bibnamehash}{ed470847ea62c04df681c20d33e2b25e}
+      \strng{authorbibnamehash}{ed470847ea62c04df681c20d33e2b25e}
+      \strng{authornamehash}{91f00eef9580f7f365449760c1193ef5}
       \strng{authorfullhash}{ed470847ea62c04df681c20d33e2b25e}
       \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -651,12 +1089,12 @@
            given={R.},
            giveni={R\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=9ab0a1ca170edb74c8a83e6c255dd4f0}{%
+        {{un=0,uniquepart=base,hash=9ab0a1ca170edb74c8a83e6c255dd4f0}{%
            family={Zhang},
            familyi={Z\bibinitperiod},
            given={D.J.},
            giveni={D\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=6360cb21e81081ee745b25b2a4fe1cd2}{%
            family={Bassamboo},
            familyi={B\bibinitperiod},
@@ -671,7 +1109,7 @@
       \strng{authornamehash}{54a95d3ef196a90fb1353f0c8462a867}
       \strng{authorfullhash}{54a95d3ef196a90fb1353f0c8462a867}
       \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -704,7 +1142,7 @@
       \strng{authornamehash}{84a3fb0a415707452c63f887f259ab3a}
       \strng{authorfullhash}{84a3fb0a415707452c63f887f259ab3a}
       \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -712,6 +1150,77 @@
       \field{title}{Instruments of Development: Randomisation in the Tropics, and the Search for the Elusive Keys to Economic Development}
       \field{type}{techreport}
       \field{year}{2009}
+    \endentry
+    \entry{dedman_et_al_2002}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6a40748143e9f3c2950fd7a3754ae3d7}{%
+           family={Dedman},
+           familyi={D\bibinitperiod},
+           given={Elisabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b534adbe622e49bb8eb2df8fcba734a1}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Stephen\bibnamedelima W.-J},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1455843e9e6e853e0248a170876b31ad}
+      \strng{fullhash}{1455843e9e6e853e0248a170876b31ad}
+      \strng{bibnamehash}{1455843e9e6e853e0248a170876b31ad}
+      \strng{authorbibnamehash}{1455843e9e6e853e0248a170876b31ad}
+      \strng{authornamehash}{1455843e9e6e853e0248a170876b31ad}
+      \strng{authorfullhash}{1455843e9e6e853e0248a170876b31ad}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0929-1199}
+      \field{journaltitle}{Journal of Corporate Finance}
+      \field{number}{1}
+      \field{title}{{Shareholder Wealth Effects of CEO Departures: Evidence from the UK}}
+      \field{volume}{8}
+      \field{year}{2002}
+      \field{pages}{81\bibrangedash 104}
+      \range{pages}{24}
+    \endentry
+    \entry{drago_galbiati_2012}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cd0ec2ae05752bd1ab5e7cfe422faf25}{%
+           family={Drago},
+           familyi={D\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd67e98e696ebc750825925b95c94781}{%
+           family={Galbiati},
+           familyi={G\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{856750bf685b9fd94da8475e1d72d50e}
+      \strng{fullhash}{856750bf685b9fd94da8475e1d72d50e}
+      \strng{bibnamehash}{856750bf685b9fd94da8475e1d72d50e}
+      \strng{authorbibnamehash}{856750bf685b9fd94da8475e1d72d50e}
+      \strng{authornamehash}{856750bf685b9fd94da8475e1d72d50e}
+      \strng{authorfullhash}{856750bf685b9fd94da8475e1d72d50e}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Journal: Applied Economics}
+      \field{number}{2}
+      \field{title}{{Indirect Effects of a Policy Altering Criminal Behavior: Evidence from the Italian Prison Experiment}}
+      \field{volume}{4}
+      \field{year}{2012}
+      \field{pages}{199\bibrangedash 218}
+      \range{pages}{20}
     \endentry
     \entry{drexler20142722}{article}{}
       \name{author}{2}{}{%
@@ -735,7 +1244,7 @@
       \strng{authornamehash}{7fb7acb89a129a571a700f2f6f6446da}
       \strng{authorfullhash}{7fb7acb89a129a571a700f2f6f6446da}
       \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -747,6 +1256,40 @@
       \field{year}{2014}
       \field{pages}{2722\bibrangedash 2736}
       \range{pages}{15}
+    \endentry
+    \entry{duchin_sosyura_2013}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fcd21fe7e6497f6315be5c6298e15bb0}{%
+           family={Duchin},
+           familyi={D\bibinitperiod},
+           given={Ran},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40a2cfbd2813e9bdc14196a10b4905e4}{%
+           family={Sosyura},
+           familyi={S\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4d2fb238e588e1ae72fdabb30bd38eb6}
+      \strng{fullhash}{4d2fb238e588e1ae72fdabb30bd38eb6}
+      \strng{bibnamehash}{4d2fb238e588e1ae72fdabb30bd38eb6}
+      \strng{authorbibnamehash}{4d2fb238e588e1ae72fdabb30bd38eb6}
+      \strng{authornamehash}{4d2fb238e588e1ae72fdabb30bd38eb6}
+      \strng{authorfullhash}{4d2fb238e588e1ae72fdabb30bd38eb6}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Journal of Finance}
+      \field{title}{{Divisional Managers and Internal Capital Markets}}
+      \field{year}{2013}
+      \field{pages}{387\bibrangedash 429}
+      \range{pages}{43}
     \endentry
     \entry{dunning_2012}{book}{}
       \name{author}{1}{}{%
@@ -770,7 +1313,7 @@
       \strng{authornamehash}{9e055e65cf7f69f7226e55a96709f0fd}
       \strng{authorfullhash}{9e055e65cf7f69f7226e55a96709f0fd}
       \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -779,6 +1322,160 @@
       \field{series}{Strategies for social inquiry}
       \field{title}{{Natural Experiments in the Social Sciences}}
       \field{year}{2012}
+    \endentry
+    \entry{faccio_parsley_2009}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=609a6ca2cc65b30bdd6eafb54783888f}{%
+           family={Faccio},
+           familyi={F\bibinitperiod},
+           given={Mara},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3d98d6e3d1563de3b9b5fa744416c82}{%
+           family={Parsley},
+           familyi={P\bibinitperiod},
+           given={David\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c1789e6e1f5a958274fc5aeca761b3cd}
+      \strng{fullhash}{c1789e6e1f5a958274fc5aeca761b3cd}
+      \strng{bibnamehash}{c1789e6e1f5a958274fc5aeca761b3cd}
+      \strng{authorbibnamehash}{c1789e6e1f5a958274fc5aeca761b3cd}
+      \strng{authornamehash}{c1789e6e1f5a958274fc5aeca761b3cd}
+      \strng{authorfullhash}{c1789e6e1f5a958274fc5aeca761b3cd}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-1090}
+      \field{journaltitle}{Journal of Financial and Quantitative Analysis}
+      \field{number}{3}
+      \field{title}{{Sudden Deaths: Taking Stock of Geographic Ties}}
+      \field{volume}{44}
+      \field{year}{2009}
+      \field{pages}{683\bibrangedash 718}
+      \range{pages}{36}
+    \endentry
+    \entry{falato_et_al_2014}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8a80e3eec958a17ff907980ed537cd75}{%
+           family={Falato},
+           familyi={F\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad6b61ac5ed7f9c25ac6a78422a29947}{%
+           family={Kadyrzhanova},
+           familyi={K\bibinitperiod},
+           given={Dalida},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=214fc761759987d62cd903b2ec155f86}{%
+           family={Lel},
+           familyi={L\bibinitperiod},
+           given={Ugur},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{adaf33dde115a5ab336c58d4cdcf40e2}
+      \strng{fullhash}{adaf33dde115a5ab336c58d4cdcf40e2}
+      \strng{bibnamehash}{adaf33dde115a5ab336c58d4cdcf40e2}
+      \strng{authorbibnamehash}{adaf33dde115a5ab336c58d4cdcf40e2}
+      \strng{authornamehash}{adaf33dde115a5ab336c58d4cdcf40e2}
+      \strng{authorfullhash}{adaf33dde115a5ab336c58d4cdcf40e2}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Financial Economics}
+      \field{number}{3}
+      \field{title}{Distracted Directors: Does Board Busyness Hurt Shareholder Value?}
+      \field{volume}{113}
+      \field{year}{2014}
+      \field{pages}{404\bibrangedash 426}
+      \range{pages}{23}
+    \endentry
+    \entry{fee_et_al_2013}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fa04be2273bf736eb1f333eb9f56bf34}{%
+           family={Fee},
+           familyi={F\bibinitperiod},
+           given={C\bibnamedelima Edward},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=167fbd66aecc2e7f9997bb8f2ce91179}{%
+           family={Hadlock},
+           familyi={H\bibinitperiod},
+           given={Charles\bibnamedelima J},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a06302e98613ee317f8631db8c8dab09}{%
+           family={Pierce},
+           familyi={P\bibinitperiod},
+           given={Joshua\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4a8680adc83e26bd26a1f483d90e66d3}
+      \strng{fullhash}{4a8680adc83e26bd26a1f483d90e66d3}
+      \strng{bibnamehash}{4a8680adc83e26bd26a1f483d90e66d3}
+      \strng{authorbibnamehash}{4a8680adc83e26bd26a1f483d90e66d3}
+      \strng{authornamehash}{4a8680adc83e26bd26a1f483d90e66d3}
+      \strng{authorfullhash}{4a8680adc83e26bd26a1f483d90e66d3}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Financial Studies}
+      \field{number}{3}
+      \field{title}{{Managers with and without Style: Evidence Using Exogenous Variation}}
+      \field{volume}{26}
+      \field{year}{2013}
+      \field{pages}{567\bibrangedash 601}
+      \range{pages}{35}
+    \endentry
+    \entry{fracassi_tate_2012}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=efe50fb538d86205145e31bec13d7311}{%
+           family={Fracassi},
+           familyi={F\bibinitperiod},
+           given={Cesare},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b5d5870af0dcce238c32c68c42b0c8a}{%
+           family={Tate},
+           familyi={T\bibinitperiod},
+           given={Geoffrey},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c7c30b36749168c33ec42c4d519142a2}
+      \strng{fullhash}{c7c30b36749168c33ec42c4d519142a2}
+      \strng{bibnamehash}{c7c30b36749168c33ec42c4d519142a2}
+      \strng{authorbibnamehash}{c7c30b36749168c33ec42c4d519142a2}
+      \strng{authornamehash}{c7c30b36749168c33ec42c4d519142a2}
+      \strng{authorfullhash}{c7c30b36749168c33ec42c4d519142a2}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1540-6261}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{1}
+      \field{title}{{External Networking and Internal Firm Governance}}
+      \field{volume}{67}
+      \field{year}{2012}
+      \field{pages}{153\bibrangedash 194}
+      \range{pages}{42}
     \endentry
     \entry{frijters_et_al_2004}{article}{}
       \name{author}{3}{}{%
@@ -808,7 +1505,7 @@
       \strng{authornamehash}{8f55ffa9ef55fa0388d8ebfd34c39146}
       \strng{authorfullhash}{8f55ffa9ef55fa0388d8ebfd34c39146}
       \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -843,7 +1540,7 @@
       \strng{authornamehash}{527bae8d91690566e23c48319d0cd22f}
       \strng{authorfullhash}{527bae8d91690566e23c48319d0cd22f}
       \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -874,7 +1571,7 @@
       \strng{authornamehash}{2eae45b6ccbd1f05023aa108424a13ee}
       \strng{authorfullhash}{2eae45b6ccbd1f05023aa108424a13ee}
       \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -890,7 +1587,7 @@
     \entry{gonzalez_et_al_2018}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6548ea1386a2429910bc95007ec7810b}{%
-           family={Gonzalez-Mulé},
+           family={Gonzalez-Mul{é}},
            familyi={G\bibinithyphendelim M\bibinitperiod},
            given={Erik},
            giveni={E\bibinitperiod},
@@ -909,7 +1606,7 @@
       \strng{authornamehash}{63e014644735314712a7c08ea2414357}
       \strng{authorfullhash}{63e014644735314712a7c08ea2414357}
       \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -957,12 +1654,12 @@
       }
       \strng{namehash}{b30a5bb50ffb5275cd2667fb3d9d4b2c}
       \strng{fullhash}{cba63afa39fb88b40985364ef7b3d70b}
-      \strng{bibnamehash}{b30a5bb50ffb5275cd2667fb3d9d4b2c}
-      \strng{authorbibnamehash}{b30a5bb50ffb5275cd2667fb3d9d4b2c}
+      \strng{bibnamehash}{cba63afa39fb88b40985364ef7b3d70b}
+      \strng{authorbibnamehash}{cba63afa39fb88b40985364ef7b3d70b}
       \strng{authornamehash}{b30a5bb50ffb5275cd2667fb3d9d4b2c}
       \strng{authorfullhash}{cba63afa39fb88b40985364ef7b3d70b}
       \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1000,7 +1697,7 @@
       \strng{authornamehash}{99fe1efb725d700c508308a8926eb155}
       \strng{authorfullhash}{99fe1efb725d700c508308a8926eb155}
       \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1041,7 +1738,7 @@
       \strng{authornamehash}{561dabb2dd3bba17cd5410c73c1a5b69}
       \strng{authorfullhash}{561dabb2dd3bba17cd5410c73c1a5b69}
       \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1076,7 +1773,7 @@
       \strng{authornamehash}{e62166210e754f3c8a0d68a9e6a386d0}
       \strng{authorfullhash}{e62166210e754f3c8a0d68a9e6a386d0}
       \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1112,7 +1809,7 @@
       \strng{authornamehash}{b438ca6e7cce659041fe84c4e339325b}
       \strng{authorfullhash}{b438ca6e7cce659041fe84c4e339325b}
       \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1120,6 +1817,64 @@
       \field{journaltitle}{Journal of Business Ethics}
       \field{title}{Trust and Contracting: Evidence from Church Sex Scandals}
       \field{year}{2021}
+    \endentry
+    \entry{imbens_2009}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9f4fa8d00c0311b9cdad0f20ad429e57}{%
+           family={Imbens},
+           familyi={I\bibinitperiod},
+           given={Guido\bibnamedelima W},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9f4fa8d00c0311b9cdad0f20ad429e57}
+      \strng{fullhash}{9f4fa8d00c0311b9cdad0f20ad429e57}
+      \strng{bibnamehash}{9f4fa8d00c0311b9cdad0f20ad429e57}
+      \strng{authorbibnamehash}{9f4fa8d00c0311b9cdad0f20ad429e57}
+      \strng{authornamehash}{9f4fa8d00c0311b9cdad0f20ad429e57}
+      \strng{authorfullhash}{9f4fa8d00c0311b9cdad0f20ad429e57}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Economic Literature}
+      \field{number}{2}
+      \field{title}{{Better LATE Than Nothing: Some Comments on Deaton (2009) and Heckman and Urzua (2009)}}
+      \field{volume}{48}
+      \field{year}{2010}
+      \field{pages}{399\bibrangedash 423}
+      \range{pages}{25}
+    \endentry
+    \entry{iyer_2010}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0d323edec08b9cdfccb11d18daa72806}{%
+           family={Iyer},
+           familyi={I\bibinitperiod},
+           given={Lakshmi},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0d323edec08b9cdfccb11d18daa72806}
+      \strng{fullhash}{0d323edec08b9cdfccb11d18daa72806}
+      \strng{bibnamehash}{0d323edec08b9cdfccb11d18daa72806}
+      \strng{authorbibnamehash}{0d323edec08b9cdfccb11d18daa72806}
+      \strng{authornamehash}{0d323edec08b9cdfccb11d18daa72806}
+      \strng{authorfullhash}{0d323edec08b9cdfccb11d18daa72806}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Economics and Statistics}
+      \field{number}{4}
+      \field{title}{{Direct versus Indirect Colonial Rule in India: Long-Term Consequences}}
+      \field{volume}{92}
+      \field{year}{2010}
+      \field{pages}{693\bibrangedash 713}
+      \range{pages}{21}
     \endentry
     \entry{jenkins2010884}{article}{}
       \name{author}{1}{}{%
@@ -1137,7 +1892,7 @@
       \strng{authornamehash}{f17c62c8549aab3537248ed4872c4faa}
       \strng{authorfullhash}{f17c62c8549aab3537248ed4872c4faa}
       \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1178,7 +1933,7 @@
       \strng{authornamehash}{8c64ca88f189518f7b8be33624cb2086}
       \strng{authorfullhash}{8c64ca88f189518f7b8be33624cb2086}
       \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1191,6 +1946,84 @@
       \field{pages}{290\bibrangedash 307}
       \range{pages}{18}
     \endentry
+    \entry{johnson_et_al_1985}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=017cbedcf173fc92b9a6096a5dd357aa}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={W\bibnamedelima Bruce},
+           giveni={W\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=211c718bb53ded52e18a3449e483dd27}{%
+           family={Magee},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima P},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5c5caa5d377f4fd9278daf66f5cd74a}{%
+           family={Nagarajan},
+           familyi={N\bibinitperiod},
+           given={Nandu\bibnamedelima J},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb8b27a850d4c3a3b8cb3d83f0b9c0e4}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={Harry\bibnamedelima A},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9bd279e04c33e6c787d397b32ad65991}
+      \strng{fullhash}{1a6d98ec965031e895f02724e36f1bbb}
+      \strng{bibnamehash}{1a6d98ec965031e895f02724e36f1bbb}
+      \strng{authorbibnamehash}{1a6d98ec965031e895f02724e36f1bbb}
+      \strng{authornamehash}{9bd279e04c33e6c787d397b32ad65991}
+      \strng{authorfullhash}{1a6d98ec965031e895f02724e36f1bbb}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Accounting and Economics}
+      \field{number}{1-3}
+      \field{title}{An Analysis of the Stock Price Reaction to Sudden Executive Deaths: Implications for the Managerial Labor Market}
+      \field{volume}{7}
+      \field{year}{1985}
+      \field{pages}{151\bibrangedash 174}
+      \range{pages}{24}
+    \endentry
+    \entry{jones_olken_2005}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ed4887cd39c168b7200165f6c467a449}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Benjamin\bibnamedelima F.},
+           giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce891fd22770d34da4cd958320f9356f}{%
+           family={Olken},
+           familyi={O\bibinitperiod},
+           given={Benjamin\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dd536275106b4b3edcae2ab47719d5f1}
+      \strng{fullhash}{dd536275106b4b3edcae2ab47719d5f1}
+      \strng{bibnamehash}{dd536275106b4b3edcae2ab47719d5f1}
+      \strng{authorbibnamehash}{dd536275106b4b3edcae2ab47719d5f1}
+      \strng{authornamehash}{dd536275106b4b3edcae2ab47719d5f1}
+      \strng{authorfullhash}{dd536275106b4b3edcae2ab47719d5f1}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quarterly Journal of Economics}
+      \field{title}{{Do Leaders Matter? National Leadership and Growth Since World War II}}
+      \field{year}{2005}
+    \endentry
     \entry{kang20201300}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=8b30a90c52fc39c783fa21f8e30bd766}{%
@@ -1199,12 +2032,12 @@
            given={J.-K.},
            giveni={J\bibinithyphendelim K\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=b2236af712a294693dcea632d195b1fb}{%
+        {{un=0,uniquepart=base,hash=b2236af712a294693dcea632d195b1fb}{%
            family={Kim},
            familyi={K\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{51b6ab10f2ec56fc34e50c8e4608c97c}
       \strng{fullhash}{51b6ab10f2ec56fc34e50c8e4608c97c}
@@ -1213,7 +2046,7 @@
       \strng{authornamehash}{51b6ab10f2ec56fc34e50c8e4608c97c}
       \strng{authorfullhash}{51b6ab10f2ec56fc34e50c8e4608c97c}
       \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1234,33 +2067,33 @@
            given={R.},
            giveni={R\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=32ecf3b8563f881c200eaaf65381ff0d}{%
+        {{un=0,uniquepart=base,hash=32ecf3b8563f881c200eaaf65381ff0d}{%
            family={Li},
            familyi={L\bibinitperiod},
            given={M.},
            giveni={M\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=acb5f6850eb28dd7b92df4c5f2cc9055}{%
            family={Ling},
            familyi={L\bibinitperiod},
            given={Z.},
            giveni={Z\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=1f26f664835ac6c347db22001b657f1a}{%
+        {{un=0,uniquepart=base,hash=1f26f664835ac6c347db22001b657f1a}{%
            family={Zhang},
            familyi={Z\bibinitperiod},
            given={Y.},
            giveni={Y\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
-      \strng{namehash}{b9c3a1485d885e7ad8a556244a47f3d6}
+      \strng{namehash}{23098c4b2cf63cfbeac9db8da908c977}
       \strng{fullhash}{b9c3a1485d885e7ad8a556244a47f3d6}
-      \strng{bibnamehash}{23098c4b2cf63cfbeac9db8da908c977}
-      \strng{authorbibnamehash}{23098c4b2cf63cfbeac9db8da908c977}
-      \strng{authornamehash}{b9c3a1485d885e7ad8a556244a47f3d6}
+      \strng{bibnamehash}{b9c3a1485d885e7ad8a556244a47f3d6}
+      \strng{authorbibnamehash}{b9c3a1485d885e7ad8a556244a47f3d6}
+      \strng{authornamehash}{23098c4b2cf63cfbeac9db8da908c977}
       \strng{authorfullhash}{b9c3a1485d885e7ad8a556244a47f3d6}
       \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1295,7 +2128,7 @@
       \strng{authornamehash}{a3beed3723382ee728394246a0362366}
       \strng{authorfullhash}{a3beed3723382ee728394246a0362366}
       \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1307,6 +2140,124 @@
       \field{year}{2016}
       \field{pages}{65\bibrangedash 95}
       \range{pages}{31}
+    \endentry
+    \entry{khanna_et_al_2021}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=949a636eafcf67d9119f005064141419}{%
+           family={Khanna},
+           familyi={K\bibinitperiod},
+           given={Rajat},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{949a636eafcf67d9119f005064141419}
+      \strng{fullhash}{949a636eafcf67d9119f005064141419}
+      \strng{bibnamehash}{949a636eafcf67d9119f005064141419}
+      \strng{authorbibnamehash}{949a636eafcf67d9119f005064141419}
+      \strng{authornamehash}{949a636eafcf67d9119f005064141419}
+      \strng{authorfullhash}{949a636eafcf67d9119f005064141419}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0048-7333}
+      \field{journaltitle}{Research Policy}
+      \field{number}{2}
+      \field{title}{{Aftermath of a Tragedy: A Star's Death and Coauthors' Subsequent Productivity}}
+      \field{volume}{50}
+      \field{year}{2021}
+      \field{pages}{104159}
+      \range{pages}{1}
+    \endentry
+    \entry{kniffin_et_al_2021}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=24a38b194e167f379d7641aa2f1cd262}{%
+           family={Kniffin},
+           familyi={K\bibinitperiod},
+           given={Kevin\bibnamedelima M},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d97c6e7e26f9f5b7f632b1a0db89b0b9}{%
+           family={Narayanan},
+           familyi={N\bibinitperiod},
+           given={Jayanth},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d0437b41eae962ae282dc210bfc8bee}{%
+           family={Anseel},
+           familyi={A\bibinitperiod},
+           given={Frederik},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=058e65c0e40ff3e2b37e2f85e2fd2c81}{%
+           family={Antonakis},
+           familyi={A\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=476974df93339a73509eddaa1c196f9c}{%
+           family={Ashford},
+           familyi={A\bibinitperiod},
+           given={Susan\bibnamedelima P},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10b0ab5a2dd667beb607900cb345d3c9}{%
+           family={Bakker},
+           familyi={B\bibinitperiod},
+           given={Arnold\bibnamedelima B},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c700792236f0c0641468c3ea7bacda64}{%
+           family={Bamberger},
+           familyi={B\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fac70da7fa05c640219cd48cdd32f0aa}{%
+           family={Bapuji},
+           familyi={B\bibinitperiod},
+           given={Hari},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d338404d7875373f74dfbaf2d946ec87}{%
+           family={Bhave},
+           familyi={B\bibinitperiod},
+           given={Devasheesh\bibnamedelima P},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c57114a7eb9ec504615a59c7bfdfb91}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Virginia\bibnamedelima K},
+           giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{ce4cf99c58be0a9289cea6a8bc90c02b}
+      \strng{fullhash}{3638e3ec0d530cb5743274c3cbacdaff}
+      \strng{bibnamehash}{3638e3ec0d530cb5743274c3cbacdaff}
+      \strng{authorbibnamehash}{3638e3ec0d530cb5743274c3cbacdaff}
+      \strng{authornamehash}{ce4cf99c58be0a9289cea6a8bc90c02b}
+      \strng{authorfullhash}{3638e3ec0d530cb5743274c3cbacdaff}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Psychologist}
+      \field{number}{1}
+      \field{title}{COVID-19 and the Workplace: Implications, Issues, and Insights for Future Research and Action.}
+      \field{volume}{76}
+      \field{year}{2021}
+      \field{pages}{63}
+      \range{pages}{1}
     \endentry
     \entry{koh20185725}{article}{}
       \name{author}{3}{}{%
@@ -1322,12 +2273,12 @@
            given={D.M.},
            giveni={D\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=2386e489f61f61ba612b4e137e1eefd7}{%
+        {{un=0,uniquepart=base,hash=2386e489f61f61ba612b4e137e1eefd7}{%
            family={Zhao},
            familyi={Z\bibinitperiod},
            given={W.},
            giveni={W\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{b0f3506101793c86fa8ba9704c436bff}
       \strng{fullhash}{b0f3506101793c86fa8ba9704c436bff}
@@ -1336,7 +2287,7 @@
       \strng{authornamehash}{b0f3506101793c86fa8ba9704c436bff}
       \strng{authorfullhash}{b0f3506101793c86fa8ba9704c436bff}
       \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1369,7 +2320,7 @@
       \strng{authornamehash}{16d8105ba816ead2c04f089296c12eb1}
       \strng{authorfullhash}{16d8105ba816ead2c04f089296c12eb1}
       \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1390,12 +2341,12 @@
            given={K.},
            giveni={K\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=f94399510b1be6d7fab7d889d00b68d8}{%
+        {{un=0,uniquepart=base,hash=f94399510b1be6d7fab7d889d00b68d8}{%
            family={Wang},
            familyi={W\bibinitperiod},
            given={P.},
            giveni={P\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{d90490f755a4620b68110fb90f82b5b7}
       \strng{fullhash}{d90490f755a4620b68110fb90f82b5b7}
@@ -1404,7 +2355,7 @@
       \strng{authornamehash}{d90490f755a4620b68110fb90f82b5b7}
       \strng{authorfullhash}{d90490f755a4620b68110fb90f82b5b7}
       \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1417,14 +2368,58 @@
       \field{pages}{4522\bibrangedash 4554}
       \range{pages}{33}
     \endentry
+    \entry{lee_et_al_2020}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0ffa4c32baf0adf616ef2a3dda6950e0}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Joon\bibnamedelima Mahn},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34388d30d19ae448726a7cef43d50437}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jongsoo},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd66219184b3091df0e1d3b955080277}{%
+           family={Bae},
+           familyi={B\bibinitperiod},
+           given={Joonhyung},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{18f530eb1548c106d8fbfb27c4316d19}
+      \strng{fullhash}{18f530eb1548c106d8fbfb27c4316d19}
+      \strng{bibnamehash}{18f530eb1548c106d8fbfb27c4316d19}
+      \strng{authorbibnamehash}{18f530eb1548c106d8fbfb27c4316d19}
+      \strng{authornamehash}{18f530eb1548c106d8fbfb27c4316d19}
+      \strng{authorfullhash}{18f530eb1548c106d8fbfb27c4316d19}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Research Policy}
+      \field{number}{1}
+      \field{title}{Founder CEOs and Innovation: Evidence from CEO Sudden Deaths in Public Firms}
+      \field{volume}{49}
+      \field{year}{2020}
+      \field{pages}{103862}
+      \range{pages}{1}
+    \endentry
     \entry{li20111119}{article}{}
       \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=0ee6724aae227dcac2949962d898b300}{%
+        {{un=0,uniquepart=base,hash=0ee6724aae227dcac2949962d898b300}{%
            family={Li},
            familyi={L\bibinitperiod},
            given={S.},
            giveni={S\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=be003a6b4488bb20e4f8a535fe9b5285}{%
            family={Tallman},
            familyi={T\bibinitperiod},
@@ -1439,7 +2434,7 @@
       \strng{authornamehash}{36ca188ed44000ab7343e5f3a5728bd3}
       \strng{authorfullhash}{36ca188ed44000ab7343e5f3a5728bd3}
       \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1454,12 +2449,12 @@
     \endentry
     \entry{li20194011}{article}{}
       \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=0ee6724aae227dcac2949962d898b300}{%
+        {{un=0,uniquepart=base,hash=0ee6724aae227dcac2949962d898b300}{%
            family={Li},
            familyi={L\bibinitperiod},
            given={S.},
            giveni={S\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=98dfc709e241306f2ecf548265532b63}{%
            family={Zhan},
            familyi={Z\bibinitperiod},
@@ -1474,7 +2469,7 @@
       \strng{authornamehash}{26a6071fb8b70c05ee70bb6d6c414ced}
       \strng{authorfullhash}{26a6071fb8b70c05ee70bb6d6c414ced}
       \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1515,7 +2510,7 @@
       \strng{authornamehash}{c03e7b25909f30fc85bfd01008b5c808}
       \strng{authorfullhash}{c03e7b25909f30fc85bfd01008b5c808}
       \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1550,7 +2545,7 @@
       \strng{authornamehash}{efbce2b9276151071eff75b63ba5177d}
       \strng{authorfullhash}{efbce2b9276151071eff75b63ba5177d}
       \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1579,7 +2574,7 @@
       \strng{authornamehash}{91374f292dad179ca6bef40fd76e47f9}
       \strng{authorfullhash}{91374f292dad179ca6bef40fd76e47f9}
       \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1623,7 +2618,7 @@
       \strng{authornamehash}{64c7980cca2e28efa0a4e25b14d4a0b4}
       \strng{authorfullhash}{64c7980cca2e28efa0a4e25b14d4a0b4}
       \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1655,7 +2650,7 @@
       \strng{authornamehash}{019801a13b36a4ee5384789b729c7a36}
       \strng{authorfullhash}{019801a13b36a4ee5384789b729c7a36}
       \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1691,7 +2686,7 @@
       \strng{authornamehash}{4d7b102a078439f95e17b1f6406d5765}
       \strng{authorfullhash}{4d7b102a078439f95e17b1f6406d5765}
       \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1703,6 +2698,37 @@
       \field{year}{2019}
       \field{pages}{1070\bibrangedash 1096}
       \range{pages}{27}
+    \endentry
+    \entry{nathan_2020}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f6cfde6715b1875e694d449c698bbaf5}{%
+           family={Nathan},
+           familyi={N\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f6cfde6715b1875e694d449c698bbaf5}
+      \strng{fullhash}{f6cfde6715b1875e694d449c698bbaf5}
+      \strng{bibnamehash}{f6cfde6715b1875e694d449c698bbaf5}
+      \strng{authorbibnamehash}{f6cfde6715b1875e694d449c698bbaf5}
+      \strng{authornamehash}{f6cfde6715b1875e694d449c698bbaf5}
+      \strng{authorfullhash}{f6cfde6715b1875e694d449c698bbaf5}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0048-7333}
+      \field{journaltitle}{Research Policy}
+      \field{title}{{Does Light Touch Cluster Policy Work? Evaluating the Tech City Programme}}
+      \field{year}{2020}
+      \field{pages}{104138}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.respol.2020.104138
+      \endverb
     \endentry
     \entry{neyman_et_al_1923}{article}{}
       \name{author}{3}{}{%
@@ -1732,7 +2758,7 @@
       \strng{authornamehash}{5bb609f0ad7e6f99f4842dcf221638c5}
       \strng{authorfullhash}{5bb609f0ad7e6f99f4842dcf221638c5}
       \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1766,8 +2792,9 @@
       \strng{authorbibnamehash}{5d0b5dcd1656b2ffc6d1ae523886e14f}
       \strng{authornamehash}{5d0b5dcd1656b2ffc6d1ae523886e14f}
       \strng{authorfullhash}{5d0b5dcd1656b2ffc6d1ae523886e14f}
+      \field{extraname}{1}
       \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1780,6 +2807,42 @@
       \field{year}{2010}
       \field{pages}{550\bibrangedash 567}
       \range{pages}{18}
+    \endentry
+    \entry{nguyen_et_al_2014}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f9ec3f954fa0b8b600f67fbca90fbdfd}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Bang\bibnamedelima Dang},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a1e9de5a2d5e05429516d800a82b5ed}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Kasper\bibnamedelima Meisner},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d0b5dcd1656b2ffc6d1ae523886e14f}
+      \strng{fullhash}{5d0b5dcd1656b2ffc6d1ae523886e14f}
+      \strng{bibnamehash}{5d0b5dcd1656b2ffc6d1ae523886e14f}
+      \strng{authorbibnamehash}{5d0b5dcd1656b2ffc6d1ae523886e14f}
+      \strng{authornamehash}{5d0b5dcd1656b2ffc6d1ae523886e14f}
+      \strng{authorfullhash}{5d0b5dcd1656b2ffc6d1ae523886e14f}
+      \field{extraname}{2}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Management Science}
+      \field{number}{12}
+      \field{title}{What Death can Tell: Are Executives Paid for their Contributions to Firm Value?}
+      \field{volume}{60}
+      \field{year}{2014}
+      \field{pages}{2994\bibrangedash 3010}
+      \range{pages}{17}
     \endentry
     \entry{oettl_2012}{article}{}
       \name{author}{1}{}{%
@@ -1797,7 +2860,7 @@
       \strng{authornamehash}{5cd394d3e3c4b20f2904b67ca81eec0d}
       \strng{authorfullhash}{5cd394d3e3c4b20f2904b67ca81eec0d}
       \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1826,7 +2889,7 @@
       \strng{authornamehash}{8b2549e4c976cf3be7f9821f20ca4b7d}
       \strng{authorfullhash}{8b2549e4c976cf3be7f9821f20ca4b7d}
       \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1868,7 +2931,7 @@
       \strng{authornamehash}{79f2b4774b5e57591fb7df886ff9ef1a}
       \strng{authorfullhash}{79f2b4774b5e57591fb7df886ff9ef1a}
       \field{sortinit}{Q}
-      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{sortinithash}{c54e16deb53fc904a621fa8fd8703b5a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1880,6 +2943,47 @@
       \field{year}{2019}
       \field{pages}{2271\bibrangedash 2286}
       \range{pages}{16}
+    \endentry
+    \entry{quigley_et_al_2017}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4bb0e2f4c60219fa724c7e5e5329751d}{%
+           family={Quigley},
+           familyi={Q\bibinitperiod},
+           given={Timothy\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ab9795ae8eb31a3153dee2810ea7256}{%
+           family={Crossland},
+           familyi={C\bibinitperiod},
+           given={Craig},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0cb3e12bad023ff96e71fcdac4690c04}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{399a019cf68a11330ae75ad3cd0cfcb6}
+      \strng{fullhash}{399a019cf68a11330ae75ad3cd0cfcb6}
+      \strng{bibnamehash}{399a019cf68a11330ae75ad3cd0cfcb6}
+      \strng{authorbibnamehash}{399a019cf68a11330ae75ad3cd0cfcb6}
+      \strng{authornamehash}{399a019cf68a11330ae75ad3cd0cfcb6}
+      \strng{authorfullhash}{399a019cf68a11330ae75ad3cd0cfcb6}
+      \field{sortinit}{Q}
+      \field{sortinithash}{c54e16deb53fc904a621fa8fd8703b5a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Management Journal}
+      \field{number}{4}
+      \field{title}{{Shareholder Perceptions of the Changing Impact of CEOs: Market Reactions to Unexpected CEO Deaths, 1950–2009}}
+      \field{volume}{38}
+      \field{year}{2017}
+      \field{pages}{939\bibrangedash 949}
+      \range{pages}{11}
     \endentry
     \entry{ramírez20181496}{article}{}
       \name{author}{2}{}{%
@@ -1903,7 +3007,7 @@
       \strng{authornamehash}{6c16f1781b87c38133e5d5bf42f7b952}
       \strng{authorfullhash}{6c16f1781b87c38133e5d5bf42f7b952}
       \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1943,14 +3047,14 @@
            giveni={D\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{2b127747e1042075d4584eee5c711be7}
+      \strng{namehash}{1674d8eb7b7cf9886c06681f526579ac}
       \strng{fullhash}{2b127747e1042075d4584eee5c711be7}
-      \strng{bibnamehash}{1674d8eb7b7cf9886c06681f526579ac}
-      \strng{authorbibnamehash}{1674d8eb7b7cf9886c06681f526579ac}
-      \strng{authornamehash}{2b127747e1042075d4584eee5c711be7}
+      \strng{bibnamehash}{2b127747e1042075d4584eee5c711be7}
+      \strng{authorbibnamehash}{2b127747e1042075d4584eee5c711be7}
+      \strng{authornamehash}{1674d8eb7b7cf9886c06681f526579ac}
       \strng{authorfullhash}{2b127747e1042075d4584eee5c711be7}
       \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1985,7 +3089,7 @@
       \strng{authornamehash}{e53bb5cd29317c0d865daace66346ece}
       \strng{authorfullhash}{e53bb5cd29317c0d865daace66346ece}
       \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1997,6 +3101,36 @@
       \field{year}{2000}
       \field{pages}{827\bibrangedash 874}
       \range{pages}{48}
+    \endentry
+    \entry{salas_2010}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7b42df4f2d15565b0d4eaa21c167d441}{%
+           family={Salas},
+           familyi={S\bibinitperiod},
+           given={Jesus\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7b42df4f2d15565b0d4eaa21c167d441}
+      \strng{fullhash}{7b42df4f2d15565b0d4eaa21c167d441}
+      \strng{bibnamehash}{7b42df4f2d15565b0d4eaa21c167d441}
+      \strng{authorbibnamehash}{7b42df4f2d15565b0d4eaa21c167d441}
+      \strng{authornamehash}{7b42df4f2d15565b0d4eaa21c167d441}
+      \strng{authorfullhash}{7b42df4f2d15565b0d4eaa21c167d441}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0378-4266}
+      \field{journaltitle}{Journal of Banking \& Finance}
+      \field{number}{3}
+      \field{title}{{Entrenchment, Governance, and the Stock Price Reaction to Sudden Executive Deaths}}
+      \field{volume}{34}
+      \field{year}{2010}
+      \field{pages}{656\bibrangedash 666}
+      \range{pages}{11}
     \endentry
     \entry{seebeck2021}{article}{}
       \name{author}{2}{}{%
@@ -2020,7 +3154,7 @@
       \strng{authornamehash}{5d0a8c6a0624b5864563cf386ae5bd27}
       \strng{authorfullhash}{5d0a8c6a0624b5864563cf386ae5bd27}
       \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -2051,7 +3185,7 @@
       \strng{authornamehash}{3766b4d583afcfd375b5bf88d9e975a0}
       \strng{authorfullhash}{3766b4d583afcfd375b5bf88d9e975a0}
       \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -2086,7 +3220,7 @@
       \strng{authornamehash}{b08a175f2958bc34850514fbd4afacf7}
       \strng{authorfullhash}{b08a175f2958bc34850514fbd4afacf7}
       \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -2120,13 +3254,13 @@
       \strng{authornamehash}{f3f372af4d3c8e5ce1f98ccd3bfe3119}
       \strng{authorfullhash}{f3f372af4d3c8e5ce1f98ccd3bfe3119}
       \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{On the Mode of Communication of Cholera}
-      \field{year}{1855 (1965)}
+      \field{year}{[1855] 1965}
     \endentry
     \entry{tan20141574}{article}{}
       \name{author}{2}{}{%
@@ -2150,7 +3284,7 @@
       \strng{authornamehash}{066333c30fed38a99bc7e8605c924adc}
       \strng{authorfullhash}{066333c30fed38a99bc7e8605c924adc}
       \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -2191,7 +3325,7 @@
       \strng{authornamehash}{5cad4065db22a8bd48d1a96378ee5678}
       \strng{authorfullhash}{5cad4065db22a8bd48d1a96378ee5678}
       \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -2220,7 +3354,7 @@
       \strng{authornamehash}{50fd4dfbaabe327e77d960dfaec005d4}
       \strng{authorfullhash}{50fd4dfbaabe327e77d960dfaec005d4}
       \field{sortinit}{U}
-      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -2249,7 +3383,7 @@
       \strng{authornamehash}{713b2fee948f11062618173ddf53fae0}
       \strng{authorfullhash}{713b2fee948f11062618173ddf53fae0}
       \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -2264,18 +3398,18 @@
     \endentry
     \entry{wang20162393}{article}{}
       \name{author}{3}{}{%
-        {{un=1,uniquepart=given,hash=39856f0439f35f79a8eed8b12d26166c}{%
+        {{un=0,uniquepart=base,hash=39856f0439f35f79a8eed8b12d26166c}{%
            family={Wang},
            familyi={W\bibinitperiod},
            given={H.},
            giveni={H\bibinitperiod},
-           givenun=1}}%
-        {{un=1,uniquepart=given,hash=2103a088c0216ee336ca8b820fbefc02}{%
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2103a088c0216ee336ca8b820fbefc02}{%
            family={Zhao},
            familyi={Z\bibinitperiod},
            given={S.},
            giveni={S\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=de7dfb977f55ee1345f2cf9ebb763193}{%
            family={He},
            familyi={H\bibinitperiod},
@@ -2290,7 +3424,7 @@
       \strng{authornamehash}{cfc9141f4828434187fb5d1c28b6d3ef}
       \strng{authorfullhash}{cfc9141f4828434187fb5d1c28b6d3ef}
       \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -2311,12 +3445,12 @@
            given={Michael\bibnamedelima C.},
            giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=06a9f335b3ea8be2aabf9a87a013e3b8}{%
+        {{un=0,uniquepart=base,hash=06a9f335b3ea8be2aabf9a87a013e3b8}{%
            family={Li},
            familyi={L\bibinitperiod},
            given={CH.},
            giveni={C\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{fc0913a1688c7ff8b1c6204357ee4282}
       \strng{fullhash}{fc0913a1688c7ff8b1c6204357ee4282}
@@ -2325,7 +3459,7 @@
       \strng{authornamehash}{fc0913a1688c7ff8b1c6204357ee4282}
       \strng{authorfullhash}{fc0913a1688c7ff8b1c6204357ee4282}
       \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -2353,7 +3487,7 @@
       \strng{authornamehash}{3234817505f61b517a58ce9c9522600f}
       \strng{authorfullhash}{3234817505f61b517a58ce9c9522600f}
       \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -2366,20 +3500,63 @@
       \field{pages}{191\bibrangedash 213}
       \range{pages}{23}
     \endentry
+    \entry{zhang_et_al_2020}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=aabffce5b5162a446190a63116d8f3af}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Dayong},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52fa8342f04e585a22c3743c802c812f}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2825e3c1e08515c8a535d9517c5879f}{%
+           family={Ji},
+           familyi={J\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{e9456f75b66fdbcc8dceb47ad3e3b200}
+      \strng{fullhash}{e9456f75b66fdbcc8dceb47ad3e3b200}
+      \strng{bibnamehash}{e9456f75b66fdbcc8dceb47ad3e3b200}
+      \strng{authorbibnamehash}{e9456f75b66fdbcc8dceb47ad3e3b200}
+      \strng{authornamehash}{e9456f75b66fdbcc8dceb47ad3e3b200}
+      \strng{authorfullhash}{e9456f75b66fdbcc8dceb47ad3e3b200}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Finance Research Letters}
+      \field{title}{Financial Markets under the Global Pandemic of COVID-19}
+      \field{volume}{36}
+      \field{year}{2020}
+      \field{pages}{101528}
+      \range{pages}{1}
+    \endentry
     \entry{zhang2020}{article}{}
       \name{author}{3}{}{%
-        {{un=1,uniquepart=given,hash=1f26f664835ac6c347db22001b657f1a}{%
+        {{un=0,uniquepart=base,hash=1f26f664835ac6c347db22001b657f1a}{%
            family={Zhang},
            familyi={Z\bibinitperiod},
            given={Y.},
            giveni={Y\bibinitperiod},
-           givenun=1}}%
-        {{un=1,uniquepart=given,hash=ef065b28c31984323fd6d3483d29aafd}{%
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef065b28c31984323fd6d3483d29aafd}{%
            family={Li},
            familyi={L\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=f5726aba7dc5ff1bb6c1bbae47d2420d}{%
            family={Tong},
            familyi={T\bibinitperiod},
@@ -2394,7 +3571,7 @@
       \strng{authornamehash}{34b8235785d22fedd39544ae6763c003}
       \strng{authorfullhash}{34b8235785d22fedd39544ae6763c003}
       \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -2411,12 +3588,12 @@
            given={Y.},
            giveni={Y\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=415d15406f27ab6319fe3dc2d7408598}{%
+        {{un=0,uniquepart=base,hash=415d15406f27ab6319fe3dc2d7408598}{%
            family={Wang},
            familyi={W\bibinitperiod},
            given={Q.},
            giveni={Q\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{414a0f0aed2c2857cf0471e2e60eebfb}
       \strng{fullhash}{414a0f0aed2c2857cf0471e2e60eebfb}
@@ -2425,7 +3602,7 @@
       \strng{authornamehash}{414a0f0aed2c2857cf0471e2e60eebfb}
       \strng{authorfullhash}{414a0f0aed2c2857cf0471e2e60eebfb}
       \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}

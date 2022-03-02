@@ -1,20 +1,24 @@
-[0] Config.pm:311> INFO - This is Biber 2.16
-[0] Config.pm:314> INFO - Logfile is 'wp.blg'
-[53] biber-darwin:340> INFO - === Sat Feb 19, 2022, 10:01:32
-[65] Biber.pm:415> INFO - Reading 'wp.bcf'
-[133] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[137] Biber.pm:952> INFO - Found 66 citekeys in bib section 1
-[137] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[153] Biber.pm:4340> INFO - Processing section 1
-[161] Biber.pm:4531> INFO - Looking for bibtex format file 'references/main_biblio.bib' for section 1
-[164] bibtex.pm:1689> INFO - LaTeX decoding ...
-[232] bibtex.pm:1494> INFO - Found BibTeX data source 'references/main_biblio.bib'
-[310] Utils.pm:395> WARN - legacy year field '1923 (1990)' in entry 'neyman_et_al_1923' is not an integer - this will probably not sort properly.
-[310] Utils.pm:395> WARN - legacy year field '1855 (1965)' in entry 'snow_1855' is not an integer - this will probably not sort properly.
-[509] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[509] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[509] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[509] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[559] bbl.pm:654> INFO - Writing 'wp.bbl' with encoding 'UTF-8'
-[586] bbl.pm:757> INFO - Output to wp.bbl
-[586] Biber.pm:128> INFO - WARNINGS: 2
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'wp.blg'
+[85] biber:322> INFO - === Wed Mar  2, 2022, 13:54:03
+[104] Biber.pm:415> INFO - Reading 'wp.bcf'
+[235] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[246] Biber.pm:943> INFO - Found 96 citekeys in bib section 1
+[247] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[273] Biber.pm:4256> INFO - Processing section 1
+[273] Utils.pm:75> INFO - Globbing data source 'references/main_biblio.bib'
+[273] Utils.pm:91> INFO - Globbed data source 'references/main_biblio.bib' to references/main_biblio.bib
+[285] Biber.pm:4455> INFO - Looking for bibtex format file 'references/main_biblio.bib' for section 1
+[290] bibtex.pm:1653> INFO - LaTeX decoding ...
+[449] bibtex.pm:1471> INFO - Found BibTeX data source 'references/main_biblio.bib'
+[615] Utils.pm:293> WARN - year field '1923 (1990)' in entry 'neyman_et_al_1923' is not an integer - this will probably not sort properly.
+[616] Utils.pm:293> WARN - year field '[1855] 1965' in entry 'snow_1855' is not an integer - this will probably not sort properly.
+[1026] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_pxoY/main_biblio.bib_23384.utf8, line 3, warning: 20 characters of junk seen at toplevel
+[1181] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1181] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[1181] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1181] Biber.pm:4084> INFO - Sorting list 'cms/global//global/global' of type 'entry' with template 'cms' and locale 'en-US'
+[1181] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[1291] bbl.pm:652> INFO - Writing 'wp.bbl' with encoding 'UTF-8'
+[1348] bbl.pm:755> INFO - Output to wp.bbl
+[1348] Biber.pm:128> INFO - WARNINGS: 3

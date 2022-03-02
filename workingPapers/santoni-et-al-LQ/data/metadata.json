@@ -1,7 +1,7 @@
 {
 	"management_journal_abstracts": {
 		"folder_name": "3b41fca0-6614-4c43-b816-7bad775e6e17",
-		"location": "https://www.dropbox.com/s/hv4ewln5kzpc72i/management_journal_abstracts.csv?dl=1",
+		"url": "https://www.dropbox.com/s/hv4ewln5kzpc72i/management_journal_abstracts.csv?dl=1",
 		"meta_data": {
 			"file_size": "377.45 MB (on disk)",
 			"format": "data table (.csv)",
@@ -12,12 +12,12 @@
 	},
 	"coded_studies": {
 		"folder_name": "644472e9-ce3f-4bec-a702-491fe951f50b",
-		"location": "",
+		"url": "birhanu2020",
 		"meta_data": {
 			"file_size": "80.31 KB (on disk)",
 			"format": "data table (.csv)",
 			"created": "18 February 2022 at 19:03",
-			"revised": "NaN",
+			"revised": "1 March 2022 at 21:37",
 			"version": "1.0"
 		}
 	}

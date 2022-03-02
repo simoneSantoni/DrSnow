@@ -55,7 +55,8 @@ class BarChart:
         axis_label,
         tick_min,
         tick_step,
-        color_="black",
+        edge_color="dimgray",
+        face_color="dimgray",
         horizontal_=False,
         fig_size=(6, 4),
     ):
@@ -80,26 +81,34 @@ class BarChart:
         # --+ plot data
         if horizontal_ == False:
             # plot
-            plt.bar(x=self.pos, height=self.counts, color=color_, width=0.5)
+            ax.bar(
+                x=self.pos,
+                height=self.counts,
+                edgecolor=edge_color,
+                facecolor=face_color,
+                width=0.5,
+            )
             # label
             ax.set_ylabel(axis_label)
             # ticks and tick labels
             ax.set_xticks(self.pos)
             ax.set_xticklabels(self.labels)
-            ax.set_yticks(
-                np.arange(tick_min, np.max(self.counts), tick_step)
-            )
+            ax.set_yticks(np.arange(tick_min, np.max(self.counts), tick_step))
             # grid
             ax.grid(axis="y", color="white", linestyle="--")
         else:
             # plot
-            plt.barh(y=self.pos, width=self.counts, color=color_, height=0.5)
+            ax.barh(
+                y=self.pos,
+                width=self.counts,
+                edgecolor=edge_color,
+                facecolor=face_color,
+                height=0.5,
+            )
             # label
             ax.set_xlabel(axis_label)
             # ticks and tick labels
-            ax.set_xticks(
-                np.arange(tick_min, np.max(self.counts), tick_step)
-            )
+            ax.set_xticks(np.arange(tick_min, np.max(self.counts), tick_step))
             ax.set_yticks(self.pos)
             ax.set_yticklabels(self.labels)
             # grid
@@ -186,7 +195,7 @@ class LongLollipopChart:
     ):
         """The lollipop chart according to Tufte
         Args:
-            data_ (Pandas DF): The grouped data 
+            data_ (Pandas DF): The grouped data
             x_label (string): Name of the first axis variable
             y_label (string): Name of the second axis variable
             grouping_var (string): Column of the Pandas DF for grouping data
