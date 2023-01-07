@@ -236,6 +236,47 @@
       \verb http://www.nber.org/papers/w29726
       \endverb
     \endentry
+    \entry{angrist_1996}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ee326f34eea24952d04c41cef1771bfc}{%
+           family={Angrist},
+           familyi={A\bibinitperiod},
+           given={Joshua\bibnamedelima D},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f4fa8d00c0311b9cdad0f20ad429e57}{%
+           family={Imbens},
+           familyi={I\bibinitperiod},
+           given={Guido\bibnamedelima W},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49a367b6280de8a239f8bbdd573f996f}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Donald\bibnamedelima B},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bd75de6b94ef6844a7c2ffda0f481c01}
+      \strng{fullhash}{bd75de6b94ef6844a7c2ffda0f481c01}
+      \strng{bibnamehash}{bd75de6b94ef6844a7c2ffda0f481c01}
+      \strng{authorbibnamehash}{bd75de6b94ef6844a7c2ffda0f481c01}
+      \strng{authornamehash}{bd75de6b94ef6844a7c2ffda0f481c01}
+      \strng{authorfullhash}{bd75de6b94ef6844a7c2ffda0f481c01}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American statistical Association}
+      \field{number}{434}
+      \field{title}{Identification of Causal Effects Using Instrumental Variables}
+      \field{volume}{91}
+      \field{year}{1996}
+      \field{pages}{444\bibrangedash 455}
+      \range{pages}{12}
+    \endentry
     \entry{azoulay_et_al_2019_b}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=b4cc2c487e2a06add0cc869a246b9715}{%
@@ -429,10 +470,8 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Leadership Quarterly}
-      \field{note}{Cited by: 1}
       \field{title}{Effect of Crises on Charisma Signaling: A Regression Discontinuity Design}
-      \field{type}{Article}
-      \field{year}{2022}
+      \field{year}{in press}
     \endentry
     \entry{beaman_et_al_2012}{article}{}
       \name{author}{4}{}{%
@@ -1641,7 +1680,7 @@
       \field{journaltitle}{Leadership Quarterly}
       \field{title}{The Pandemic that Shocked Managers Across the World: The Impact of the Covid-19 Crisis on Leadership Behavior}
       \field{type}{Article}
-      \field{year}{In press.}
+      \field{year}{in press.}
     \endentry
     \entry{birhanu2020}{article}{}
       \name{author}{2}{}{%
@@ -1834,6 +1873,40 @@
       \field{year}{2018}
       \field{pages}{486\bibrangedash 516}
       \range{pages}{31}
+    \endentry
+    \entry{hausman_rapson_2018}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2fb7ee06ee61182ec17c68781b5c5882}{%
+           family={Hausman},
+           familyi={H\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3fd533d5c2ec3656d2d44fb4cd9876a}{%
+           family={Rapson},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima S},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7b014bbeb30dd53f18b194b0fc5ee893}
+      \strng{fullhash}{7b014bbeb30dd53f18b194b0fc5ee893}
+      \strng{bibnamehash}{7b014bbeb30dd53f18b194b0fc5ee893}
+      \strng{authorbibnamehash}{7b014bbeb30dd53f18b194b0fc5ee893}
+      \strng{authornamehash}{7b014bbeb30dd53f18b194b0fc5ee893}
+      \strng{authorfullhash}{7b014bbeb30dd53f18b194b0fc5ee893}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Resource Economics}
+      \field{title}{Regression Discontinuity in Time: Considerations for Empirical Applications}
+      \field{volume}{10}
+      \field{year}{2018}
+      \field{pages}{533\bibrangedash 552}
+      \range{pages}{20}
     \endentry
     \entry{haveman2001253}{article}{}
       \name{author}{3}{}{%
@@ -2683,6 +2756,49 @@
       \field{pages}{4011\bibrangedash 4031}
       \range{pages}{21}
     \endentry
+    \entry{li2022}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=78be8ea0cb80e4e1b59bf06100942e90}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bcdd73174e26b44169c10e9083e72469}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f189b293bd3263254702f8c5fe1d714b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9dd89f9529354435247a658f21fb4e1}{%
+           family={Gwon},
+           familyi={G\bibinitperiod},
+           given={Sunhwan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4cdb3797d3d168edfb0c22148c40c49d}
+      \strng{fullhash}{2864b22f34c572dbc993f6728b999ff1}
+      \strng{bibnamehash}{2864b22f34c572dbc993f6728b999ff1}
+      \strng{authorbibnamehash}{2864b22f34c572dbc993f6728b999ff1}
+      \strng{authornamehash}{4cdb3797d3d168edfb0c22148c40c49d}
+      \strng{authorfullhash}{2864b22f34c572dbc993f6728b999ff1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Management Journal}
+      \field{title}{Stronger Together: Country-Of-Origin Agglomeration and Multinational Enterprise Location Choice in an Adverse Institutional Environment}
+      \field{year}{in press}
+    \endentry
     \entry{mahmood20171082}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=bc7414bf2db07d5d5ef31877a386b31b}{%
@@ -3361,8 +3477,11 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Business Ethics}
+      \field{number}{177}
       \field{title}{Not Just a Gender Numbers Game: How Board Gender Diversity Affects Corporate Risk Disclosure}
-      \field{year}{2021}
+      \field{year}{2022}
+      \field{pages}{395\bibrangedash 420}
+      \range{pages}{26}
     \endentry
     \entry{sekhon_titiunik_2012}{article}{}
       \name{author}{2}{}{%
@@ -3817,7 +3936,6 @@
       \range{pages}{27}
     \endentry
   \enddatalist
-  \missing{sieweke2020}
 \endrefsection
 \endinput
 

@@ -1,0 +1,5 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'bmr.blg'
+[67] biber-darwin:340> INFO - === Sat Jan  7, 2023, 12:02:39
+[195] Utils.pm:411> ERROR - Cannot find 'bmr.bcf'!
+[195] Biber.pm:132> INFO - ERRORS: 1
