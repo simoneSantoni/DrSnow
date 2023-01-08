@@ -1,25 +1,25 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'wp.blg'
-[65] biber-darwin:340> INFO - === Sat Jan  7, 2023, 16:22:33
+[67] biber-darwin:340> INFO - === Sat Jan  7, 2023, 17:11:14
 [83] Biber.pm:415> INFO - Reading 'wp.bcf'
-[232] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[249] Biber.pm:952> INFO - Found 104 citekeys in bib section 1
-[249] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[267] Biber.pm:4340> INFO - Processing section 1
+[234] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[251] Biber.pm:952> INFO - Found 104 citekeys in bib section 1
+[251] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[269] Biber.pm:4340> INFO - Processing section 1
 [277] Biber.pm:4531> INFO - Looking for bibtex format file 'references/main_biblio.bib' for section 1
 [282] bibtex.pm:1689> INFO - LaTeX decoding ...
-[391] bibtex.pm:1494> INFO - Found BibTeX data source 'references/main_biblio.bib'
-[500] Utils.pm:395> WARN - legacy year field '1923 (1990)' in entry 'neyman_et_al_1923' is not an integer - this will probably not sort properly.
-[503] Utils.pm:395> WARN - legacy year field '1855 (1965)' in entry 'snow_1855' is not an integer - this will probably not sort properly.
-[623] Utils.pm:395> WARN - legacy year field 'in press' in entry 'bastardoz2022' is not an integer - this will probably not sort properly.
-[641] Utils.pm:395> WARN - legacy year field 'in press.' in entry 'garretsen2022' is not an integer - this will probably not sort properly.
-[674] Utils.pm:395> WARN - legacy year field 'in press' in entry 'li2022' is not an integer - this will probably not sort properly.
-[776] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/54/ffslxghn48n3xk51ftrn_63cmjsv6g/T/biber_tmp_pO7w/ded14433169bbeb7348d31853608835a_19918.utf8, line 3, warning: 20 characters of junk seen at toplevel
-[908] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
-[908] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[908] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[908] Biber.pm:4168> INFO - Sorting list 'cms/global//global/global' of type 'entry' with template 'cms' and locale 'en-US'
-[908] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1001] bbl.pm:654> INFO - Writing 'wp.bbl' with encoding 'UTF-8'
-[1054] bbl.pm:757> INFO - Output to wp.bbl
-[1054] Biber.pm:128> INFO - WARNINGS: 6
+[388] bibtex.pm:1494> INFO - Found BibTeX data source 'references/main_biblio.bib'
+[496] Utils.pm:395> WARN - legacy year field '1923 (1990)' in entry 'neyman_et_al_1923' is not an integer - this will probably not sort properly.
+[499] Utils.pm:395> WARN - legacy year field '1855 (1965)' in entry 'snow_1855' is not an integer - this will probably not sort properly.
+[621] Utils.pm:395> WARN - legacy year field 'in press' in entry 'bastardoz2022' is not an integer - this will probably not sort properly.
+[639] Utils.pm:395> WARN - legacy year field 'in press.' in entry 'garretsen2022' is not an integer - this will probably not sort properly.
+[671] Utils.pm:395> WARN - legacy year field 'in press' in entry 'li2022' is not an integer - this will probably not sort properly.
+[772] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/54/ffslxghn48n3xk51ftrn_63cmjsv6g/T/biber_tmp_L9TU/ded14433169bbeb7348d31853608835a_67770.utf8, line 3, warning: 20 characters of junk seen at toplevel
+[900] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[900] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[900] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[900] Biber.pm:4168> INFO - Sorting list 'cms/global//global/global' of type 'entry' with template 'cms' and locale 'en-US'
+[901] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[989] bbl.pm:654> INFO - Writing 'wp.bbl' with encoding 'UTF-8'
+[1039] bbl.pm:757> INFO - Output to wp.bbl
+[1039] Biber.pm:128> INFO - WARNINGS: 6

@@ -2014,25 +2014,31 @@ units.
       \draw node[] (p0) {};
       \draw node[below=3cm of p0] (p1) {};
       %% axes' end points 
-      \draw node[left=3.5cm of p1, align=center] (e) {Extent of the\\intervention};
-      \draw node[above=6cm of p0, align=center] (g) {Granularity of the\\intervention};
-      \draw node[right=6cm of p0, align=center] (t) {Timescale of the\\intervention};
-      %% axes 
-      \path[-, draw, shorten <=-4pt, shorten >=1pt]
-      (p0) edge node[] {} (e)
-      (p0) edge node[] {} (g)
-      (p0) edge node[] {} (t);
+      \draw node[left=3.5cm of p1, align=center, font=\bfseries] (e) {
+        Extent of the\\intervention
+        };
+      \draw node[above=6cm of p0, align=center, font=\bfseries] (g) {
+        Granularity of the\\intervention
+        };
+      \draw node[right=6cm of p0, align=center, font=\bfseries] (t) {
+        Timescale of the\\intervention
+        };
       %% ticks 
       %% -- Z ticks 
       \draw node[below=0.15cm of p0] (z0) {};
       \draw node[below=1.85cm of p0] (z1) {};
       \draw node[left=0.35cm of z0] (zo) {};
       \draw node[left=2.8cm of z1] (zp) {};
-      \draw node[left=0.25cm of zo, align=center] (zol) {One unit\\1/N};
-      \draw node[left=0.25cm of zp, align=center] (zpl) {Population level\\N/N};
+      \draw node[left=0.25cm of zo, align=center] (zol) {One unit\\($1/N$)};
+      \draw node[left=0.25cm of zp, align=center] (zpl) {Population level\\($N/N$)};
       \path [-, draw, shorten <= -3pt, shorten >=1pt]
       (zo) edge node[] {} (zol)
       (zp) edge node[] {} (zpl);
+      %% axes 
+      \path[-, draw, shorten <=-4pt, shorten >=1pt]
+      (p0) edge node[] {} (-3.11, -2.12)
+      (p0) edge node[] {} (0, 5.3)
+      (p0) edge node[] {} (5.5, 0);
       %% -- Y ticks 
       \draw node[above=1cm of p0] (yb) {};
       \draw node[above=3cm of p0] (yca) {};
@@ -2055,8 +2061,9 @@ units.
     \end{tikzpicture}
     \end{center}
     \caption{A taxonomy of exogenous shocks. Notes. --- The `timescale of the 
-    intervention' axis is a continuum; we annotate that axis with reference points
-    in the interest of interpretability.}
+    intervention' axis is a continuum, which we annotated with reference points
+    in the interest of interpretability; $N$ denotes the study's population 
+    size.}
     \label{fig:taxonomy}
 \end{figure}
 
@@ -2109,7 +2116,7 @@ governments introduce legal changes in a non-staggered manner, making new laws
 binding at the same point in time for all firms located in the country.  An
 example is Norway's gender quota policy, the shock central to the work of Matsa
 and Miller \autocite*{matsa_miller_2013} on the implications of gender
-composition in executive teams. Public limited companies had two years to comply
+composition in executive teams. Norwegian public limited companies had two years to comply
 with the requirement of having at least 40 percent representation from each sex
 on their board. According to the descriptive evidence reported in the study,
 \textit{``nearly all firms complied by February 2008, and all did by April
@@ -2122,7 +2129,7 @@ of the airline industry and the boundaries of the global arm sector respectively
 --- and Gupta et al. \autocite*{gupta2020802}, which draws on the Global 
 Financial Crisis as a source of pressures for CFOs to report favorable results,
 
-The second dimension of our topology --- intervention timescale --- emphasizes
+The second dimension of our topology --- \textit{the timescale of the intervention} --- emphasizes
 the timing with which an exogenous shock is presumed to affect a relationship or
 mechanism of interest. To clarify this dimension, let us focus on one specific
 class of exogenous shocks: the death of individuals occupying prominent
@@ -2141,8 +2148,7 @@ play a critical role as they
 \begin{quote}
   \textit{
     ``reflect the expected incremental value of cash flows under the deceased
-    executive net of this pay, relative to the expected incremental value of
-the
+    executive net of this pay, relative to the expected incremental value of the
     replacement net of his pay.''
   }
   (page 3000)
@@ -2168,28 +2174,29 @@ death using
 Such a strand of finance literature stresses two aspects. First, sudden
 executive deaths are essential sources of variance to estimate leaders' economic
 and financial impact.  Second, and more importantly for our taxonomy, there is a
-relatively tight time-frame where executive sudden deaths are relevant; that is,
-they create exogenous shocks to address the question `how do executives matter?'
+relatively tight time-frame where executive sudden deaths create exogenous
+shocks to address the question `how do executives matter?'
 
 Studies across the fields of economics of science and sociology of science
 highlight a different temporal pattern by which sudden deaths alter reference
 processes or mechanisms and, in turn, acquire relevance. Several articles
 \autocites[e.g.,][]{azoulay_et_al_2019_b,azoulay_et_al_2019_a,khanna_et_al_2021,
-aizenam_kletzer_2011,azoulay_et_al_2010,oettl_2012} take advantage of the 
-start scientists' premature death to estimate better the spill-overs that
-emanate from collaboration. The seminal study of Azoulay and colleagues 
+aizenam_kletzer_2011,azoulay_et_al_2010,oettl_2012} take advantage of the start
+scientists' premature death to estimate better the spill-overs that emanate from
+collaboration. The seminal study of Azoulay, Graff Zivin, and Wang 
 \autocite*{azoulay_et_al_2010} quantifies these spill-overs in terms of a
 scientist's differential of publications and research grants when collaborative
 ties collapse because of the death of an alter star scientist. Different to the
 finance literature, where executive deaths can create `instantaneous' change in
 expectations about a firm's future cash flows, Azoulay et al.
-\autocite{azoulay_et_al_2010} consider a broad timespan to reveal the effect of
-exogenous shock. On the one hand, spill-overs can `roll over' after the death of
-a superstar collaborator.  On the other hand, a scientist's research takes
-sufficient time to change.  These elements seem to guide the choice of the
-authors to evaluate the effects of the shock in a fifteen-year time window (see
-Figure \ref{fig:azoulay_et_al_2010}). At the same time, they also account for
-the intertemporal variation of the superstar extinction effect:
+\autocite*{azoulay_et_al_2010} consider a broad timespan to reveal the effect of
+exogenous shock. The rationale seems twofold. On the one hand, spill-overs can
+`roll over' after the death of a superstar collaborator.  On the other hand, a
+scientist's research can take substantial time to change.  These elements seem
+to guide the choice of the authors to evaluate the effects of the shock in a
+fifteen-year time window (see Figure \ref{fig:azoulay_et_al_2010}). At the same
+time, they also account for the intertemporal variation of the superstar
+extinction effect
 
 \begin{quote}
   \textit{
@@ -2280,8 +2287,7 @@ the authors can show
     (page 200)
 \end{quote}
 
-
-\section{Harnessing exogenous shocks: empirical strategy challenges}
+\section{\capitalisewords{Harnessing exogenous shocks: empirical strategy challenges}}
 \label{sec:harnessing_exogenous_shocks}
 
 \noindent This section emphasizes the empirical strategy challenges that are
@@ -2320,25 +2326,31 @@ such as the one Nguyen and colleagues \autocite*{nguyen_et_al_2014} consider).
       \draw node[] (p0) {};
       \draw node[below=3cm of p0] (p1) {};
       %% axes' end points 
-      \draw node[left=3.5cm of p1, align=center] (e) {Extent of the\\intervention};
-      \draw node[above=6cm of p0, align=center] (g) {Granularity of the\\intervention};
-      \draw node[right=6cm of p0, align=center] (t) {Timescale of the\\intervention};
-      %% axes 
-      \path[-{Classical TikZ Rightarrow[length=1.5mm]}, draw, shorten <=-4pt, shorten >=1pt]
-      (p0) edge node[] {} (e)
-      (p0) edge node[] {} (g)
-      (p0) edge node[] {} (t);
+      \draw node[left=3.5cm of p1, align=center, font=\bfseries] (e) {
+        Extent of the\\intervention
+        };
+      \draw node[above=6cm of p0, align=center, font=\bfseries] (g) {
+        Granularity of the\\intervention
+        };
+      \draw node[right=6cm of p0, align=center, font=\bfseries] (t) {
+        Timescale of the\\intervention
+        };
       %% ticks 
       %% -- Z ticks 
       \draw node[below=0.15cm of p0] (z0) {};
       \draw node[below=1.85cm of p0] (z1) {};
       \draw node[left=0.35cm of z0] (zo) {};
       \draw node[left=2.8cm of z1] (zp) {};
-      \draw node[left=0.25cm of zo] (zol) {One/few units};
-      \draw node[left=0.25cm of zp] (zpl) {Population-level};
+      \draw node[left=0.25cm of zo, align=center] (zol) {One unit\\($1/N$)};
+      \draw node[left=0.25cm of zp, align=center] (zpl) {Population level\\($N/N$)};
       \path [-, draw, shorten <= -3pt, shorten >=1pt]
       (zo) edge node[] {} (zol)
       (zp) edge node[] {} (zpl);
+      %% axes 
+      \path[-, draw, shorten <=-4pt, shorten >=1pt]
+      (p0) edge node[] {} (-3.11, -2.12)
+      (p0) edge node[] {} (0, 5.3)
+      (p0) edge node[] {} (5.5, 0);
       %% -- Y ticks 
       \draw node[above=1cm of p0] (yb) {};
       \draw node[above=3cm of p0] (yca) {};
@@ -2352,22 +2364,49 @@ such as the one Nguyen and colleagues \autocite*{nguyen_et_al_2014} consider).
       (yco) edge node[] {} (ycol);
       %% -- X ticks 
       \draw node[right=1.5cm of p0] (xc) {};
-      \draw node[above=0.25cm of xc] (xcl) {Compressed};
+      \draw (2.6, 0.55) node[] (xcl) () {Compressed};
       \draw node[right=4.25cm of p0] (xd) {};
-      \draw node[above=0.25cm of xd] (xdl) {Dilated};
-      \path [-, draw, shorten <= -3pt, shorten >=1pt]
+      \draw (5, 0.55) node[] (xdl) () {Dilated};
+      \path [-, draw=gray, shorten <= -3pt, shorten >=1pt]
       (xd) edge node[] {} (xdl)
       (xc) edge node[] {} (xcl);
       %% reference points 
-      \draw node[right=0.75cm of zo, align=center, text=c_1] (b) {B};
-      \draw node[right=2.75cm of b, text=c_1] (b1) {B\textsubscript{1}};
-      \draw node[above=4.5cm of b, text=c_1] (b2) {B\textsubscript{2}};
-      \draw node[right=0.75cm of zp, align=center, text=c_2] (c) {C};
-      \draw node[above=4.5cm of c, text=c_2] (c2) {C\textsubscript{2}};
-      \draw node[right=2.75cm of c, text=c_2] (c1) {C\textsubscript{1}};
       \draw node[below=0.95cm of p0] (pa) {};
-      \draw node[left=0.3cm of pa, align=center, text=c_3] (a) {A};
-      \draw node[right=2.75cm of a, text=c_3] (a1) {A\textsubscript{1}};
+      \draw node[right=0.225cm of pa] (a0) {};
+      \draw node[above=1cm of a0, align=center, text=c_3] (a) {$A^{'}$};
+      \draw node[right=2.75cm of a0] (a10) {};  
+      \draw node[above=1cm of a10, text=c_3] (a1) {$A^{''}$};
+      \path [-, draw=gray, dashed]
+      (a0) edge node[] {} (xc)
+      (a) edge node[] {} (yb)
+      (a1) edge node[] {} (a10)
+      (a10) edge node[] {} (-1.8, -1.2);
+      \draw node[right=1.75cm of zo] (b0) {};
+      \draw node[right=4.5cm of zo] (b10) {};
+      \draw node[above=3cm of b0] (b20) {};
+      \draw node[above=1cm of b0, align=center, text=c_1] (b) {$B^{'}$};
+      \draw node[above=1cm of b10, text=c_1] (b1) {$B^{''}$};
+      \draw node[above=1cm of b20, text=c_1] (b2) {$B^{'''}$};
+      \path [-, draw=gray, dashed]
+      (b) edge node[] {} (b0)
+      (b1) edge node[] {} (b10)
+      (b2) edge node[] {} (yco)
+      (b10) edge node[] {} (zo);
+      \draw node[right=2.3cm of zp] (c0) {};
+      \draw node[above=3cm of c0] (c20) {};
+      \draw node[right=2.85cm of c0] (c10) {};
+      \draw node[above=1cm of c0, align=center, text=c_2] (c) {$C^{'}$};
+      \draw node[above=1cm of c20, text=c_2, font=\bfseries] (c2) {$C^{'''}$};
+      \draw node[above=1cm of c10, text=c_2] (c1) {$C^{''}$};
+      \path [-, draw=gray, dashed]
+      (c) edge node[] {} (c0)
+      (c1) edge node[] {} (c10)
+      (c10) edge node[] {} (zp)
+      (c0) edge node[] {} (a0)
+      (c10) edge node[] {} (xd)
+      (c2) edge node[] {} (yco);
+      \path [-, draw=gray, dashed]
+      (a0) edge node[] {} (a);
       \path [
         -{Classical TikZ Rightarrow [length=1.5mm]}, 
         draw=c_3, 
@@ -2376,15 +2415,15 @@ such as the one Nguyen and colleagues \autocite*{nguyen_et_al_2014} consider).
         grey
         ]
       (a) edge node[] {} (a1);
-      \path [
-        -{Classical TikZ Rightarrow[length=1.5mm]}, 
-        draw=gray, 
-        shorten <=0pt, 
-        shorten >=0pt, 
-        grey
-        ]
-      (a) edge node[] {} (b)
-      (a) edge node[] {} (c);
+      % \path [
+      %   -{Classical TikZ Rightarrow[length=1.5mm]}, 
+      %   draw=gray, 
+      %   shorten <=0pt, 
+      %   shorten >=0pt, 
+      %   grey
+      %   ]
+      % (a) edge node[] {} (b)
+      % (a) edge node[] {} (c);
       \path [
         -{Classical TikZ Rightarrow[length=1.5mm]},
         draw=c_2, 
