@@ -1,0 +1,17 @@
+using Dates
+
+include("helpers.jl")
+include("test_timing.jl")
+include("test_twoway_fe.jl")
+include("test_event_study.jl")
+include("test_decomposition.jl")
+include("test_drdid.jl")
+include("test_callaway_santanna.jl")
+include("test_sun_abraham.jl")
+include("test_imputation.jl")
+include("test_balance.jl")
+include("test_r_validation.jl")
+include("test_honest_did.jl")
+include("test_multiplegt_dyn.jl")
+include("test_etwfe.jl")
+include("test_continuous.jl")

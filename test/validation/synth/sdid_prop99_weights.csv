@@ -1,0 +1,172 @@
+"estimator","type","name","weight"
+"sdid","omega","Alabama",0
+"sdid","omega","Arkansas",0.00344182919005366
+"sdid","omega","Colorado",0.0575127872420202
+"sdid","omega","Connecticut",0.0782872884996788
+"sdid","omega","Delaware",0.0703681227256289
+"sdid","omega","Georgia",0.00158841055308405
+"sdid","omega","Idaho",0.0314682102294696
+"sdid","omega","Illinois",0.053387822698875
+"sdid","omega","Indiana",0.0101354850429156
+"sdid","omega","Iowa",0.0259386289609701
+"sdid","omega","Kansas",0.0216051714039695
+"sdid","omega","Kentucky",0
+"sdid","omega","Louisiana",0
+"sdid","omega","Maine",0.0282110161048142
+"sdid","omega","Minnesota",0.0394946446647216
+"sdid","omega","Mississippi",0
+"sdid","omega","Missouri",0.00780250388658814
+"sdid","omega","Montana",0.045135207774626
+"sdid","omega","Nebraska",0.0478531913968808
+"sdid","omega","Nevada",0.124489227812917
+"sdid","omega","New Hampshire",0.105047578516295
+"sdid","omega","New Mexico",0.0405682680545281
+"sdid","omega","North Carolina",0.0328051803164279
+"sdid","omega","North Dakota",0
+"sdid","omega","Ohio",0.0314607672920639
+"sdid","omega","Oklahoma",0
+"sdid","omega","Pennsylvania",0.0153521490259842
+"sdid","omega","Rhode Island",0.00104158777710282
+"sdid","omega","South Carolina",0
+"sdid","omega","South Dakota",0.00408709312137462
+"sdid","omega","Tennessee",0
+"sdid","omega","Texas",0.00977752994968439
+"sdid","omega","Utah",0.0415176579779709
+"sdid","omega","Vermont",0
+"sdid","omega","Virginia",0
+"sdid","omega","West Virginia",0.0335691131906584
+"sdid","omega","Wisconsin",0.0366670847907985
+"sdid","omega","Wyoming",0.00138644179989895
+"sdid","lambda","1970",0
+"sdid","lambda","1971",0
+"sdid","lambda","1972",0
+"sdid","lambda","1973",0
+"sdid","lambda","1974",0
+"sdid","lambda","1975",0
+"sdid","lambda","1976",0
+"sdid","lambda","1977",0
+"sdid","lambda","1978",0
+"sdid","lambda","1979",0
+"sdid","lambda","1980",0
+"sdid","lambda","1981",0
+"sdid","lambda","1982",0
+"sdid","lambda","1983",0
+"sdid","lambda","1984",0
+"sdid","lambda","1985",0
+"sdid","lambda","1986",0.366470631936465
+"sdid","lambda","1987",0.206453050560177
+"sdid","lambda","1988",0.427076317503358
+"sc","omega","Alabama",0
+"sc","omega","Arkansas",0
+"sc","omega","Colorado",0.0133158499706011
+"sc","omega","Connecticut",0.104467335733299
+"sc","omega","Delaware",0.00405025978204407
+"sc","omega","Georgia",0
+"sc","omega","Idaho",0
+"sc","omega","Illinois",0
+"sc","omega","Indiana",0
+"sc","omega","Iowa",0
+"sc","omega","Kansas",0
+"sc","omega","Kentucky",0
+"sc","omega","Louisiana",0
+"sc","omega","Maine",0
+"sc","omega","Minnesota",0
+"sc","omega","Mississippi",0
+"sc","omega","Missouri",0
+"sc","omega","Montana",0.232272704391923
+"sc","omega","Nebraska",0
+"sc","omega","Nevada",0.204426127993562
+"sc","omega","New Hampshire",0.045363709393701
+"sc","omega","New Mexico",0
+"sc","omega","North Carolina",0
+"sc","omega","North Dakota",0
+"sc","omega","Ohio",0
+"sc","omega","Oklahoma",0
+"sc","omega","Pennsylvania",0
+"sc","omega","Rhode Island",0
+"sc","omega","South Carolina",0
+"sc","omega","South Dakota",0
+"sc","omega","Tennessee",0
+"sc","omega","Texas",0
+"sc","omega","Utah",0.396104012734872
+"sc","omega","Vermont",0
+"sc","omega","Virginia",0
+"sc","omega","West Virginia",0
+"sc","omega","Wisconsin",0
+"sc","omega","Wyoming",0
+"sc","lambda","1970",0
+"sc","lambda","1971",0
+"sc","lambda","1972",0
+"sc","lambda","1973",0
+"sc","lambda","1974",0
+"sc","lambda","1975",0
+"sc","lambda","1976",0
+"sc","lambda","1977",0
+"sc","lambda","1978",0
+"sc","lambda","1979",0
+"sc","lambda","1980",0
+"sc","lambda","1981",0
+"sc","lambda","1982",0
+"sc","lambda","1983",0
+"sc","lambda","1984",0
+"sc","lambda","1985",0
+"sc","lambda","1986",0
+"sc","lambda","1987",0
+"sc","lambda","1988",0
+"did","omega","Alabama",0.0263157894736842
+"did","omega","Arkansas",0.0263157894736842
+"did","omega","Colorado",0.0263157894736842
+"did","omega","Connecticut",0.0263157894736842
+"did","omega","Delaware",0.0263157894736842
+"did","omega","Georgia",0.0263157894736842
+"did","omega","Idaho",0.0263157894736842
+"did","omega","Illinois",0.0263157894736842
+"did","omega","Indiana",0.0263157894736842
+"did","omega","Iowa",0.0263157894736842
+"did","omega","Kansas",0.0263157894736842
+"did","omega","Kentucky",0.0263157894736842
+"did","omega","Louisiana",0.0263157894736842
+"did","omega","Maine",0.0263157894736842
+"did","omega","Minnesota",0.0263157894736842
+"did","omega","Mississippi",0.0263157894736842
+"did","omega","Missouri",0.0263157894736842
+"did","omega","Montana",0.0263157894736842
+"did","omega","Nebraska",0.0263157894736842
+"did","omega","Nevada",0.0263157894736842
+"did","omega","New Hampshire",0.0263157894736842
+"did","omega","New Mexico",0.0263157894736842
+"did","omega","North Carolina",0.0263157894736842
+"did","omega","North Dakota",0.0263157894736842
+"did","omega","Ohio",0.0263157894736842
+"did","omega","Oklahoma",0.0263157894736842
+"did","omega","Pennsylvania",0.0263157894736842
+"did","omega","Rhode Island",0.0263157894736842
+"did","omega","South Carolina",0.0263157894736842
+"did","omega","South Dakota",0.0263157894736842
+"did","omega","Tennessee",0.0263157894736842
+"did","omega","Texas",0.0263157894736842
+"did","omega","Utah",0.0263157894736842
+"did","omega","Vermont",0.0263157894736842
+"did","omega","Virginia",0.0263157894736842
+"did","omega","West Virginia",0.0263157894736842
+"did","omega","Wisconsin",0.0263157894736842
+"did","omega","Wyoming",0.0263157894736842
+"did","lambda","1970",0.0526315789473684
+"did","lambda","1971",0.0526315789473684
+"did","lambda","1972",0.0526315789473684
+"did","lambda","1973",0.0526315789473684
+"did","lambda","1974",0.0526315789473684
+"did","lambda","1975",0.0526315789473684
+"did","lambda","1976",0.0526315789473684
+"did","lambda","1977",0.0526315789473684
+"did","lambda","1978",0.0526315789473684
+"did","lambda","1979",0.0526315789473684
+"did","lambda","1980",0.0526315789473684
+"did","lambda","1981",0.0526315789473684
+"did","lambda","1982",0.0526315789473684
+"did","lambda","1983",0.0526315789473684
+"did","lambda","1984",0.0526315789473684
+"did","lambda","1985",0.0526315789473684
+"did","lambda","1986",0.0526315789473684
+"did","lambda","1987",0.0526315789473684
+"did","lambda","1988",0.0526315789473684

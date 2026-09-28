@@ -1,0 +1,18 @@
+# Deployment environment for the DrSnow web GUI (used by launch_gui.jl and the
+# Dockerfile). DrSnow is taken from the repository root via [sources]
+# (Julia >= 1.11); launch_gui.jl dev-links it instead on Julia 1.10.
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DrSnow = "7c9d4e4a-8f3b-4d5e-9c2a-1f8e7b6a5c4d"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+
+[sources]
+DrSnow = {path = ".."}
+
+[compat]
+CSV = "0.10"
+HTTP = "1.10"
+JSON3 = "1.14"
+julia = "1.10"

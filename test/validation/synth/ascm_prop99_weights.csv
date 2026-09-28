@@ -1,0 +1,153 @@
+"model","unit","weight"
+"ridge","Alabama",-0.0220018689165262
+"ridge","Arkansas",0.000697019039580954
+"ridge","Colorado",0.0328494639721112
+"ridge","Connecticut",0.151199506810627
+"ridge","Delaware",0.00988959020073781
+"ridge","Georgia",-0.0130147546156572
+"ridge","Idaho",-0.0190791024610406
+"ridge","Illinois",0.0501796401548834
+"ridge","Indiana",-0.00100775525787915
+"ridge","Iowa",0.00897212776278154
+"ridge","Kansas",0.0444012369378405
+"ridge","Kentucky",0.00670245116637323
+"ridge","Louisiana",-0.00545979801006851
+"ridge","Maine",0.00362849779879446
+"ridge","Minnesota",0.00947316174029018
+"ridge","Mississippi",-0.0434680433967184
+"ridge","Missouri",-0.0177620674061231
+"ridge","Montana",0.248389680131461
+"ridge","Nebraska",0.0266908910084719
+"ridge","Nevada",0.202032435984933
+"ridge","New Hampshire",0.0420955882919631
+"ridge","New Mexico",-0.000365519919348375
+"ridge","North Carolina",-0.00834791303222297
+"ridge","North Dakota",-0.00797917682566059
+"ridge","Ohio",-0.00208945970880825
+"ridge","Oklahoma",-0.0138290775681249
+"ridge","Pennsylvania",0.00816017384079113
+"ridge","Rhode Island",0.0192544894371914
+"ridge","South Carolina",-0.0350249243545641
+"ridge","South Dakota",-0.00980253160986357
+"ridge","Tennessee",-0.0414382189448022
+"ridge","Texas",0.0190987571102557
+"ridge","Utah",0.370199996999942
+"ridge","Vermont",-0.0180954636388845
+"ridge","Virginia",-0.00278895537463583
+"ridge","West Virginia",0.0269723027681732
+"ridge","Wisconsin",-0.0121474426918447
+"ridge","Wyoming",-0.00718493742176773
+"scm","Alabama",-1.38482369484454e-09
+"scm","Arkansas",-1.70256913705345e-09
+"scm","Colorado",0.0148107721476722
+"scm","Connecticut",0.109089653903521
+"scm","Delaware",-1.63585574071264e-10
+"scm","Georgia",-2.36004473524658e-09
+"scm","Idaho",-1.57185374829344e-10
+"scm","Illinois",-1.08997596607795e-09
+"scm","Indiana",-9.91159724521114e-10
+"scm","Iowa",-8.4921596971569e-10
+"scm","Kansas",-1.08032486137971e-09
+"scm","Kentucky",-4.11686242762041e-10
+"scm","Louisiana",-3.29111532624419e-09
+"scm","Maine",-1.41412144389079e-09
+"scm","Minnesota",-4.5874560261201e-10
+"scm","Mississippi",-1.30163807742109e-09
+"scm","Missouri",-1.91588198511414e-09
+"scm","Montana",0.231840000988987
+"scm","Nebraska",-3.18808298976106e-10
+"scm","Nevada",0.204922588717304
+"scm","New Hampshire",0.0454290363067079
+"scm","New Mexico",-3.69466870538424e-11
+"scm","North Carolina",-1.31005748813306e-10
+"scm","North Dakota",-5.92491870127868e-10
+"scm","Ohio",-1.16009301111037e-09
+"scm","Oklahoma",-2.80783993400159e-09
+"scm","Pennsylvania",-1.03885324837798e-09
+"scm","Rhode Island",-1.11589223626385e-09
+"scm","South Carolina",-2.91053414620386e-09
+"scm","South Dakota",-6.45218457549609e-10
+"scm","Tennessee",-2.2036897427639e-09
+"scm","Texas",-9.57402415943209e-10
+"scm","Utah",0.393907986775785
+"scm","Vermont",-1.71242113915637e-09
+"scm","Virginia",-2.3148743294209e-09
+"scm","West Virginia",-9.62790816234684e-10
+"scm","Wisconsin",-5.00724835604116e-10
+"scm","Wyoming",-8.55654351455824e-10
+"ridge_fe","Alabama",0.00682729618322908
+"ridge_fe","Arkansas",0.0370980728749824
+"ridge_fe","Colorado",0.145035159709054
+"ridge_fe","Connecticut",0.267966780296028
+"ridge_fe","Delaware",-0.01394028879352
+"ridge_fe","Georgia",-0.0243972129861812
+"ridge_fe","Idaho",0.0413800064340426
+"ridge_fe","Illinois",0.110748773230806
+"ridge_fe","Indiana",-0.0750096012136484
+"ridge_fe","Iowa",0.00669071252552634
+"ridge_fe","Kansas",0.101435617487059
+"ridge_fe","Kentucky",0.071925276624088
+"ridge_fe","Louisiana",0.0359577570014301
+"ridge_fe","Maine",-0.040925909443916
+"ridge_fe","Minnesota",0.0366556526885668
+"ridge_fe","Mississippi",-0.103210864658357
+"ridge_fe","Missouri",-0.0639596137662233
+"ridge_fe","Montana",0.190112099800653
+"ridge_fe","Nebraska",0.141020185332753
+"ridge_fe","Nevada",0.162796618215981
+"ridge_fe","New Hampshire",0.00553597971059296
+"ridge_fe","New Mexico",0.0356520437065376
+"ridge_fe","North Carolina",0.0505756980847022
+"ridge_fe","North Dakota",-0.0466590366328566
+"ridge_fe","Ohio",-0.0370155967637388
+"ridge_fe","Oklahoma",-0.0308339763267663
+"ridge_fe","Pennsylvania",-0.0672145104443501
+"ridge_fe","Rhode Island",-0.00403587587936929
+"ridge_fe","South Carolina",-0.0379194839886208
+"ridge_fe","South Dakota",0.00504252000735306
+"ridge_fe","Tennessee",-0.0588206555864603
+"ridge_fe","Texas",-0.00102171962589927
+"ridge_fe","Utah",0.11777837800273
+"ridge_fe","Vermont",-0.0824495670583282
+"ridge_fe","Virginia",-0.00483130983841549
+"ridge_fe","West Virginia",0.118595952702148
+"ridge_fe","Wisconsin",0.0522919541436714
+"ridge_fe","Wyoming",-0.04887731175528
+"ridge_fixed","Alabama",-0.00554181172303917
+"ridge_fixed","Arkansas",-0.00317504180269125
+"ridge_fixed","Colorado",0.0197101743638101
+"ridge_fixed","Connecticut",0.11575550117782
+"ridge_fixed","Delaware",0.00419092422927575
+"ridge_fixed","Georgia",-0.00342385235389943
+"ridge_fixed","Idaho",-0.000571578029773541
+"ridge_fixed","Illinois",0.00551773673655687
+"ridge_fixed","Indiana",-0.00174403705301222
+"ridge_fixed","Iowa",0.00236581401695541
+"ridge_fixed","Kansas",0.00440795789485958
+"ridge_fixed","Kentucky",-0.00925146264157792
+"ridge_fixed","Louisiana",-0.000670240425443824
+"ridge_fixed","Maine",0.000977134531374284
+"ridge_fixed","Minnesota",0.00262395952766002
+"ridge_fixed","Mississippi",-0.00560538605478059
+"ridge_fixed","Missouri",-0.00230024365986944
+"ridge_fixed","Montana",0.236193480745788
+"ridge_fixed","Nebraska",0.00427262563484525
+"ridge_fixed","Nevada",0.209273834351707
+"ridge_fixed","New Hampshire",0.0530916242987894
+"ridge_fixed","New Mexico",0.00192118690825818
+"ridge_fixed","North Carolina",-0.00374503733375152
+"ridge_fixed","North Dakota",-0.000313910727320345
+"ridge_fixed","Ohio",0.000817279282914707
+"ridge_fixed","Oklahoma",-0.00205964848655744
+"ridge_fixed","Pennsylvania",0.000790895992882646
+"ridge_fixed","Rhode Island",-0.00132389096289175
+"ridge_fixed","South Carolina",-0.00667082397850019
+"ridge_fixed","South Dakota",-0.00088768989331333
+"ridge_fixed","Tennessee",-0.00684675927529243
+"ridge_fixed","Texas",0.0020691431897837
+"ridge_fixed","Utah",0.394229606880457
+"ridge_fixed","Vermont",-0.0046472552132919
+"ridge_fixed","Virginia",-0.00334561982565468
+"ridge_fixed","West Virginia",0.00245095939222879
+"ridge_fixed","Wisconsin",0.000420934392578459
+"ridge_fixed","Wyoming",0.00104351589477769

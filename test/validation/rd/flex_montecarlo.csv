@@ -1,0 +1,17 @@
+design,n,method,bias,sd,mean_se,coverage,ci_length
+"sharp, non-linear",1000,"rd_estimate, no covariates",0.0250,0.5985,0.5725,0.9510,2.2440
+"sharp, non-linear",1000,"rd_estimate, linear covariates",0.0188,0.5576,0.5302,0.9510,2.0783
+"sharp, non-linear",1000,"rd_flex, OLS",0.0184,0.5691,0.5489,0.9560,2.1517
+"sharp, non-linear",1000,"rd_flex, random forest",0.0214,0.3951,0.3590,0.9350,1.4074
+"sharp, non-linear",4000,"rd_estimate, no covariates",0.0130,0.2969,0.2845,0.9500,1.1150
+"sharp, non-linear",4000,"rd_estimate, linear covariates",0.0085,0.2756,0.2662,0.9510,1.0433
+"sharp, non-linear",4000,"rd_flex, OLS",0.0081,0.2768,0.2681,0.9520,1.0511
+"sharp, non-linear",4000,"rd_flex, random forest",0.0067,0.1324,0.1230,0.9480,0.4821
+"sharp, linear",1000,"rd_estimate, no covariates",-0.0089,0.4685,0.4417,0.9440,1.7314
+"sharp, linear",1000,"rd_estimate, linear covariates",0.0055,0.1571,0.1485,0.9370,0.5822
+"sharp, linear",1000,"rd_flex, OLS",0.0051,0.1577,0.1517,0.9410,0.5947
+"sharp, linear",1000,"rd_flex, random forest",-0.0009,0.2396,0.2306,0.9430,0.9040
+"fuzzy, non-linear",3000,"rd_estimate, no covariates",-0.0116,0.9632,0.8890,0.9590,3.4847
+"fuzzy, non-linear",3000,"rd_estimate, linear covariates",-0.0038,0.9062,0.8273,0.9510,3.2431
+"fuzzy, non-linear",3000,"rd_flex, OLS",0.0024,0.8937,0.8402,0.9550,3.2935
+"fuzzy, non-linear",3000,"rd_flex, random forest",0.0012,0.4722,0.4414,0.9480,1.7304

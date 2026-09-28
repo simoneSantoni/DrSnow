@@ -1,0 +1,5 @@
+/* Make the sidebar logo larger */
+#documenter .docs-sidebar .docs-logo > img {
+    max-height: 10rem !important;
+    max-width: 100% !important;
+}

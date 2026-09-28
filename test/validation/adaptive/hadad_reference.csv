@@ -1,0 +1,31 @@
+weights,outcome_model,term,estimate,stderr
+two_point,running_mean,value(arm 1),0.929507096836306,0.07933817265384636
+two_point,running_mean,value(arm 2),1.0434359176038848,0.05468262920556827
+two_point,running_mean,value(arm 3),1.1055427177060346,0.014900248583499516
+two_point,running_mean,value(arm 3) - value(arm 1),0.17603562086972868,0.08128946054418462
+two_point,running_mean,value(arm 3) - value(arm 2),0.06210680010214986,0.056996790281338035
+two_point,none,value(arm 1),0.9035341643176119,0.13910116015992252
+two_point,none,value(arm 2),0.954031975277136,0.08621550644079307
+two_point,none,value(arm 3),1.0993815369064601,0.019622092804596113
+two_point,none,value(arm 3) - value(arm 1),0.1958473725888482,0.1449454089928177
+two_point,none,value(arm 3) - value(arm 2),0.1453495616293241,0.0949376740628569
+constant_allocation,running_mean,value(arm 1),0.8565770620560932,0.08701451171919962
+constant_allocation,running_mean,value(arm 2),1.022777426510032,0.04256254113950657
+constant_allocation,running_mean,value(arm 3),1.1050173364709819,0.013947125304869176
+constant_allocation,running_mean,value(arm 3) - value(arm 1),0.2484402744148887,0.08813371621533116
+constant_allocation,running_mean,value(arm 3) - value(arm 2),0.08223990996094988,0.0448024286208923
+constant_allocation,none,value(arm 1),0.7511084205282185,0.11591311894722839
+constant_allocation,none,value(arm 2),0.8835204557606914,0.07983592556664706
+constant_allocation,none,value(arm 3),1.1063749911540817,0.016644413646666533
+constant_allocation,none,value(arm 3) - value(arm 1),0.3552665706258632,0.12015603035508823
+constant_allocation,none,value(arm 3) - value(arm 2),0.22285453539339029,0.08683798953645634
+uniform,running_mean,value(arm 1),0.7324018150927383,0.18305093489643287
+uniform,running_mean,value(arm 2),1.0277028328358362,0.0321909055817864
+uniform,running_mean,value(arm 3),1.1071898755901588,0.014277120664387244
+uniform,running_mean,value(arm 3) - value(arm 1),0.3747880604974205,0.18360597962409508
+uniform,running_mean,value(arm 3) - value(arm 2),0.07948704275432261,0.03522480505831066
+uniform,none,value(arm 1),0.41810089075347445,0.09613906917362874
+uniform,none,value(arm 2),0.587321886022605,0.06656918773895719
+uniform,none,value(arm 3),1.1056312988049872,0.018095508006311815
+uniform,none,value(arm 3) - value(arm 1),0.6875304080515128,0.10016203603388212
+uniform,none,value(arm 3) - value(arm 2),0.5183094127823822,0.07354091123919354

@@ -1,0 +1,28 @@
+services:
+  drsnow-gui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: drsnow-gui
+    container_name: drsnow-gui
+    # Published on the loopback interface only: the GUI has no login. To reach it
+    # from other machines, change to "8000:8000" and set DRSNOW_GUI_ALLOWED_HOSTS.
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      - DRSNOW_GUI_MAX_UPLOAD_MB=50
+      # - DRSNOW_GUI_ALLOWED_HOSTS=myhost.example
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8000/healthz"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 60s

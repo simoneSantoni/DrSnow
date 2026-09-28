@@ -1,0 +1,12 @@
+"case","quantity","value"
+"judge","leniency_1",-0.0380553895198247
+"judge","leniency_2",-0.0255296034763715
+"judge","leniency_sd",0.102463940451284
+"judge","tsls_coef",1.10794081863135
+"judge","tsls_se",0.495555436312117
+"judge","fs_coef",0.450674008195359
+"judge","fs_se",0.107155232648355
+"judge","tsls_raw_coef",1.10794081863135
+"judge","ujive_coef",0.973706305259227
+"judge","ujive_se",0.391729414741974
+"judge","balance_F",0.276649903765948

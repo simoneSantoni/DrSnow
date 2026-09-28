@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>DrSnow analysis</title>
+<link rel="stylesheet" href="/static/styles.css">
+<script src="/static/vendor/plotly-basic.min.js" integrity="sha384-XPf/yZU+7YHOOK1zu0qFyjETky28iDlzWu1QBMXPoONR5S4zywnrXdgSClQyPcYb" defer></script>
+<script src="/static/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <h1>DrSnow</h1>
+  <p class="tagline">Design-based causal inference for natural experiments</p>
+</header>
+
+<main id="main">
+  <p id="session-status" class="status" role="status" aria-live="polite">Starting a session…</p>
+
+  <section aria-labelledby="data-h" class="panel">
+    <h2 id="data-h">1. Data</h2>
+    <p class="hint">Upload a CSV or TSV file with a header row. The data stay in this
+      server's memory for your session only and are deleted when the session expires
+      or the server stops. <span id="limits"></span></p>
+    <form id="upload-form" class="row">
+      <div class="field">
+        <label for="file">Data file</label>
+        <input type="file" id="file" name="file" accept=".csv,.tsv,.txt,text/csv,text/tab-separated-values" required>
+      </div>
+      <div class="field">
+        <label for="delim">Delimiter</label>
+        <select id="delim" name="delim">
+          <option value="auto">Detect automatically</option>
+          <option value="comma">Comma</option>
+          <option value="tab">Tab</option>
+          <option value="semicolon">Semicolon</option>
+        </select>
+      </div>
+      <div class="field actions">
+        <button type="submit" id="upload-btn">Upload</button>
+      </div>
+    </form>
+    <p id="upload-status" class="status" role="status" aria-live="polite"></p>
+    <div id="preview"></div>
+  </section>
+
+  <section aria-labelledby="design-h" class="panel" id="design-panel" hidden>
+    <h2 id="design-h">2. Design</h2>
+    <form id="analysis-form">
+      <div class="field">
+        <label for="design">Research design</label>
+        <select id="design" name="design"></select>
+      </div>
+      <p id="design-help" class="hint"></p>
+      <div id="design-fields" class="grid"></div>
+      <div class="actions">
+        <button type="submit" id="run-btn">Run analysis</button>
+      </div>
+    </form>
+    <p id="run-status" class="status" role="status" aria-live="polite"></p>
+  </section>
+
+  <section aria-labelledby="results-h" class="panel" id="results-panel" hidden>
+    <h2 id="results-h">3. Results</h2>
+    <div id="results"></div>
+  </section>
+</main>
+
+<footer class="site">
+  <p>Diagnostics report test results; a non-rejection is not evidence that an
+    identifying assumption holds. See the DrSnow documentation for the assumptions
+    behind each estimator.</p>
+</footer>
+</body>
+</html>

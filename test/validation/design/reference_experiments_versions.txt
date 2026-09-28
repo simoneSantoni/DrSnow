@@ -1,0 +1,5 @@
+R 4.6.1
+estimatr 2.0.0
+blockTools 0.6.6
+DeclareDesign 1.1.1
+randomizr 2.0.1

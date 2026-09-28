@@ -1,0 +1,14 @@
+case,quantity,value
+hhn,liml_coef,0.456449341332974
+hhn,liml_se_hhn,0.10145709162385
+hhn,liml_se_bekker,0.100248299119108
+hhn,fuller1_coef,0.460596282190759
+hhn,fuller1_se_hhn,0.101416953526412
+hhn,manyiv_liml_coef,0.456449341332971
+hhn,manyiv_liml_se_md,0.100097165204279
+cjive,coef,0.621333811333508
+cjive,se,0.0976891682141351
+cjive,coef_w,0.530717542818961
+cjive,se_w,0.0924339144605532
+cjive,coef_wt,0.506671589644484
+cjive,se_wt,0.118583753773623

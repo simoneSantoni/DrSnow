@@ -1,0 +1,8 @@
+# Only Project.toml, launch_gui.jl, src/, ext/ and app/Project.toml are copied into
+# the image (see Dockerfile). Everything else is excluded from the build context.
+*
+!Project.toml
+!launch_gui.jl
+!src/
+!ext/
+!app/Project.toml

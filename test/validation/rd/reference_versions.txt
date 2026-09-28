@@ -1,0 +1,4 @@
+R version 4.6.1 (2026-06-24)
+rdrobust 4.0.0
+rddensity 3.0
+lpdensity 3.0.1
