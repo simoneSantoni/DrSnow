@@ -5,7 +5,7 @@ all interactions.
 
 ## Reporting bugs and suggesting features
 
-Open an [issue](https://github.com/simoneSantoni/DrSnow_alpha/issues) with:
+Open an [issue](https://github.com/simoneSantoni/DrSnow/issues) with:
 
 - a clear title;
 - a minimal, self-contained example that reproduces the problem (simulated data with
@@ -23,8 +23,8 @@ and, if one exists, a reference implementation that it can be validated against.
 ## Development workflow
 
 ```bash
-git clone https://github.com/simoneSantoni/DrSnow_alpha.git
-cd DrSnow_alpha
+git clone https://github.com/simoneSantoni/DrSnow.git
+cd DrSnow
 julia --project=. -e 'using Pkg; Pkg.instantiate()'
 git checkout -b my-feature
 ```
@@ -43,9 +43,8 @@ DRSNOW_SLOW_TESTS=true julia --project=. -e 'using Pkg; Pkg.test()'   # full Mon
 
 Test groups are `quality` (Aqua, and a check that `src/` and `ext/` never use `eval`,
 `Meta.parse` or runtime `include`), `core`, `ri`, `did`, `iv`, `rd`, `sutva`,
-`synth`, `ml`, `viz` and `gui`. Continuous integration (`.github/workflows/CI.yml`)
-runs the full suite with reduced Monte Carlo counts on Julia 1.10 and the current
-release.
+`synth`, `ml`, `viz` and `gui`. The default test run uses reduced Monte Carlo counts;
+enable the slow tests for full statistical validation.
 
 New estimators need, at a minimum:
 
@@ -69,6 +68,13 @@ undocumented export, a docstring included twice, a broken `@ref` or a failing
 julia --project=docs -e 'using Pkg; Pkg.develop(PackageSpec(path=pwd())); Pkg.instantiate()'
 julia --project=docs docs/make.jl       # output in docs/build/
 ```
+
+The documentation workflow (`.github/workflows/documenter.yml`) runs a strict
+Julia 1.10 build on pull requests and pushes to `main`. Successful `main` builds
+publish `docs/build/` to <https://simonesantoni.github.io/DrSnow/> using the
+GitHub Pages artifact deployment actions. In repository Settings → Pages, keep
+the build source set to **GitHub Actions**. No deployment key is required.
+Use the workflow’s **Run workflow** button on `main` to rebuild manually.
 
 Exported functions need docstrings with `# Arguments`, `# Returns`, `# Examples` and,
 for methods from the literature, `# References`:

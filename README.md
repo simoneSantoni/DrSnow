@@ -5,9 +5,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/simoneSantoni/DrSnow_alpha/actions/workflows/CI.yml"><img src="https://github.com/simoneSantoni/DrSnow_alpha/actions/workflows/CI.yml/badge.svg" alt="CI"/></a>
-  <a href="https://github.com/simoneSantoni/DrSnow_alpha/actions/workflows/documenter.yml"><img src="https://github.com/simoneSantoni/DrSnow_alpha/actions/workflows/documenter.yml/badge.svg" alt="Documentation build"/></a>
-  <a href="https://simonesantoni.github.io/DrSnow_alpha/"><img src="https://img.shields.io/badge/docs-dev-blue.svg" alt="Documentation"/></a>
+  <a href="https://github.com/simoneSantoni/DrSnow/actions/workflows/documenter.yml"><img src="https://github.com/simoneSantoni/DrSnow/actions/workflows/documenter.yml/badge.svg" alt="Documentation build"/></a>
+  <a href="https://simonesantoni.github.io/DrSnow/"><img src="https://img.shields.io/badge/docs-dev-blue.svg" alt="Documentation"/></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"/></a>
 </p>
 
@@ -51,14 +50,14 @@ or later):
 
 ```julia
 using Pkg
-Pkg.add(url="https://github.com/simoneSantoni/DrSnow_alpha")
+Pkg.add(url="https://github.com/simoneSantoni/DrSnow")
 ```
 
 For development:
 
 ```bash
-git clone https://github.com/simoneSantoni/DrSnow_alpha.git
-cd DrSnow_alpha
+git clone https://github.com/simoneSantoni/DrSnow.git
+cd DrSnow
 julia --project=. -e 'using Pkg; Pkg.instantiate()'
 ```
 
@@ -144,7 +143,7 @@ DRSNOW_SLOW_TESTS=true julia --project=. -e 'using Pkg; Pkg.test()'         # fu
 
 ## Documentation
 
-- Online manual: <https://simonesantoni.github.io/DrSnow_alpha/>
+- Online manual: <https://simonesantoni.github.io/DrSnow/>
 - Sources of the manual, readable on GitHub: [`docs/src/`](docs/src/) —
   [overview](docs/src/index.md), [tutorial](docs/src/tutorial.md), methods guides
   ([DiD](docs/src/did.md), [IV](docs/src/iv.md), [RD](docs/src/rd.md),
@@ -186,7 +185,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and the development conventions in
   author = {Santoni, Simone and contributors},
   title  = {DrSnow: Design-Based Causal Inference for Natural Experiments in Julia},
   year   = {2026},
-  url    = {https://github.com/simoneSantoni/DrSnow_alpha},
+  url    = {https://github.com/simoneSantoni/DrSnow},
   note   = {Version 0.2}
 }
 ```

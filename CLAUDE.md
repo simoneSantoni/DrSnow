@@ -37,9 +37,9 @@ julia -e 'using DrSnow, HTTP, JSON3, CSV; launch_gui()'
 Test files rely on the `using` block and the `mc_reps` helper in `test/runtests.jl`;
 run them through `DRSNOW_TEST_GROUP` rather than `include`-ing one file on its own.
 
-CI: `.github/workflows/CI.yml` runs the tests (Julia 1.10 and current; Linux, macOS,
-Windows); `.github/workflows/documenter.yml` builds the docs on Julia 1.10 and deploys
-them to GitHub Pages from `master`.
+Documentation: `.github/workflows/documenter.yml` builds the docs on Julia 1.10
+for pull requests and pushes to `main`, then publishes successful `main` builds
+to GitHub Pages using artifact deployment. Run package tests locally as shown above.
 
 ## Architecture
 

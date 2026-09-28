@@ -30,7 +30,7 @@ rewrite; see the changelog in the repository for breaking changes from 0.1.
 
 ```julia
 using Pkg
-Pkg.add(url="https://github.com/simoneSantoni/DrSnow_alpha")
+Pkg.add(url="https://github.com/simoneSantoni/DrSnow")
 ```
 
 DrSnow requires Julia 1.10 or later. Optional features load as package extensions

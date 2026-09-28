@@ -6,11 +6,11 @@ DocMeta.setdocmeta!(DrSnow, :DocTestSetup, :(using DrSnow); recursive=true)
 makedocs(;
     modules = [DrSnow],
     authors = "Simone Santoni and contributors",
-    repo = Remotes.GitHub("simoneSantoni", "DrSnow_alpha"),
+    repo = Remotes.GitHub("simoneSantoni", "DrSnow"),
     sitename = "DrSnow.jl",
     format = Documenter.HTML(;
         prettyurls = get(ENV, "CI", "false") == "true",
-        canonical = "https://simonesantoni.github.io/DrSnow_alpha",
+        canonical = "https://simonesantoni.github.io/DrSnow/",
         assets = ["assets/custom.css"],
         sidebar_sitename = false,
         size_threshold_warn = 384 * 1024,
@@ -58,3 +58,8 @@ makedocs(;
     ],
     checkdocs = :exports,
 )
+
+# Pages publishes a single manual at the site root, without Documenter's deploydocs.
+# Supply the metadata normally written by deploydocs to disable version switching.
+write(joinpath(@__DIR__, "build", "siteinfo.js"),
+      "var DOCUMENTER_VERSION_SELECTOR_DISABLED = true;\n")

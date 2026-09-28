@@ -24,6 +24,9 @@ freely; the list below is complete for exported names.
 
 ### Added
 
+- GitHub Actions documentation builds and automatic GitHub Pages publishing from
+  `main`, with repository and manual links corrected to `simoneSantoni/DrSnow`.
+
 - **Shared foundation.** `CausalEstimate <: StatsAPI.StatisticalModel` for every result
   (`coef`, `vcov`, `stderror`, `confint(; level)`, `coeftable`, `pvalues`, `nobs`,
   `dof_residual`, `estimate`, `estimand`, `method_name`); `DiagnosticTest` whose printout
