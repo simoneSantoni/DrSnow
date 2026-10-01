@@ -22,22 +22,6 @@ One reference page per area; each documents every exported function and type of 
 
 Accessors re-exported from StatsAPI (`coef`, `vcov`, `stderror`, `confint`, `coeftable`, `coefnames`, `nobs`, `dof_residual`, `pvalue`) work on every DrSnow result; see the [core interface](reference/core.md).
 
-## Citation
-
-To cite DrSnow in publications, use:
-
-```bibtex
-@software{drsnow,
-  author = {Santoni, Simone},
-  title  = {DrSnow: Design-Based Causal Inference for Natural Experiments in Julia},
-  year   = {2026},
-  url    = {https://github.com/simoneSantoni/DrSnow},
-  note   = {Version 0.2}
-}
-```
-
-Please also cite the papers behind the methods you use; each guide lists them.
-
 ## Index
 
 ```@index
