@@ -259,6 +259,13 @@ negative weights of the single-coefficient TWFE regression disappear.
 
 ## Non-binary and non-absorbing treatments (de Chaisemartin & D'Haultfœuille 2026)
 
+The switcher estimators below are difference-in-differences estimators: they
+identify the effect of each group's *actual* treatment path under parallel trends,
+and their time-varying `controls` are residualized in first differences. They do
+not handle confounders that are affected by past treatment and in turn affect
+future treatment; that design (treatment–confounder feedback) requires the
+g-methods of the [longitudinal treatment regimes](longitudinal.md) area.
+
 When units switch treatment on and off, or the treatment takes several values,
 cohorts and event time are not defined, and TWFE regressions (static or dynamic)
 mix effects with negative weights. [`did_multiplegt_dyn`](@ref) estimates the

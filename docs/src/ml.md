@@ -43,6 +43,7 @@ pure-Julia learners:
 | [`RidgeLearner`](@ref) | ridge on standardized covariates | exact leave-one-out CV (deterministic) or fixed λ |
 | [`LassoLearner`](@ref) | lasso / elastic net, coordinate descent (glmnet parameterization) | K-fold CV (`:min` or `:one_se`) or fixed λ |
 | [`LogisticLearner`](@ref) | logistic MLE (GLM.jl) | none; deterministic |
+| [`FractionalLogitLearner`](@ref) | quasi-binomial logistic regression for targets in [0, 1] (iterated outcome regressions of the longitudinal g-methods) | none; deterministic |
 | [`PenalizedLogisticLearner`](@ref) | L1 / elastic-net / ridge logistic | K-fold CV on deviance or fixed λ |
 | [`KNNLearner`](@ref) | k nearest neighbours | `k` |
 | [`MeanLearner`](@ref) | training mean (e.g. known randomization) | none |

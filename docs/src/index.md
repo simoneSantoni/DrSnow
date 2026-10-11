@@ -61,6 +61,7 @@ when the corresponding package is loaded next to DrSnow:
 | Known assignment mechanism | [`randomization_test`](@ref), [`ri_confint`](@ref), [`ri_regression`](@ref) | [Randomization inference](ri.md) |
 | Spillovers between units | [`exposure_effects`](@ref), [`spillover_fisher_test`](@ref), [`spillover_did`](@ref), [`conley_vcov`](@ref) | [Interference](sutva.md) |
 | High-dimensional controls, heterogeneous effects | [`dml_plr`](@ref), [`dml_irm`](@ref), [`cate_dr_learner`](@ref), [`generic_ml`](@ref) | [Causal ML](ml.md) |
+| Time-varying treatment with time-varying confounders (sustained or dynamic strategies) | [`longitudinal_regime`](@ref), [`regime_contrast`](@ref), [`regime_weights`](@ref) | [Longitudinal regimes](longitudinal.md) |
 
 ## Reading guide
 

@@ -34,6 +34,13 @@ workflow:
   (binary outcomes; Qian et al. 2021). Both allow moderators, availability and the
   small-sample corrected variance, and match the R package MRTAnalysis.
 
+None of the estimators on this page targets the effect of a *sustained* treatment
+strategy over several periods: the excursion effects of micro-randomized trials are
+marginal over the trial's own randomization of the other decision points, and the
+bandit estimators concern single-period arm values. Effects of time-varying
+treatment regimes under time-varying confounding are the subject of the
+[longitudinal treatment regimes](longitudinal.md) area.
+
 ## Identification: what adaptive designs require
 
 Write `A_t` for the arm assigned to unit `t`, `X_t` for its covariates, `Y_t(w)`

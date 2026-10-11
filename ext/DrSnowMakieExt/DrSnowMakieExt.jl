@@ -23,7 +23,7 @@ import DrSnow: plot_event_study, plot_event_study!, plot_coefficients, plot_coef
                plot_confidence_set, plot_confidence_set!, plot_variable_importance,
                plot_variable_importance!, plot_rate, plot_rate!
 import DrSnow: plot_confidence_sequence, plot_confidence_sequence!, plot_gs_boundaries,
-               plot_gs_boundaries!
+               plot_gs_boundaries!, plot_regime_weights, plot_regime_weights!
 
 include("common.jl")
 include("event_study.jl")
@@ -46,5 +46,6 @@ include("grf.jl")
 include("adaptive.jl")
 include("sequential.jl")
 include("design.jl")
+include("longitudinal.jl")
 
 end # module DrSnowMakieExt

@@ -59,6 +59,7 @@ export plot_excursion_effect, plot_excursion_effect!
 export plot_confidence_sequence, plot_confidence_sequence!
 export plot_gs_boundaries, plot_gs_boundaries!
 export plot_power_curve, plot_power_curve!, plot_blocks, plot_blocks!
+export plot_regime_weights, plot_regime_weights!
 
 const _VIZ_BACKEND_HINT =
     "requires a Makie backend. Load one to enable DrSnow's plotting extension: " *
@@ -1204,3 +1205,4 @@ include("data_adaptive.jl")
 include("data_sequential.jl")      # after _VIZ_COMMON_KW (used in its docstrings)
 
 include("data_design.jl")   # design-area plots (power curves, blocks)
+include("data_longitudinal.jl")   # longitudinal g-methods (regime weights)

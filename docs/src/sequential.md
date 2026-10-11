@@ -4,6 +4,11 @@
 CurrentModule = DrSnow
 ```
 
+This page is about *sequential analysis*: inference that stays valid when the data
+are looked at repeatedly as they arrive. It is not about sequential (time-varying)
+treatments; the effects of treatment regimes over several periods are the subject of
+the [longitudinal treatment regimes](longitudinal.md) area.
+
 Experiments are often analysed while the data are still arriving: an online A/B test
 is watched on a dashboard, a trial has interim analyses by a monitoring committee. A
 fixed-sample confidence interval or p-value computed repeatedly on accumulating data

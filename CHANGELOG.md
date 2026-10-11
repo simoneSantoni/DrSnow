@@ -101,6 +101,15 @@ freely; the list below is complete for exported names.
   - a new `sequential` area: confidence sequences (`confseq_mean`, `confseq_ate`),
     streaming monitors, mixture-SPRT always-valid p-values (`msprt_test`), and
     group-sequential designs and analyses (`gs_design`, `gs_analysis`);
+  - a new `longitudinal` area (g-methods for time-varying treatments with
+    time-varying confounding): `longitudinal_regime` with iterated-regression
+    g-computation, inverse probability weighting, longitudinal TMLE and the
+    sequentially doubly robust estimator, cross-fitted over units; `StaticRegime`,
+    `DynamicRegime`, `always_treat`, `never_treat`; `regime_contrast` (differences,
+    log risk and odds ratios), `regime_msm` (marginal structural model projections),
+    `regime_weights` and `plot_regime_weights` (positivity diagnostics); validated
+    against ltmle and cross-checked against lmtp; `FractionalLogitLearner` (quasi-
+    binomial regression for bounded targets) in the `ml` area;
   - a new `adaptive` area: response-adaptive policies (Thompson sampling, UCB,
     ε-greedy, contextual) with floors and burn-in, adaptively weighted AIPW
     (`adaptive_arm_values`, `adaptive_policy_value`), off-policy evaluation, and

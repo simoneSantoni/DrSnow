@@ -67,6 +67,8 @@ reference implementations.
 | Sequential | group-sequential designs (spending families, classical bounds, futility) and analyses | gsDesign 3.11.0, rpact 4.4.0 | 72 designs, 4 analyses | bounds ≤ 1e-6 |
 | Adaptive | adaptively weighted AIPW (two-point, constant allocation), contextual weights | authors' code (Hadad et al. 2021; Zhan et al. 2021) | Thompson-sampling experiment | ≤ 1e-10 |
 | Adaptive | `wcls`, `emee` (micro-randomized trials) | MRTAnalysis 0.4.1 | HeartSteps mimic, simulated | estimates ≤ 5e-11 |
+| Longitudinal | `longitudinal_regime` (`:tmle`, `:ipw`, `:gcomp`; static and dynamic regimes), `regime_contrast` (difference, log RR, log OR) | ltmle 1.3.0 | simulated three-period panel with treatment–confounder feedback | estimates and IC standard errors ≤ 1e-8 (after aligning the `n - 1` and Hájek conventions) |
+| Longitudinal | `longitudinal_regime` (`:sdr`, `:tmle`) | lmtp 1.5.4 (cross-check: density ratios by classification) | same data | estimates within 5% |
 | Design | `power_means`, `power_proportions`, `power_cluster`, `power_blocked`, `power_rd` | pwr 1.3.0, PowerUpR 1.1.0, rdpower 3.0 | Senate (RD), analytic | ≤ 1e-8 |
 | Design | `experiment_estimate`; greedy Mahalanobis pairs; `diagnose_design` | estimatr 2.0.0; blockTools 0.6.6; DeclareDesign 1.1.1 | simulated | ≤ 1e-10; identical pairs; diagnosands within 2.2 Monte Carlo SE |
 
@@ -109,6 +111,7 @@ The generating scripts live next to the data they produce:
 | IV (ML diagnostics) | `test/validation/iv/make_reference_rpiv.R`, `make_reference_lqte.py` (Python) |
 | Sequential | `test/validation/sequential/confseq_reference.py` (Python), `gs_reference.R` |
 | Adaptive | `test/validation/adaptive/hadad_reference.py` (Python), `generate_mrt_references.R` |
+| Longitudinal | `test/validation/longitudinal/make_data.jl` (data), then `ltmle_reference.R` (ltmle and lmtp) |
 | Design | `test/validation/design/make_reference_power.R`, `make_reference_experiments.R` |
 
 Run them from the repository root. If the R packages are installed in a separate

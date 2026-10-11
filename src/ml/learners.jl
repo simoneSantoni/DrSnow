@@ -649,6 +649,98 @@ fitpredict_proba(l::LogisticLearner, X::AbstractMatrix, y::AbstractVector,
                  Xnew::AbstractMatrix; rng=Random.default_rng(), weights=nothing) =
     fitpredict(l, X, y, Xnew; rng=rng, weights=weights)
 
+# ------------------------------------------------------------ Fractional logit
+
+"""
+    FractionalLogitLearner(; intercept=true)
+
+Quasi-maximum-likelihood logistic regression for a target in ``[0, 1]`` (the
+fractional logit of Papke and Wooldridge 1996) as a [`NuisanceLearner`](@ref) for the
+conditional mean of a bounded outcome.
+
+The learner models ``E[y \\mid x] = \\Lambda(\\beta_0 + x'\\beta)`` with the logistic
+function ``\\Lambda`` and estimates the coefficients by maximizing the Bernoulli
+quasi-log-likelihood
+``\\sum_i w_i [y_i \\log \\Lambda_i + (1 - y_i) \\log(1 - \\Lambda_i)]``.
+This objective is well defined for any ``y_i`` in the unit interval, not only for 0/1
+targets, and because the Bernoulli family is in the linear exponential family the
+maximizer is consistent for the conditional mean whenever the logistic form is
+correct, whatever the distribution of ``y`` (Gourieroux, Monfort and Trognon 1984;
+Papke and Wooldridge 1996). The fit uses Newton–Raphson with step halving and is
+deterministic (`rng` is ignored). For a binary target the estimator is ordinary
+logistic regression, and [`fitpredict_proba`](@ref) is defined, so the learner can
+also serve in propensity roles.
+
+Its purpose in DrSnow is the iterated outcome regressions of the longitudinal
+g-methods, where the regression targets are predicted conditional means in
+``[0, 1]`` (after scaling the outcome by its range) rather than observed 0/1 values.
+It is the regression that the R package ltmle uses (`quasibinomial` family on the
+scaled outcome, Lendle et al. 2017), so
+[`longitudinal_regime`](@ref)`(...; outcome_learner=FractionalLogitLearner(),
+treatment_learner=LogisticLearner(), crossfit=false)` reproduces ltmle. The learner
+keeps predictions inside ``[0, 1]`` by construction, which [`OLSLearner`](@ref) does
+not, at the cost of assuming the logistic shape. A training target outside
+``[0, 1]`` throws an `ArgumentError`; a constant target returns that constant.
+
+# Keywords
+- `intercept::Bool = true`: include an intercept.
+
+# Fields
+- `intercept::Bool`: whether an intercept is fitted.
+
+# Examples
+```julia
+using DrSnow, StableRNGs
+rng = StableRNG(12)
+X = randn(rng, 300, 2)
+m = 1 ./ (1 .+ exp.(-(0.4 .* X[:, 1] .- 0.8 .* X[:, 2])))
+y = clamp.(m .+ 0.1 .* randn(rng, 300), 0, 1)       # a fractional outcome
+fitpredict(FractionalLogitLearner(), X, y, X[1:5, :])
+```
+
+# References
+- Papke, L. E., & Wooldridge, J. M. (1996). Econometric methods for fractional
+  response variables with an application to 401(k) plan participation rates.
+  *Journal of Applied Econometrics*, 11(6), 619–632.
+- Gourieroux, C., Monfort, A., & Trognon, A. (1984). Pseudo maximum likelihood
+  methods: Theory. *Econometrica*, 52(3), 681–700.
+- Lendle, S. D., Schwab, J., Petersen, M. L., & van der Laan, M. J. (2017). ltmle: An
+  R package implementing targeted minimum loss-based estimation for longitudinal
+  data. *Journal of Statistical Software*, 81(1), 1–21.
+"""
+Base.@kwdef struct FractionalLogitLearner <: NuisanceLearner
+    intercept::Bool = true
+end
+
+function _ml_fit(l::FractionalLogitLearner, X::AbstractMatrix, y::AbstractVector;
+                 weights=nothing, rng=Random.default_rng())
+    all(v -> 0 <= v <= 1, y) ||
+        throw(ArgumentError("FractionalLogitLearner: the target must lie in [0, 1]"))
+    n, p = size(X)
+    yv = Vector{Float64}(y)
+    if all(==(yv[1]), yv)
+        # constant target: predict it exactly (the logit may be infinite)
+        c = yv[1]
+        b0 = c <= 0 ? -Inf : (c >= 1 ? Inf : log(c / (1 - c)))
+        return _MLLinearFit(b0, zeros(p), true)
+    end
+    Z = l.intercept ? hcat(ones(n), X) : Matrix{Float64}(X)
+    b = _ml_logistic_newton(Z, yv, _ml_normweights(weights, n))
+    return l.intercept ? _MLLinearFit(b[1], b[2:end], true) : _MLLinearFit(0.0, b, true)
+end
+
+function fitpredict(l::FractionalLogitLearner, X::AbstractMatrix, y::AbstractVector,
+                    Xnew::AbstractMatrix; rng=Random.default_rng(), weights=nothing)
+    _ml_check_xy(X, y, Xnew)
+    return _ml_predict(_ml_fit(l, X, y; weights=weights), Xnew)
+end
+
+function fitpredict_proba(l::FractionalLogitLearner, X::AbstractMatrix, y::AbstractVector,
+                          Xnew::AbstractMatrix; rng=Random.default_rng(), weights=nothing)
+    _ml_check_binary(y)
+    return fitpredict(l, X, y, Xnew; rng=rng, weights=weights)
+end
+
 # ---------------------------------------------------------- Penalized logistic
 
 """

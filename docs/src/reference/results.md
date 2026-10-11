@@ -10,10 +10,11 @@ Every plotting function below requires a Makie backend (`using CairoMakie` for f
 `using GLMakie` or `using WGLMakie` for interactive use) and has a mutating `!` variant
 that draws into an existing axis. Unless a docstring says otherwise, intervals are
 pointwise: each covers its own quantity at the stated level, not all displayed
-quantities jointly. The plots for adaptive experiments, sequential inference and
-experimental design are documented with their areas: [Adaptive
-Experiments](adaptive.md), [Sequential Inference](sequential.md) and [Experimental
-Design and Power](design.md).
+quantities jointly. The plots for adaptive experiments, sequential inference,
+experimental design and longitudinal regimes are documented with their areas:
+[Adaptive Experiments](adaptive.md), [Sequential Inference](sequential.md),
+[Experimental Design and Power](design.md) and [Longitudinal Treatment
+Regimes](longitudinal.md).
 
 ## Tidy results
 

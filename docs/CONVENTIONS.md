@@ -9,7 +9,8 @@ These rules apply to every area of the package. They exist because the v0.1 revi
   `src/<area>/<area>.jl`. The aggregator includes the area's files and holds the
   area's `export` statements. Do not add exports anywhere else.
 - Areas: `core`, `ri` (randomization inference), `did`, `iv`, `rd`, `sutva`
-  (interference), `synth`, `ml`, `viz` (plot stubs). Include order is fixed in
+  (interference), `synth`, `ml`, `longitudinal` (g-methods), `sequential`, `adaptive`,
+  `design`, `viz` (plot stubs). Include order is fixed in
   `src/DrSnow.jl`; an area may use anything from areas included before it.
 - Tests: `test/<area>/runtests.jl` is included by `test/runtests.jl` inside a
   testset named after the area. Run one area with

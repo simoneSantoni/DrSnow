@@ -25,7 +25,7 @@ rungroup(name) = GROUPS === :all || name in GROUPS
 mc_reps(full::Int, fast::Int) = SLOW_TESTS ? full : fast
 
 const AREAS = ["quality", "core", "ri", "sequential", "did", "iv", "rd", "sutva", "synth",
-               "ml", "adaptive", "design", "viz", "gui", "validation"]
+               "ml", "longitudinal", "adaptive", "design", "viz", "gui", "validation"]
 
 @testset "DrSnow.jl" begin
     for area in AREAS

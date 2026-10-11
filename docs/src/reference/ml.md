@@ -29,6 +29,7 @@ OLSLearner
 RidgeLearner
 LassoLearner
 LogisticLearner
+FractionalLogitLearner
 PenalizedLogisticLearner
 KNNLearner
 MeanLearner

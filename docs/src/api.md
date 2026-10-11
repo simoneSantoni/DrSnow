@@ -15,6 +15,7 @@ One reference page per area; each documents every exported function and type of 
 - [Sequential Inference](reference/sequential.md)
 - [Adaptive Experiments](reference/adaptive.md)
 - [Experimental Design and Power](reference/design.md)
+- [Longitudinal Treatment Regimes](reference/longitudinal.md)
 - [Interference (SUTVA)](reference/sutva.md)
 - [Causal Machine Learning](reference/ml.md)
 - [Results and Plotting](reference/results.md)
@@ -25,5 +26,5 @@ Accessors re-exported from StatsAPI (`coef`, `vcov`, `stderror`, `confint`, `coe
 ## Index
 
 ```@index
-Pages = ["reference/core.md", "reference/did.md", "reference/iv.md", "reference/rd.md", "reference/synth.md", "reference/ri.md", "reference/sequential.md", "reference/adaptive.md", "reference/design.md", "reference/sutva.md", "reference/ml.md", "reference/results.md", "reference/gui.md"]
+Pages = ["reference/core.md", "reference/did.md", "reference/iv.md", "reference/rd.md", "reference/synth.md", "reference/ri.md", "reference/sequential.md", "reference/adaptive.md", "reference/design.md", "reference/sutva.md", "reference/ml.md", "reference/longitudinal.md", "reference/results.md", "reference/gui.md"]
 ```

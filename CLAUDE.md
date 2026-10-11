@@ -19,7 +19,8 @@ julia --project=. -e 'using Pkg; Pkg.instantiate()'
 # Full test suite (reduced Monte Carlo counts, as in CI)
 julia --project=. -e 'using Pkg; Pkg.test()'
 
-# One or more test groups: quality, core, ri, did, iv, rd, sutva, synth, ml, viz, gui
+# One or more test groups: quality, core, ri, sequential, did, iv, rd, sutva, synth, ml,
+# longitudinal, adaptive, design, viz, gui
 DRSNOW_TEST_GROUP=did,iv julia --project=. -e 'using Pkg; Pkg.test()'
 
 # Full Monte Carlo size/coverage replication counts (slow)
@@ -46,7 +47,8 @@ to GitHub Pages using artifact deployment. Run package tests locally as shown ab
 - `src/DrSnow.jl` loads dependencies, re-exports the StatsAPI accessors (`coef`, `vcov`,
   `stderror`, `confint`, `coeftable`, `nobs`, ...) and `Vcov`, then includes one
   aggregator per area in a fixed order: `core`, `ri`, `did`, `iv`, `rd`, `sutva`,
-  `synth`, `ml`, `viz`, `gui`. An area may use anything from earlier areas.
+  `synth`, `ml`, `longitudinal`, `sequential`, `adaptive`, `design`, `viz`, `gui`. An
+  area may use anything from earlier areas.
 - `src/<area>/<area>.jl` includes the area's files and holds **all** of its `export`s.
 - `src/core/`: `CausalEstimate` (every result type subtypes it and stores the full
   `vcov`), `DiagnosticTest`, `wald_test`, `critical_value`, `make_formula` (formulas are

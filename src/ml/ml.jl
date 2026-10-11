@@ -25,7 +25,7 @@ include("measured_designs.jl")
 include("measurement_error.jl")
 
 export NuisanceLearner, fitpredict, fitpredict_proba
-export OLSLearner, RidgeLearner, LassoLearner, LogisticLearner
+export OLSLearner, RidgeLearner, LassoLearner, LogisticLearner, FractionalLogitLearner
 export PenalizedLogisticLearner, KNNLearner, MeanLearner, MLJLearner
 export crossfit_folds
 export DMLEstimate, dml_plr, dml_irm, dml_pliv, dml_iivm, dml_did

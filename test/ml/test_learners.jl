@@ -29,6 +29,31 @@ DrSnow.fitpredict(::MLTestHalfLearner, X, y, Xnew; kwargs...) = fill(0.5, size(X
         @test_throws ArgumentError fitpredict_proba(OLSLearner(), X, y, Xnew)
     end
 
+    @testset "Fractional logit" begin
+        # binary target: equals logistic regression
+        d = Float64.(rand(StableRNG(5), n) .< 1 ./ (1 .+ exp.(-X[:, 1])))
+        @test fitpredict(FractionalLogitLearner(), X, d, Xnew) ≈
+              fitpredict_proba(LogisticLearner(), X, d, Xnew) rtol = 1e-8
+        @test fitpredict_proba(FractionalLogitLearner(), X, d, Xnew) ≈
+              fitpredict(FractionalLogitLearner(), X, d, Xnew)
+        # fractional target: the quasi-likelihood score equations hold at the fit
+        fr = clamp.(1 ./ (1 .+ exp.(-(0.5 .* X[:, 1] .- X[:, 2]))) .+
+                    0.1 .* randn(StableRNG(6), n), 0, 1)
+        ff = DrSnow._ml_fit(FractionalLogitLearner(), X, fr)
+        pr = 1 ./ (1 .+ exp.(-(X * ff.β .+ ff.b0)))
+        @test maximum(abs, hcat(ones(n), X)' * (fr .- pr)) < 1e-6
+        # weights act like frequency weights
+        wf = rand(StableRNG(7), 1:3, n)
+        idxf = reduce(vcat, [fill(i, wf[i]) for i in 1:n])
+        @test fitpredict(FractionalLogitLearner(), X, fr, Xnew; weights=wf) ≈
+              fitpredict(FractionalLogitLearner(), X[idxf, :], fr[idxf], Xnew) rtol = 1e-6
+        # constant target and bounds
+        @test fitpredict(FractionalLogitLearner(), X, fill(0.3, n), Xnew) ≈ fill(0.3, 7)
+        @test fitpredict(FractionalLogitLearner(), X, zeros(n), Xnew) == zeros(7)
+        @test_throws ArgumentError fitpredict(FractionalLogitLearner(), X, y, Xnew)
+        @test_throws ArgumentError fitpredict_proba(FractionalLogitLearner(), X, fr, Xnew)
+    end
+
     @testset "Ridge" begin
         λ = 0.3
         μ = vec(mean(X; dims=1))
