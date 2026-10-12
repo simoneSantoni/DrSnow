@@ -144,7 +144,11 @@ average effect with
   matched-pair variance of Imai, King & Nall (2009), with a t reference on `J − 1`
   degrees of freedom for `J` pairs. When the pairs are formed on covariates that
   predict the outcome, this test is conservative (Bai, Romano & Shaikh 2022);
-- `:block_fe`: block fixed effects plus covariates, heteroskedasticity-robust;
+- `:block_fe`: block fixed effects plus covariates, heteroskedasticity-robust by
+  default; `vcov = StratifiedVcov(:block)` instead centres the scores within blocks,
+  which removes the between-block variation that stratified assignment eliminates and
+  matches the blocked Neyman variance when effects differ across blocks (see
+  [`StratifiedVcov`](@ref));
 - `:lin`: Lin's (2013) interacted adjustment with block fixed effects;
 - `:dml`: cross-fitted AIPW with the *known* assignment probabilities (no propensity
   model), outcome models from any learner.

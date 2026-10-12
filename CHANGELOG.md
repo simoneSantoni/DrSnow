@@ -32,7 +32,11 @@ freely; the list below is complete for exported names.
   `dof_residual`, `estimate`, `estimand`, `method_name`); `DiagnosticTest` whose printout
   never presents non-rejection as evidence for an assumption; `wald_test` with the full
   covariance; `critical_value`; `permutation_pvalue`; `make_formula`; `tidy`, `glance`
-  and a Tables.jl interface for results.
+  and a Tables.jl interface for results. `StratifiedVcov` / `stratified_vcov`: a
+  stratified sandwich covariance (scores, or their cluster sums, centred within strata
+  and treated as independent within strata) usable as the `vcov` argument of every
+  regression fitted through `FixedEffectModels.reg`, with design degrees of freedom
+  (units minus strata); validated against R's `survey` package.
 - **Difference-in-Differences.** Cohort layer (`treatment_timing`); Callaway–Sant'Anna
   (`did_callaway_santanna`, `aggregate_att`, panel and repeated cross-sections, bootstrap
   uniform bands); Sant'Anna–Zhao doubly robust DiD (`did_drdid`); Sun–Abraham

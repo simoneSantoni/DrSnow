@@ -52,6 +52,7 @@ reference implementations.
 | Randomization inference | exact p-values, sharp nulls, designs | ri2 0.5.0, randomizr 2.0.1; `wilcox.test`, `p.adjust` | simulated | exact |
 | Interference | Aronow–Samii Horvitz–Thompson and Hájek estimators and variances | interference 0.1.0 | simulated network | machine precision |
 | Interference | `conley_vcov` | fixest (`vcov_conley`) | simulated spatial panel | machine precision |
+| Core | `StratifiedVcov` (strata, strata + clusters, with and without absorbed stratum effects) and design degrees of freedom | survey 4.5 (`svyglm`) | simulated stratified sample | ≤ 1e-13 |
 | Causal ML | `dml_plr`, `dml_irm`, `dml_pliv`, `dml_iivm` with fixed folds | DoubleML 1.0.2 (mlr3) | simulated | ≤ 1e-10 |
 | Causal ML | GRF post-estimation (`average_treatment_effect`, `best_linear_projection`, `test_calibration`, `rank_average_treatment_effect`, `double_robust_scores`) given identical nuisances | grf 2.6.1 | simulated (plain, clustered, weighted, continuous W, IV) | ≤ 1e-8 (141 checks) |
 | Causal ML | `causal_forest`, `regression_forest`, `instrumental_forest` full fits | grf 2.6.1, 20 seeds each | simulated | all 36 summaries within \|z\| < 2.7 of grf's seed distribution; CATE seed-mean correlation 0.99997 |

@@ -320,6 +320,7 @@ function experiment_estimate(data::AbstractDataFrame, outcome::Symbol, treatment
     vdesc = vcov isa Vcov.RobustCovariance ? "heteroskedasticity-robust (HC1)" :
             vcov isa Vcov.ClusterCovariance ? "cluster-robust" :
             vcov isa Vcov.SimpleCovariance ? "homoskedastic" :
+            vcov isa StratifiedVcov ? "stratified sandwich" :
             string(nameof(typeof(vcov)))
     return ExperimentEstimate(StatsAPI.coef(m)[i], se, float(dof), method, vdesc, n, n1,
                               nb, copy(covariates), Float64[])

@@ -370,8 +370,7 @@ function ri_regression(data, outcome::Union{Symbol,Vector{Symbol}},
                               _ri_vcov_name(vc), length(rows), R, w)
 end
 
-_ri_vcov_columns(v) = hasproperty(v, :clusternames) ?
-    Symbol[Symbol(c) for c in v.clusternames] : Symbol[]
+_ri_vcov_columns(v) = _vcov_columns(v)
 _ri_vcov_name(v) = string(nameof(typeof(v)))
 
 # Coefficient indices by name, or `nothing` if any is missing or not identified.

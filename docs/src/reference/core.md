@@ -55,6 +55,19 @@ wald_test
 permutation_pvalue
 ```
 
+## Covariance estimators (API)
+
+A stratified sandwich covariance for regressions fitted through
+`FixedEffectModels.reg`: scores (or their within-cluster sums) are treated as
+independent within strata and centred at the stratum means, the variance a stratified
+sample or a stratified (block) randomization warrants. Pass it as the `vcov` keyword
+of any estimator that accepts one; the matrix form serves fits made elsewhere.
+
+```@docs
+StratifiedVcov
+stratified_vcov
+```
+
 ## Formulas (API)
 
 ```@docs
